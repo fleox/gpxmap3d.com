@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2732" height="2732" viewBox="0 0 2732 2732">
+  <defs>
+    <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <radialGradient id="bg" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#1a2540"/>
+      <stop offset="65%" stop-color="#0e1830"/>
+      <stop offset="100%" stop-color="#0b1220"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="45%" r="20%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="2732" height="2732" fill="url(#bg)"/>
+  <rect width="2732" height="2732" fill="url(#glow)"/>
+
+  <!-- Logo: 720x720, centered horizontally, vertically positioned so logo+text
+       combo sits visually centered around y=1366. Logo top at y=720. -->
+  <g transform="translate(1006, 720) scale(22.5)">
+    <rect width="32" height="32" rx="8" fill="url(#lg)"/>
+    <path d="M6 22 Q12 10 16 18 T26 12" fill="none" stroke="white" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="26" cy="12" r="2.2" fill="white"/>
+  </g>
+
+  <!-- Wordmark below logo -->
+  <text x="1366" y="1700"
+        text-anchor="middle"
+        font-family="Helvetica, Arial, sans-serif"
+        font-size="190"
+        font-weight="800"
+        letter-spacing="-4"
+        fill="#ffffff">GPX Map 3D</text>
+
+  <!-- Tagline -->
+  <text x="1366" y="1830"
+        text-anchor="middle"
+        font-family="Helvetica, Arial, sans-serif"
+        font-size="62"
+        font-weight="500"
+        letter-spacing="2"
+        fill="#94a3b8">Visualize your GPX in 3D</text>
+</svg>

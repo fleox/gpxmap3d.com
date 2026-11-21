@@ -1,0 +1,562 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Visor GPX 3D, planificador y creador de vídeo — GPX Map 3D</title>
+<meta name="description" content="Planifica una ruta GPX o anima cualquier track en un mapa 3D. Ruteo BRouter, perfil de elevación en vivo, refugios y cumbres, exportación WebM. Gratis." />
+<meta name="keywords" content="editor GPX, planificador GPX, crear ruta GPX, planificar ruta online, visor GPX 3D, vídeo GPX, mapa GPX 3D, lector GPX gratis, animación GPX, ruta 3D, planificador rutas senderismo, BRouter web, alternativa Strava, alternativa Komoot, creador vídeo ruta" />
+<meta name="author" content="GPX Map 3D" />
+<meta name="robots" content="index, follow, max-image-preview:large" />
+<meta name="theme-color" content="#0b1220" />
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ECJHFXK6DY');
+</script>
+
+<link rel="canonical" href="https://www.gpxmap3d.com/es/guide/" />
+<link rel="alternate" hreflang="en" href="https://www.gpxmap3d.com/guide/" />
+<link rel="alternate" hreflang="fr" href="https://www.gpxmap3d.com/fr/guide/" />
+<link rel="alternate" hreflang="es" href="https://www.gpxmap3d.com/es/guide/" />
+<link rel="alternate" hreflang="pt" href="https://www.gpxmap3d.com/pt/guide/" />
+<link rel="alternate" hreflang="de" href="https://www.gpxmap3d.com/de/guide/" />
+<link rel="alternate" hreflang="it" href="https://www.gpxmap3d.com/it/guide/" />
+<link rel="alternate" hreflang="x-default" href="https://www.gpxmap3d.com/guide/" />
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="GPX Map 3D" />
+<meta property="og:title" content="Visor GPX 3D, planificador y creador de vídeo" />
+<meta property="og:description" content="Planifica una ruta o anima un GPX en un mapa 3D. Ruteo BRouter, perfil de elevación en vivo, refugios y cumbres, exportación WebM. Gratis." />
+<meta property="og:url" content="https://www.gpxmap3d.com/es/guide/" />
+<meta property="og:image" content="https://www.gpxmap3d.com/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:alt" content="GPX Map 3D — cámara cinematográfica siguiendo una ruta GPX sobre un mapa de relieve 3D." />
+<meta property="og:locale" content="es_ES" />
+<meta property="og:locale:alternate" content="en_US" />
+<meta property="og:locale:alternate" content="fr_FR" />
+<meta property="og:locale:alternate" content="pt_PT" />
+<meta property="og:locale:alternate" content="de_DE" />
+<meta property="og:locale:alternate" content="it_IT" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Visor GPX 3D, planificador y creador de vídeo" />
+<meta name="twitter:description" content="Planifica una ruta o anima un GPX en un mapa 3D. Ruteo BRouter, perfil de elevación en vivo, refugios. Gratis." />
+<meta name="twitter:image" content="https://www.gpxmap3d.com/og-image.png" />
+<meta name="twitter:image:alt" content="Captura de GPX Map 3D — cámara cinematográfica sobrevolando una ruta de montaña en 3D." />
+
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%2322d3ee'/><stop offset='1' stop-color='%23a78bfa'/></linearGradient></defs><rect width='32' height='32' rx='8' fill='url(%23g)'/><path d='M6 22 Q12 10 16 18 T26 12' fill='none' stroke='white' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/><circle cx='26' cy='12' r='2.2' fill='white'/></svg>" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "GPX Map 3D",
+  "operatingSystem": "Cualquiera (navegador)",
+  "applicationCategory": "TravelApplication",
+  "applicationSubCategory": "GPSTrackViewer",
+  "url": "https://www.gpxmap3d.com/",
+  "description": "Visor GPX 3D online y gratuito con cámara cinematográfica, relieve real, exportación de vídeo, previsión meteorológica y modo sin conexión. Todo en tu navegador — sin cuenta, sin subida, sin anuncios.",
+  "browserRequirements": "Requiere un navegador moderno con JavaScript activado.",
+  "softwareVersion": "0.1",
+  "inLanguage": ["en", "fr", "es", "pt", "de", "it"],
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR"
+  },
+  "featureList": [
+    "Planificador GPX con ruteo automático BRouter",
+    "Edición de un GPX existente (submuestreo RDP a waypoints editables)",
+    "Búsqueda de lugar con autocompletado (Photon) — saltar a cualquier ciudad / cima / refugio",
+    "Perfiles de ruteo: senderismo de montaña, senderismo rápido, marcha, BTT / trekking",
+    "Perfil de elevación y tiempo Munter en vivo durante la edición",
+    "Anotación de waypoints (refugios, etapas) — exportados como wpt GPX",
+    "Cerrar una ruta como bucle con un toque",
+    "Descarga directa .gpx (cualquier GPS) o guardado en el visor 3D",
+    "Relieve 3D real",
+    "Cámara cinematográfica animada (chase / cenital / lateral)",
+    "Importación GPX, KML y bundle .gxm",
+    "Detección automática de etapas en rutas de varios días",
+    "Perfil de elevación con gradiente de pendiente",
+    "Capa de frecuencia cardiaca / cadencia / potencia",
+    "Fotos ancladas por coordenadas GPS",
+    "Anotaciones y banderas del usuario",
+    "Previsión meteorológica a 8 días",
+    "Refugios, fuentes, puntos de agua, cumbres (Overpass)",
+    "Marcadores de amanecer / atardecer en la ruta",
+    "Exportación de vídeo WebM",
+    "Caché de teselas para uso sin conexión",
+    "Instalable como PWA",
+    "Seis idiomas de interfaz"
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://www.gpxmap3d.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Guía", "item": "https://www.gpxmap3d.com/es/guide/"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Puedo planificar una ruta GPX desde cero?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Sí. El editor integrado permite colocar waypoints en el mapa; BRouter calcula automáticamente la ruta entre ellos sobre senderos reales, con un perfil senderismo de montaña, senderismo rápido, marcha, o BTT / trekking. Arrastra un waypoint para reajustar, toca una línea de segmento para insertar un waypoint intermedio, toca el primer waypoint para cerrar un bucle. Distancia, desnivel y tiempo Munter se actualizan en vivo. Descarga como .gpx o guarda en el visor 3D para reproducción y exportación de vídeo inmediatas."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puedo editar un GPX existente?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Sí. Carga un GPX, pulsa Planificar una ruta, elige Continuar editando esta ruta — el GPX se submuestrea (Ramer-Douglas-Peucker) en ~30 waypoints editables, y BRouter recalcula los segmentos entre ellos. Puedes arrastrar, insertar, eliminar, extender o bifurcar desde cualquier punto y volver a guardar como .gpx."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿GPX Map 3D es realmente gratis?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Sí — totalmente gratis, sin registro, sin periodo de prueba, sin plan premium. No hay anuncios en ninguna parte. Todas las funciones (relieve 3D, cámara cinematográfica, exportación de vídeo, meteorología, POIs, fotos, modo sin conexión, editor de ruta) están disponibles para todo el mundo sin coste."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Se suben mis archivos GPX a un servidor?",
+      "acceptedAnswer": {"@type": "Answer", "text": "No. La aplicación entera se ejecuta en tu navegador. Tus archivos GPX, fotos y anotaciones nunca salen de tu dispositivo — no hay subida, ni almacenamiento en la nube, ni telemetría sobre el contenido de tus rutas."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puedo usar GPX Map 3D en el móvil o en la tablet?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Sí. La interfaz se adapta a pantallas pequeñas y soporta gestos táctiles (pellizcar para hacer zoom, desplazar, mantener pulsado para añadir un punto). Además puedes instalarla como PWA desde el navegador del móvil para una experiencia a pantalla completa tipo aplicación."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué formatos de archivo soporta?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Importación: .gpx, .kml y .gxm (formato nativo que empaqueta una ruta con sus fotos y banderas). Exportación: vídeo WebM de la reproducción y bundles .gxm para copia de seguridad y compartir."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Funciona GPX Map 3D sin conexión?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Sí. Tras la primera visita la aplicación queda cacheada y funciona sin conexión. También puedes precachear las teselas del mapa para la zona de tu ruta, de modo que el mapa 3D cargue sin conexión también."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿En qué se diferencia de Strava o Komoot?",
+      "acceptedAnswer": {"@type": "Answer", "text": "GPX Map 3D es un visor gratuito y sin cuenta y un exportador de vídeo — no es una red social ni un planificador de rutas. Se centra en la reproducción cinematográfica en 3D de un GPX existente: relieve real, cámara cinematográfica y exportación de vídeo. No hay muro comunitario, ni motor de rutas, ni clasificaciones."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puedo exportar un vídeo para Instagram o YouTube?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Sí. El botón Grabar captura la reproducción actual como vídeo WebM a la resolución del lienzo y la tasa de fotogramas elegida. Si la plataforma destino no acepta WebM, conviértelo a MP4 con una herramienta como HandBrake."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puedo instalarlo como una aplicación?",
+      "acceptedAnswer": {"@type": "Answer", "text": "En cualquier dispositivo el sitio es instalable como Progressive Web App. En Android Chrome aparece automáticamente un aviso para instalar. En iOS Safari, usa Compartir → Añadir a pantalla de inicio. También existe una aplicación nativa para macOS — construida con Tauri."}
+    }
+  ]
+}
+</script>
+
+<style>
+:root {
+  --bg-0: #0b1220;
+  --bg-1: #111827;
+  --bg-2: #1f2937;
+  --bg-3: #374151;
+  --border: #1f2937;
+  --border-soft: #1a2536;
+  --text: #e2e8f0;
+  --text-dim: #94a3b8;
+  --text-faint: #64748b;
+  --accent: #22d3ee;
+  --accent-2: #a78bfa;
+  --good: #34d399;
+  --max: 1100px;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg-0); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", system-ui, sans-serif; font-size: 16px; line-height: 1.65; -webkit-font-smoothing: antialiased; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: white; }
+.container { max-width: var(--max); margin: 0 auto; padding: 0 24px; }
+header.site { position: sticky; top: 0; z-index: 10; background: rgba(11, 18, 32, 0.85); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); }
+header.site .wrap { display: flex; align-items: center; gap: 16px; padding: 14px 24px; max-width: var(--max); margin: 0 auto; }
+header.site .brand { font-weight: 700; font-size: 16px; color: white; display: flex; align-items: center; gap: 10px; }
+header.site .brand .logo { width: 28px; height: 28px; border-radius: 6px; background: linear-gradient(135deg, var(--accent), var(--accent-2)); display: grid; place-items: center; color: white; font-weight: 800; }
+header.site nav { margin-left: auto; display: flex; gap: 18px; align-items: center; }
+header.site nav a { color: var(--text-dim); font-size: 14px; }
+header.site nav a:hover { color: white; }
+header.site .lang { font-size: 13px; color: var(--text-dim); padding: 4px 10px; border: 1px solid var(--border); border-radius: 6px; }
+header.site .cta { background: var(--accent); color: #0b1220; padding: 7px 14px; border-radius: 7px; font-weight: 700; font-size: 13px; }
+header.site .cta:hover { background: white; color: #0b1220; }
+.lang-select { display: inline-block; font-size: 13px; color: var(--text-dim); padding: 5px 8px; border: 1px solid var(--border); border-radius: 6px; background: var(--bg-1); font-family: inherit; max-width: 130px; }
+header.site nav .lang { display: none; }
+@media (max-width: 640px) { header.site nav { gap: 10px; } header.site nav a:not(.cta) { display: none; } header.site nav .lang-select { display: inline-block; } }
+section.hero { padding: 90px 0 0; background: radial-gradient(circle at 20% 0%, rgba(34, 211, 238, 0.18), transparent 60%), radial-gradient(circle at 80% 100%, rgba(167, 139, 250, 0.14), transparent 60%); }
+section.preview { padding: 60px 0 80px; background: radial-gradient(circle at 50% 0%, rgba(34, 211, 238, 0.08), transparent 70%); border-bottom: 1px solid var(--border); }
+.preview-frame { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+.preview-frame img, .preview-frame video { display: block; width: 100%; height: auto; border-radius: 14px; border: 1px solid var(--border); box-shadow: 0 30px 80px rgba(0, 0, 0, 0.55), 0 4px 16px rgba(0, 0, 0, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.03); background: #000; }
+.hero h1 { font-size: clamp(34px, 5vw, 54px); line-height: 1.12; margin: 0 0 22px; letter-spacing: -0.02em; font-weight: 800; color: white; }
+.hero h1 span { background: linear-gradient(90deg, var(--accent), var(--accent-2)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.hero p.lead { font-size: clamp(17px, 2vw, 20px); color: var(--text-dim); margin: 0 0 32px; max-width: 720px; }
+.hero .cta-row { display: flex; gap: 14px; flex-wrap: wrap; }
+.btn { display: inline-flex; align-items: center; gap: 8px; padding: 14px 22px; border-radius: 10px; font-weight: 600; font-size: 15px; transition: transform 0.1s, background 0.15s; }
+.btn-primary { background: var(--accent); color: #0b1220; font-weight: 700; }
+.btn-primary:hover { background: white; color: #0b1220; transform: translateY(-1px); }
+.btn-ghost { border: 1px solid var(--border); color: var(--text); }
+.btn-ghost:hover { background: var(--bg-2); color: white; }
+.badges { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 40px; }
+.badge { font-size: 13px; color: var(--text-dim); padding: 6px 12px; border: 1px solid var(--border-soft); border-radius: 999px; background: var(--bg-1); display: inline-flex; align-items: center; gap: 6px; }
+.badge .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--good); }
+section { padding: 70px 0; border-bottom: 1px solid var(--border-soft); }
+h2 { font-size: clamp(26px, 3.5vw, 36px); letter-spacing: -0.01em; font-weight: 700; color: white; margin: 0 0 16px; }
+h3 { font-size: 18px; font-weight: 600; color: white; margin: 18px 0 6px; }
+.eyebrow { display: inline-block; text-transform: uppercase; letter-spacing: 0.12em; font-size: 12px; font-weight: 700; color: var(--accent); margin-bottom: 12px; }
+section p.lead { font-size: 17px; color: var(--text-dim); max-width: 720px; margin: 0 0 36px; }
+.grid { display: grid; gap: 20px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.card { background: var(--bg-1); border: 1px solid var(--border); border-radius: 12px; padding: 22px; transition: border-color 0.15s, transform 0.15s; }
+.card:hover { border-color: var(--bg-3); }
+.card .icon { width: 36px; height: 36px; border-radius: 8px; background: rgba(34, 211, 238, 0.12); display: grid; place-items: center; margin-bottom: 14px; color: var(--accent); }
+.card .icon svg { width: 20px; height: 20px; }
+.card h3 { margin-top: 0; }
+.card p { margin: 6px 0 0; color: var(--text-dim); font-size: 14.5px; }
+.compare { background: var(--bg-1); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; overflow-x: auto; }
+.compare table { width: 100%; border-collapse: collapse; }
+.compare th, .compare td { padding: 14px 18px; text-align: left; border-bottom: 1px solid var(--border-soft); font-size: 14.5px; }
+.compare th { background: var(--bg-2); color: white; font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em; }
+.compare tr:last-child td { border-bottom: 0; }
+.compare .y { color: var(--good); font-weight: 700; }
+.compare .n { color: var(--text-faint); }
+.compare td:first-child { color: var(--text); font-weight: 500; }
+@media (max-width: 640px) { .compare th, .compare td { padding: 10px 12px; font-size: 13px; } }
+.steps { display: grid; gap: 22px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.step { position: relative; padding-left: 56px; }
+.step .num { position: absolute; left: 0; top: -2px; width: 38px; height: 38px; border-radius: 50%; display: grid; place-items: center; background: linear-gradient(135deg, var(--accent), var(--accent-2)); color: #0b1220; font-weight: 800; font-size: 16px; }
+.step h3 { margin: 0 0 6px; }
+.step p { margin: 0; color: var(--text-dim); font-size: 14.5px; }
+details.faq { border: 1px solid var(--border); border-radius: 10px; padding: 0; margin-bottom: 10px; background: var(--bg-1); overflow: hidden; }
+details.faq summary { list-style: none; cursor: pointer; padding: 18px 22px; font-weight: 600; color: white; display: flex; align-items: center; justify-content: space-between; gap: 18px; }
+details.faq summary::-webkit-details-marker { display: none; }
+details.faq summary::after { content: "+"; color: var(--text-dim); font-size: 22px; transition: transform 0.15s; }
+details.faq[open] summary::after { content: "−"; }
+details.faq .body { padding: 0 22px 18px; color: var(--text-dim); font-size: 15px; }
+details.faq .body p { margin: 0; }
+.tools { display: flex; flex-wrap: wrap; gap: 8px; }
+.tools span { background: var(--bg-1); border: 1px solid var(--border); border-radius: 6px; padding: 6px 12px; font-size: 13px; color: var(--text); }
+footer.site { padding: 40px 0 60px; border-top: 1px solid var(--border); color: var(--text-dim); font-size: 14px; }
+footer.site .wrap { display: flex; gap: 28px; flex-wrap: wrap; justify-content: space-between; align-items: center; }
+footer.site nav { display: flex; gap: 18px; }
+footer.site nav a { color: var(--text-dim); }
+footer.site nav a:hover { color: white; }
+section.final-cta { text-align: center; background: linear-gradient(180deg, transparent, rgba(34, 211, 238, 0.08)); }
+section.final-cta h2 { margin-bottom: 14px; }
+section.final-cta p { color: var(--text-dim); margin: 0 0 28px; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+
+/* ── Mac app download banner ──────────────────────────────────────── */
+.mac-banner { padding: 30px 0; border-bottom: 1px solid var(--border-soft); }
+.mac-banner-card { background: linear-gradient(135deg, rgba(34, 211, 238, 0.08), rgba(167, 139, 250, 0.08)); border: 1px solid var(--border); border-radius: 14px; padding: 20px 24px; display: flex; gap: 18px; align-items: center; flex-wrap: wrap; }
+.mac-banner-icon { width: 48px; height: 48px; border-radius: 12px; background: linear-gradient(135deg, var(--accent), var(--accent-2)); display: grid; place-items: center; flex-shrink: 0; color: white; }
+.mac-banner-icon svg { width: 26px; height: 26px; }
+.mac-banner-text { flex: 1; min-width: 200px; }
+.mac-banner-text strong { display: block; color: white; font-weight: 700; font-size: 16px; margin-bottom: 2px; }
+.mac-banner-text span { color: var(--text-dim); font-size: 14px; }
+.mac-banner .btn { padding: 12px 18px; }
+@media (max-width: 560px) { .mac-banner-card { flex-direction: column; align-items: stretch; text-align: center; } .mac-banner .btn { justify-content: center; } }
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <a href="/" class="brand" aria-label="Inicio GPX Map 3D">
+      <span class="logo" aria-hidden="true">G</span>
+      <span>GPX Map 3D</span>
+    </a>
+    <nav>
+      <a href="#features">Funciones</a>
+      <a href="#compare">Comparativa</a>
+      <a href="#faq">FAQ</a>
+      <a href="/guide/" class="lang" hreflang="en" lang="en">EN</a>
+      <a href="/fr/guide/" class="lang" hreflang="fr" lang="fr">FR</a>
+      <a href="/pt/guide/" class="lang" hreflang="pt" lang="pt">PT</a>
+      <a href="/de/guide/" class="lang" hreflang="de" lang="de">DE</a>
+      <a href="/it/guide/" class="lang" hreflang="it" lang="it">IT</a>
+      <select class="lang-select" aria-label="Idioma" onchange="if(this.value)location.href=this.value">
+        <option value="/guide/">English</option>
+        <option value="/fr/guide/">Français</option>
+        <option value="/es/guide/" selected>Español</option>
+        <option value="/pt/guide/">Português</option>
+        <option value="/de/guide/">Deutsch</option>
+        <option value="/it/guide/">Italiano</option>
+      </select>
+      <a href="/" class="cta">Abrir la app</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="container">
+    <h1>Mira tu archivo GPX volar sobre un <span>mapa 3D</span> — gratis, en el navegador</h1>
+    <p class="lead">
+      GPX Map 3D es un visor gratuito para tus tracks GPS: relieve real, cámara cinematográfica,
+      previsión meteorológica y exportación de vídeo WebM en un clic. Sin registro. Sin subida.
+      Tus rutas se quedan en tu dispositivo.
+    </p>
+    <div class="cta-row">
+      <a href="/" class="btn btn-primary">Abrir la app →</a>
+      <a href="#features" class="btn btn-ghost">Ver funciones</a>
+    </div>
+    <div class="badges" aria-label="Puntos fuertes">
+      <span class="badge"><span class="dot"></span> 100 % gratis</span>
+      <span class="badge"><span class="dot"></span> Sin cuenta</span>
+      <span class="badge"><span class="dot"></span> Sin subida</span>
+      <span class="badge"><span class="dot"></span> Funciona sin conexión</span>
+      <span class="badge"><span class="dot"></span> Privado por diseño</span>
+    </div>
+  </div>
+</section>
+
+<section class="preview" aria-label="Vista previa de la aplicación">
+  <div class="preview-frame">
+    <video poster="/app-screenshot.jpg" width="1600" height="961" autoplay loop muted playsinline preload="metadata" aria-label="GPX Map 3D — cámara cinematográfica sobrevolando una ruta de senderismo sobre relieve 3D, con el perfil de elevación en vivo en la parte inferior."><source src="/example-flythrough.webm" type="video/webm" /><source src="/example-flythrough.mp4" type="video/mp4" /></video>
+  </div>
+</section>
+
+<section class="mac-banner" aria-label="Descarga de la app Mac">
+  <div class="container">
+    <div class="mac-banner-card">
+      <div class="mac-banner-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+      </div>
+      <div class="mac-banner-text">
+        <strong>También disponible como app Mac nativa</strong>
+        <span>Firmada, notarizada, optimizada para Apple Silicon. DMG ~35 MB.</span>
+      </div>
+      <a href="/es/app/" class="btn btn-primary">Descargar para Mac →</a>
+    </div>
+  </div>
+</section>
+
+<section id="why">
+  <div class="container">
+    <span class="eyebrow">Por qué GPX Map 3D</span>
+    <h2>Un visor GPS 3D real que respeta tu tiempo y tus datos.</h2>
+    <p class="lead">
+      La mayoría de los visores de tracks GPS bloquean las mejores funciones tras un plan de pago,
+      exigen registro o suben tus rutas a sus servidores. GPX Map 3D va por el camino opuesto:
+      todo se procesa en local, todo es gratis, no hay nada que instalar.
+    </p>
+    <div class="grid">
+      <div class="card">
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M2 12h20"/></svg></div>
+        <h3>100 % gratis, para siempre</h3>
+        <p>Cada mapa, cada capa, cada función. Sin nivel premium escondiendo lo importante.</p>
+      </div>
+      <div class="card">
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+        <h3>Tus rutas son privadas</h3>
+        <p>La app se ejecuta en tu navegador. Tracks, fotos y anotaciones no se suben a ninguna parte.</p>
+      </div>
+      <div class="card">
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9 9l6 6M15 9l-6 6"/></svg></div>
+        <h3>Cero anuncios, cero pop-ups</h3>
+        <p>Un lienzo limpio, siempre. Sin banners, sin upsells, sin "inicia sesión para continuar".</p>
+      </div>
+      <div class="card">
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg></div>
+        <h3>Funciona sin conexión</h3>
+        <p>Tras la primera visita, la app queda cacheada. Pre-descarga las teselas de tu ruta para tener mapa offline.</p>
+      </div>
+      <div class="card">
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3-9 4 18 3-9h4"/></svg></div>
+        <h3>Relieve 3D real</h3>
+        <p>Modelo digital de elevación mundial de AWS Open Data, renderizado con el modo 3D nativo de MapLibre.</p>
+      </div>
+      <div class="card">
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .4 1.9l.1.1a2 2 0 1 1-2.9 2.9l-.1-.1a1.7 1.7 0 0 0-1.9-.4 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1-1.5 1.7 1.7 0 0 0-1.9.4l-.1.1a2 2 0 1 1-2.9-2.9l.1-.1a1.7 1.7 0 0 0 .4-1.9 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1 1.7 1.7 0 0 0-.4-1.9l-.1-.1a2 2 0 1 1 2.9-2.9l.1.1a1.7 1.7 0 0 0 1.9.4h.1a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5h.1a1.7 1.7 0 0 0 1.9-.4l.1-.1a2 2 0 1 1 2.9 2.9l-.1.1a1.7 1.7 0 0 0-.4 1.9v.1a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></div>
+        <h3>Seis idiomas incluidos</h3>
+        <p>Español, inglés, francés, portugués, alemán e italiano — elige en los ajustes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="features">
+  <div class="container">
+    <span class="eyebrow">Funciones</span>
+    <h2>Todo lo que necesitas para revivir — y compartir — una ruta.</h2>
+    <p class="lead">Abre un GPX, mira cómo se anima sobre relieve 3D, recorre el perfil de elevación, consulta la previsión meteorológica de la semana, ancla tus fotos en el sitio justo y exporta todo en vídeo.</p>
+    <div class="grid">
+      <div class="card"><h3>Cámara cinematográfica animada</h3><p>Tres modos — chase, cenital, lateral. Un pase anti-clip mantiene la cámara sobre el relieve incluso en descensos pronunciados.</p></div>
+      <div class="card"><h3>Exportación de vídeo WebM</h3><p>Graba la reproducción como archivo WebM a la frecuencia de tu pantalla. Perfecto para Stories de Instagram, YouTube o un archivo personal.</p></div>
+      <div class="card"><h3>Relieve real</h3><p>DEM mundial codificado terrarium desde AWS Open Data. El hillshade se renderiza encima para que la forma de las montañas se lea bien en cualquier inclinación.</p></div>
+      <div class="card"><h3>Perfil de elevación</h3><p>Cursor sincronizado con la cámara, marcadores de amanecer / atardecer, capa opcional de frecuencia cardiaca / cadencia / potencia desde las extensiones GPX.</p></div>
+      <div class="card"><h3>Fotos en coordenadas GPS</h3><p>Arrastra una foto con GPS EXIF — se posa en el sitio correcto. Sin EXIF, mantén pulsado el mapa para colocarla a mano.</p></div>
+      <div class="card"><h3>Banderas de usuario</h3><p>Mantén pulsado el mapa para añadir una anotación titulada. Etapa 1, vivac, fuente — lo que quieras. Persisten entre recargas.</p></div>
+      <div class="card"><h3>Previsión meteorológica a 8 días</h3><p>Previsión diaria de Open-Meteo en el centro del bbox de la ruta. Máxima / mínima / precipitación / viento / icono por día, sin clave API.</p></div>
+      <div class="card"><h3>POIs de montaña</h3><p>Refugios, abrigos, fuentes, manantiales y cumbres con nombre obtenidos en directo desde OpenStreetMap (Overpass) en el área de tu ruta.</p></div>
+      <div class="card"><h3>Exportación bundle .gxm</h3><p>Un único archivo que empaqueta tu GPX, tus fotos, tus banderas y tus ajustes de visualización — re-impórtalo después para restaurarlo todo.</p></div>
+    </div>
+
+    <h3 style="margin-top: 50px;">Todas las capas del mapa al alcance de un clic</h3>
+    <p style="color: var(--text-dim); margin: 0 0 20px;">Activadas por defecto — desactiva lo que no necesites desde el panel Visualización.</p>
+    <div class="tools" role="list">
+      <span role="listitem">Perfil de elevación</span>
+      <span role="listitem">Gradiente de pendiente</span>
+      <span role="listitem">Waypoints</span>
+      <span role="listitem">Marcadores kilométricos</span>
+      <span role="listitem">Banderas de etapa</span>
+      <span role="listitem">Tipo de superficie (asfaltado / sendero)</span>
+      <span role="listitem">Fotos</span>
+      <span role="listitem">Banderas del usuario</span>
+      <span role="listitem">Refugios</span>
+      <span role="listitem">Abrigos</span>
+      <span role="listitem">Fuentes</span>
+      <span role="listitem">Cumbres</span>
+      <span role="listitem">Amanecer / atardecer</span>
+      <span role="listitem">Frecuencia cardiaca</span>
+    </div>
+  </div>
+</section>
+
+<section id="planner">
+  <div class="container">
+    <span class="eyebrow">Editor GPX y planificador</span>
+    <h2>Planifica una ruta desde cero — o edita un GPX existente.</h2>
+    <p class="lead">
+      Coloca waypoints en el mapa, BRouter calcula la ruta sobre senderos reales,
+      el perfil de elevación se rellena en vivo. Gratis, en tu navegador, sin clave API.
+      Guarda en el visor 3D para reproducción cinematográfica y exportación de vídeo —
+      o descarga como <code>.gpx</code> para cualquier GPS.
+    </p>
+    <div class="preview-frame" style="margin: 28px auto 36px;">
+      <img src="/editor-screenshot.jpg" width="1600" height="883" alt="Editor de GPX Map 3D — waypoints numerados conectados por una ruta naranja auto-ruteada sobre un mapa de relieve 3D, con perfil de elevación en vivo y selector de perfil de ruteo abajo." loading="lazy" decoding="async" />
+    </div>
+    <div class="grid">
+      <div class="card"><h3>Toca para colocar waypoints</h3><p>Haz clic en cualquier lugar del mapa. BRouter calcula la ruta entre puntos consecutivos sobre senderos reales de OSM — senderismo de montaña, senderismo rápido, marcha, o BTT / trekking.</p></div>
+      <div class="card"><h3>Arrastra para afinar, toca para insertar</h3><p>Arrastra un waypoint para afinar — los segmentos adyacentes se recalculan en vivo. Toca una línea de segmento para insertar un waypoint intermedio que la divide.</p></div>
+      <div class="card"><h3>Busca Annecy, Mont Blanc, cualquier refugio</h3><p>Búsqueda con autocompletado (Photon / OSM) — salta la cámara a cualquier lugar del mundo de un toque. Encuentra inicio, refugio, cumbre, empieza la ruta desde ahí.</p></div>
+      <div class="card"><h3>Perfil de elevación y tiempo Munter en vivo</h3><p>Distancia, desnivel positivo y negativo y estimación Munter se actualizan a cada waypoint colocado. El perfil se rellena a medida que BRouter responde.</p></div>
+      <div class="card"><h3>Cumbres y refugios al planificar</h3><p>Activa las capas POI (cumbres, refugios, fuentes) desde el panel Visualización — los mismos toggles por categoría que en modo lector. Planifica alrededor de los puntos que importan.</p></div>
+      <div class="card"><h3>Edita un GPX existente</h3><p>Carga un GPX → "Continuar editando esta ruta" → se submuestrea automáticamente (Ramer-Douglas-Peucker) en waypoints editables. Recalcular, extender, acortar, bifurcar — control total.</p></div>
+      <div class="card"><h3>Bucle, anota, exporta</h3><p>Toca el primer waypoint para cerrar un bucle. Nombra etapas y miradores — exportados como <code>&lt;wpt&gt;</code> GPX estándar. Descarga <code>.gpx</code> para cualquier GPS, o guarda en el visor 3D para reproducción y vídeo inmediatos.</p></div>
+      <div class="card"><h3>100 % en el navegador, sin clave API</h3><p>Instancia pública gratuita de BRouter + geocodificación Photon + teselas OpenFreeMap. Sin registro, sin cuotas, sin subida de tu borrador a un servidor remoto.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="compare">
+  <div class="container">
+    <span class="eyebrow">Comparativa</span>
+    <h2>GPX Map 3D frente a otros.</h2>
+    <p class="lead">Una comparativa rápida con las herramientas GPS que la mayoría ya usa. Enfocada en "solo quiero ver una ruta", no en planificación ni red social.</p>
+    <div class="compare">
+      <table>
+        <thead><tr><th></th><th>GPX Map 3D</th><th>Strava</th><th>Komoot</th><th>Garmin Connect</th></tr></thead>
+        <tbody>
+          <tr><td>Precio</td><td class="y">Gratis</td><td class="n">Gratis + plan</td><td class="n">Gratis + regiones de pago</td><td class="y">Gratis (con dispositivo)</td></tr>
+          <tr><td>Sin cuenta</td><td class="y">Sí</td><td class="n">No</td><td class="n">No</td><td class="n">No</td></tr>
+          <tr><td>Sin anuncios</td><td class="y">Sí</td><td class="y">Sí</td><td class="y">Sí</td><td class="y">Sí</td></tr>
+          <tr><td>Rutas en tu dispositivo</td><td class="y">Sí</td><td class="n">No (subidas)</td><td class="n">No (subidas)</td><td class="n">No (subidas)</td></tr>
+          <tr><td>Reproducción 3D</td><td class="y">Sí</td><td class="n">No</td><td class="n">No</td><td class="n">No</td></tr>
+          <tr><td>Cámara cinematográfica</td><td class="y">Sí</td><td class="n">No</td><td class="n">No</td><td class="n">No</td></tr>
+          <tr><td>Exportación de vídeo en un clic</td><td class="y">Sí</td><td class="n">No</td><td class="n">No</td><td class="n">No</td></tr>
+          <tr><td>Planificar ruta + editar GPX</td><td class="y">Sí</td><td class="n">Plan de pago</td><td class="n">Regiones de pago</td><td class="n">No</td></tr>
+          <tr><td>Sin conexión (tras 1ª visita)</td><td class="y">Sí</td><td class="n">No (web)</td><td class="n">No (web)</td><td class="n">No (web)</td></tr>
+          <tr><td>Instalable como app</td><td class="y">PWA + macOS</td><td class="y">Nativa</td><td class="y">Nativa</td><td class="y">Nativa</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="start">
+  <div class="container">
+    <span class="eyebrow">Primeros pasos</span>
+    <h2>Tres pasos para tu primer sobrevuelo 3D.</h2>
+    <p class="lead">Sin tutoriales en vídeo ni modal de onboarding. Abre la app y arrastra un GPX.</p>
+    <div class="steps">
+      <div class="step"><div class="num">1</div><h3>Abre la app</h3><p>Visita <a href="/">www.gpxmap3d.com</a>. Nada que instalar, nada que registrar.</p></div>
+      <div class="step"><div class="num">2</div><h3>Suelta tu GPX</h3><p>Arrastra un archivo <code>.gpx</code>, <code>.kml</code> o <code>.gxm</code> sobre la página. O elige uno de la biblioteca incorporada.</p></div>
+      <div class="step"><div class="num">3</div><h3>Pulsa Play y exporta</h3><p>La cámara 3D sigue la ruta. Pulsa el botón rojo Grabar para exportarla como vídeo WebM.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="tasks">
+  <div class="container">
+    <span class="eyebrow">Casos de uso</span>
+    <h2>Lo que la gente hace con GPX Map 3D todos los días.</h2>
+    <div class="grid">
+      <div class="card"><h3>Hacer un vídeo de la ruta para redes</h3><p>Abre el GPX, ajusta velocidad e inclinación en Ajustes, pulsa Grabar. Obtienes un WebM a resolución del lienzo, listo para compartir.</p></div>
+      <div class="card"><h3>Planificar un trek de varios días</h3><p>Los GPX multi-día se dividen automáticamente en etapas según las pausas en los timestamps. Distancia, desnivel y duración por etapa.</p></div>
+      <div class="card"><h3>Consultar la meteorología para elegir el día</h3><p>La previsión a 8 días en el centro de la ruta viene de Open-Meteo. Decide si es mejor martes o jueves.</p></div>
+      <div class="card"><h3>Encontrar refugios y agua en el camino</h3><p>Activa las capas POI en Visualización — refugios, abrigos, fuentes, manantiales y cumbres llegan en directo desde OpenStreetMap.</p></div>
+      <div class="card"><h3>Anclar las fotos en su sitio</h3><p>Suelta una foto con GPS EXIF — se posa sola. Mantén pulsado para añadir una en una posición concreta.</p></div>
+      <div class="card"><h3>Empaquetar todo en un solo archivo</h3><p>Exporta un bundle <code>.gxm</code> con el GPX, fotos, banderas y ajustes. Re-impórtalo donde quieras para recuperarlo todo.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="container">
+    <span class="eyebrow">Preguntas frecuentes</span>
+    <h2>Respuestas honestas y directas.</h2>
+    <details class="faq"><summary>¿Puedo planificar una ruta GPX desde cero?</summary><div class="body"><p>Sí. El editor integrado permite colocar waypoints en el mapa; BRouter calcula automáticamente la ruta entre ellos sobre senderos reales, con un perfil senderismo de montaña, senderismo rápido, marcha, o BTT / trekking. Arrastra un waypoint, toca una línea de segmento para insertar un waypoint intermedio, toca el primer waypoint para cerrar un bucle. Distancia, desnivel y tiempo Munter se actualizan en vivo. Descarga como <code>.gpx</code> o guarda en el visor 3D para reproducción y exportación de vídeo inmediatas.</p></div></details>
+    <details class="faq"><summary>¿Puedo editar un GPX existente?</summary><div class="body"><p>Sí. Carga un GPX, pulsa <em>Planificar una ruta</em>, elige <em>Continuar editando esta ruta</em> — el GPX se submuestrea (Ramer-Douglas-Peucker) en ~30 waypoints editables, y BRouter recalcula los segmentos. Puedes arrastrar, insertar, eliminar, extender o bifurcar desde cualquier punto y volver a guardar como <code>.gpx</code>.</p></div></details>
+    <details class="faq"><summary>¿GPX Map 3D es realmente gratis?</summary><div class="body"><p>Sí — totalmente gratis, sin registro, sin periodo de prueba, sin plan premium. No hay anuncios en ninguna parte. Todas las funciones (relieve 3D, cámara cinematográfica, exportación de vídeo, meteorología, POIs, fotos, modo sin conexión, editor de ruta) están disponibles para todo el mundo sin coste.</p></div></details>
+    <details class="faq"><summary>¿Se suben mis archivos GPX a un servidor?</summary><div class="body"><p>No. La aplicación entera se ejecuta en tu navegador. Tus archivos GPX, fotos y anotaciones nunca salen de tu dispositivo — no hay subida, ni almacenamiento en la nube, ni telemetría sobre el contenido de tus rutas.</p></div></details>
+    <details class="faq"><summary>¿Puedo usar GPX Map 3D en el móvil o en la tablet?</summary><div class="body"><p>Sí. La interfaz se adapta a pantallas pequeñas y soporta gestos táctiles (pellizcar para hacer zoom, desplazar, mantener pulsado para añadir un punto). Además puedes instalarla como PWA desde el navegador del móvil para una experiencia a pantalla completa tipo aplicación.</p></div></details>
+    <details class="faq"><summary>¿Qué formatos de archivo soporta?</summary><div class="body"><p>Importación: <code>.gpx</code>, <code>.kml</code> y <code>.gxm</code> (formato nativo que empaqueta una ruta con sus fotos y banderas). Exportación: vídeo WebM de la reproducción y bundles <code>.gxm</code> para copia de seguridad y compartir.</p></div></details>
+    <details class="faq"><summary>¿Funciona GPX Map 3D sin conexión?</summary><div class="body"><p>Sí. Tras la primera visita la aplicación queda cacheada y funciona sin conexión. También puedes precachear las teselas del mapa para la zona de tu ruta, de modo que el mapa 3D cargue sin conexión también.</p></div></details>
+    <details class="faq"><summary>¿En qué se diferencia de Strava o Komoot?</summary><div class="body"><p>GPX Map 3D es un visor gratuito y sin cuenta y un exportador de vídeo — no es una red social ni un planificador de rutas. Se centra en la reproducción cinematográfica en 3D de un GPX existente: relieve real, cámara cinematográfica y exportación de vídeo. No hay muro comunitario, ni motor de rutas, ni clasificaciones.</p></div></details>
+    <details class="faq"><summary>¿Puedo exportar un vídeo para Instagram o YouTube?</summary><div class="body"><p>Sí. El botón Grabar captura la reproducción actual como vídeo WebM a la resolución del lienzo y la tasa de fotogramas elegida. Si la plataforma destino no acepta WebM, conviértelo a MP4 con una herramienta como HandBrake.</p></div></details>
+    <details class="faq"><summary>¿Puedo instalarlo como una aplicación?</summary><div class="body"><p>En cualquier dispositivo el sitio es instalable como Progressive Web App. En Android Chrome aparece automáticamente un aviso para instalar. En iOS Safari, usa Compartir → Añadir a pantalla de inicio. También existe una aplicación nativa para macOS — construida con Tauri.</p></div></details>
+  </div>
+</section>
+
+<section class="final-cta">
+  <div class="container">
+    <h2>Haz volar tu próxima ruta sobre un mapa 3D.</h2>
+    <p>Sin descarga. Sin cuenta. Sin truco.</p>
+    <a href="/" class="btn btn-primary">Abrir la app →</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="site">
+  <div class="container">
+    <div class="wrap">
+      <div>© GPX Map 3D · Visor GPX 3D gratuito · Creado por <a href="https://github.com/fleox" target="_blank" rel="noopener noreferrer">fleox</a> · Alojado gratis en <a href="https://www.flexweg.com" target="_blank" rel="noopener noreferrer">FLEXWEG</a></div>
+      <nav>
+        <a href="/">App</a>
+        <a href="/es/guide/">Guía</a>
+        <a href="/guide/" hreflang="en" lang="en">English</a>
+        <a href="/fr/guide/" hreflang="fr" lang="fr">Français</a>
+        <a href="/pt/guide/" hreflang="pt" lang="pt">Português</a>
+        <a href="/de/guide/" hreflang="de" lang="de">Deutsch</a>
+        <a href="/it/guide/" hreflang="it" lang="it">Italiano</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

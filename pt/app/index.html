@@ -1,0 +1,561 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>GPX Map 3D para Mac — App nativa gratuita (DMG Apple Silicon)</title>
+<meta name="description" content="GPX Map 3D para macOS — app nativa gratuita para Mac Apple Silicon. Planeie, edite e anime rotas GPX em relevo 3D. Routing BRouter, exportação de vídeo, 100% offline. DMG assinado e notarizado, transferência direta." />
+<meta name="keywords" content="gpx map mac, visualizador gpx macos, app gpx descarregar, gpx mac silicon, gpx 3d mac, editor gpx mac, planeador gpx mac, gpx caminhada mac, gpx para apple silicon, app gpx nativa mac, gpx gratuito mac, gpx dmg" />
+<meta name="author" content="GPX Map 3D" />
+<meta name="robots" content="index, follow, max-image-preview:large" />
+<meta name="theme-color" content="#0b1220" />
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ECJHFXK6DY');
+</script>
+
+<!-- Track DMG download clicks as a GA4 `file_download` event. Delegated
+     from <body> so any future download button (hero, final CTA, …) is
+     tracked without extra wiring. -->
+<script>
+  document.addEventListener('click', function(e) {
+    var a = e.target.closest && e.target.closest('a[href$=".dmg"]');
+    if (!a || typeof gtag !== 'function') return;
+    gtag('event', 'file_download', {
+      file_name: 'gpx-map-3d.dmg',
+      file_extension: 'dmg',
+      link_url: a.href
+    });
+  });
+</script>
+
+<link rel="canonical" href="https://www.gpxmap3d.com/pt/app/" />
+<link rel="alternate" hreflang="en" href="https://www.gpxmap3d.com/app/" />
+<link rel="alternate" hreflang="fr" href="https://www.gpxmap3d.com/fr/app/" />
+<link rel="alternate" hreflang="es" href="https://www.gpxmap3d.com/es/app/" />
+<link rel="alternate" hreflang="pt" href="https://www.gpxmap3d.com/pt/app/" />
+<link rel="alternate" hreflang="de" href="https://www.gpxmap3d.com/de/app/" />
+<link rel="alternate" hreflang="it" href="https://www.gpxmap3d.com/it/app/" />
+<link rel="alternate" hreflang="x-default" href="https://www.gpxmap3d.com/app/" />
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="GPX Map 3D" />
+<meta property="og:title" content="GPX Map 3D para Mac — App nativa gratuita" />
+<meta property="og:description" content="Planeie, edite e anime rotas GPX em relevo 3D — app macOS nativa. Apple Silicon. Assinada e notarizada. Gratuita, sem conta." />
+<meta property="og:url" content="https://www.gpxmap3d.com/pt/app/" />
+<meta property="og:image" content="https://www.gpxmap3d.com/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:alt" content="GPX Map 3D — app macOS nativa a mostrar uma caminhada 3D com câmara cinematográfica." />
+<meta property="og:locale" content="pt_PT" />
+<meta property="og:locale:alternate" content="en_US" />
+<meta property="og:locale:alternate" content="fr_FR" />
+<meta property="og:locale:alternate" content="es_ES" />
+<meta property="og:locale:alternate" content="de_DE" />
+<meta property="og:locale:alternate" content="it_IT" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="GPX Map 3D para Mac — App nativa gratuita" />
+<meta name="twitter:description" content="Planeie, edite e anime rotas GPX em relevo 3D — app macOS nativa. Apple Silicon. Assinada e notarizada. Gratuita." />
+<meta name="twitter:image" content="https://www.gpxmap3d.com/og-image.png" />
+<meta name="twitter:image:alt" content="GPX Map 3D — app macOS nativa, visualização 3D de uma rota GPX." />
+
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%2322d3ee'/><stop offset='1' stop-color='%23a78bfa'/></linearGradient></defs><rect width='32' height='32' rx='8' fill='url(%23g)'/><path d='M6 22 Q12 10 16 18 T26 12' fill='none' stroke='white' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/><circle cx='26' cy='12' r='2.2' fill='white'/></svg>" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "GPX Map 3D para Mac",
+  "operatingSystem": "macOS 11.0 ou superior (Apple Silicon)",
+  "applicationCategory": "TravelApplication",
+  "applicationSubCategory": "GPSTrackViewer",
+  "url": "https://www.gpxmap3d.com/pt/app/",
+  "downloadUrl": "https://www.gpxmap3d.com/downloads/gpx-map-3d.dmg",
+  "softwareVersion": "0.1.0",
+  "fileSize": "35MB",
+  "description": "Aplicação macOS nativa gratuita para planear, editar e animar rotas GPX em relevo 3D. Apple Silicon. Assinada e notarizada pela Apple.",
+  "softwareRequirements": "macOS 11.0 (Big Sur) ou superior, Apple Silicon (M1, M2, M3, M4)",
+  "inLanguage": ["en", "fr", "es", "pt", "de", "it"],
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/InStock"
+  },
+  "image": "https://www.gpxmap3d.com/og-image.png",
+  "featureList": [
+    "App macOS nativa — otimizada para Apple Silicon",
+    "Assinada e notarizada pela Apple (confiável pelo Gatekeeper)",
+    "Offline primeiro — sem necessidade de Internet após instalação",
+    "Relevo 3D real (DEM AWS Open Data)",
+    "Câmara cinematográfica animada (chase, vista de cima, lateral)",
+    "Editor de rotas GPX com routing automático BRouter",
+    "Edição de GPX existentes (mover, inserir, eliminar, fechar em loop)",
+    "Pesquisa de locais com autocompletar (Photon)",
+    "Perfil de elevação ao vivo + tempo Munter durante a edição",
+    "Anotação por waypoint (refúgios, fotos, notas)",
+    "Deteção automática de etapas em rotas de vários dias",
+    "Perfil de elevação com gradiente de inclinação",
+    "Camada de FC / cadência / potência das extensões GPX",
+    "Fotos georreferenciadas (EXIF)",
+    "Previsão meteorológica a 8 dias (Open-Meteo)",
+    "Refúgios, fontes de água, picos (POI Overpass)",
+    "Marcadores de nascer / pôr do sol ao longo da rota",
+    "Exportação de vídeo WebM do percurso",
+    "Modo cinema — leitura imersiva ao estilo Fotos",
+    "Feedback háptico nativo (trackpads Force Touch)",
+    "100% local — sem envio, sem conta, sem telemetria",
+    "Seis idiomas de interface"
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Início", "item": "https://www.gpxmap3d.com/"},
+    {"@type": "ListItem", "position": 2, "name": "App Mac", "item": "https://www.gpxmap3d.com/pt/app/"}
+  ]
+}
+</script>
+
+<style>
+:root {
+  --bg-0: #0b1220; --bg-1: #111827; --bg-2: #1f2937; --bg-3: #374151;
+  --border: #1f2937; --border-soft: #1a2536;
+  --text: #e2e8f0; --text-dim: #94a3b8; --text-faint: #64748b;
+  --accent: #22d3ee; --accent-2: #a78bfa; --good: #34d399;
+  --max: 1100px;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg-0); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", system-ui, sans-serif; font-size: 16px; line-height: 1.65; -webkit-font-smoothing: antialiased; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: white; }
+.container { max-width: var(--max); margin: 0 auto; padding: 0 24px; }
+header.site { position: sticky; top: 0; z-index: 10; background: rgba(11, 18, 32, 0.85); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); }
+header.site .wrap { display: flex; align-items: center; gap: 16px; padding: 14px 24px; max-width: var(--max); margin: 0 auto; }
+header.site .brand { font-weight: 700; font-size: 16px; color: white; display: flex; align-items: center; gap: 10px; }
+header.site .brand .logo { width: 28px; height: 28px; border-radius: 6px; background: linear-gradient(135deg, var(--accent), var(--accent-2)); display: grid; place-items: center; color: white; font-weight: 800; }
+header.site nav { margin-left: auto; display: flex; gap: 18px; align-items: center; }
+header.site nav a { color: var(--text-dim); font-size: 14px; }
+header.site nav a:hover { color: white; }
+header.site .lang { font-size: 13px; color: var(--text-dim); padding: 4px 10px; border: 1px solid var(--border); border-radius: 6px; }
+header.site .cta { background: var(--accent); color: #0b1220; padding: 7px 14px; border-radius: 7px; font-weight: 700; font-size: 13px; }
+header.site .cta:hover { background: white; color: #0b1220; }
+.lang-select { display: inline-block; font-size: 13px; color: var(--text-dim); padding: 5px 8px; border: 1px solid var(--border); border-radius: 6px; background: var(--bg-1); font-family: inherit; max-width: 130px; }
+header.site nav .lang { display: none; }
+@media (max-width: 640px) { header.site nav { gap: 10px; } header.site nav a:not(.cta) { display: none; } header.site nav .lang-select { display: inline-block; } }
+section.hero-app { padding: 70px 0 50px; background: radial-gradient(circle at 20% 0%, rgba(34, 211, 238, 0.18), transparent 60%), radial-gradient(circle at 80% 100%, rgba(167, 139, 250, 0.14), transparent 60%); }
+.hero-app-wrap { display: grid; grid-template-columns: auto 1fr; gap: 36px; align-items: center; }
+@media (max-width: 720px) { .hero-app-wrap { grid-template-columns: 1fr; gap: 24px; text-align: center; } .hero-app-meta { justify-content: center; } .hero-cta-row { justify-content: center; } }
+.app-icon { width: 140px; height: 140px; border-radius: 32px; background: linear-gradient(135deg, #22d3ee 0%, #a78bfa 100%); box-shadow: 0 24px 60px rgba(34, 211, 238, 0.30), 0 8px 18px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.2); display: grid; place-items: center; }
+.app-icon svg { width: 80px; height: 80px; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3)); }
+.hero-app h1 { font-size: clamp(28px, 4.2vw, 44px); line-height: 1.1; margin: 0 0 6px; letter-spacing: -0.02em; font-weight: 800; color: white; }
+.hero-app .subtitle { font-size: 16px; color: var(--text-dim); margin: 0 0 18px; }
+.hero-app-meta { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 24px; color: var(--text-dim); font-size: 13px; }
+.hero-app-meta .pill { background: var(--bg-1); border: 1px solid var(--border); padding: 4px 10px; border-radius: 999px; display: inline-flex; align-items: center; gap: 6px; }
+.hero-app-meta .pill strong { color: white; font-weight: 600; }
+.hero-cta-row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+.btn { display: inline-flex; align-items: center; gap: 8px; padding: 14px 22px; border-radius: 10px; font-weight: 600; font-size: 15px; transition: transform 0.1s, background 0.15s; }
+.btn-primary { background: var(--accent); color: #0b1220; font-weight: 700; }
+.btn-primary:hover { background: white; color: #0b1220; transform: translateY(-1px); }
+.btn-ghost { border: 1px solid var(--border); color: var(--text); }
+.btn-ghost:hover { background: var(--bg-2); color: white; }
+.btn-download { background: linear-gradient(180deg, #22d3ee 0%, #06b6d4 100%); color: #0b1220; font-weight: 800; padding: 16px 28px; font-size: 16px; box-shadow: 0 8px 24px rgba(34, 211, 238, 0.35); }
+.btn-download:hover { background: white; color: #0b1220; transform: translateY(-1px); }
+.btn-download .arch { font-size: 11px; font-weight: 600; background: rgba(11, 18, 32, 0.15); padding: 2px 6px; border-radius: 4px; }
+section.preview { padding: 0 0 80px; }
+.preview-frame { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+.preview-frame img, .preview-frame video { display: block; width: 100%; height: auto; border-radius: 14px; border: 1px solid var(--border); box-shadow: 0 30px 80px rgba(0, 0, 0, 0.55), 0 4px 16px rgba(0, 0, 0, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.03); background: #000; }
+section { padding: 70px 0; border-bottom: 1px solid var(--border-soft); }
+h2 { font-size: clamp(26px, 3.5vw, 36px); letter-spacing: -0.01em; font-weight: 700; color: white; margin: 0 0 16px; }
+h3 { font-size: 18px; font-weight: 600; color: white; margin: 18px 0 6px; }
+.eyebrow { display: inline-block; text-transform: uppercase; letter-spacing: 0.12em; font-size: 12px; font-weight: 700; color: var(--accent); margin-bottom: 12px; }
+section p.lead { font-size: 17px; color: var(--text-dim); max-width: 720px; margin: 0 0 36px; }
+.screenshots { display: flex; gap: 22px; overflow-x: auto; padding: 8px 24px 32px; scroll-snap-type: x mandatory; scrollbar-width: thin; -webkit-overflow-scrolling: touch; margin: 0 -24px; }
+.screenshots::-webkit-scrollbar { height: 8px; }
+.screenshots::-webkit-scrollbar-thumb { background: var(--bg-3); border-radius: 4px; }
+.shot { flex: 0 0 auto; width: min(72vw, 720px); scroll-snap-align: center; border-radius: 14px; overflow: hidden; border: 1px solid var(--border); background: var(--bg-1); box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45); }
+.shot img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; background: linear-gradient(135deg, #0f172a, #1e293b); }
+.shot .caption { padding: 14px 18px 16px; font-size: 14px; color: var(--text-dim); }
+.shot .caption strong { color: white; display: block; margin-bottom: 4px; font-weight: 600; }
+.grid { display: grid; gap: 20px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.card { background: var(--bg-1); border: 1px solid var(--border); border-radius: 12px; padding: 22px; transition: border-color 0.15s, transform 0.15s; }
+.card:hover { border-color: var(--bg-3); }
+.card .icon { width: 36px; height: 36px; border-radius: 8px; background: rgba(34, 211, 238, 0.12); display: grid; place-items: center; margin-bottom: 14px; color: var(--accent); }
+.card .icon svg { width: 20px; height: 20px; }
+.card h3 { margin-top: 0; }
+.card p { margin: 6px 0 0; color: var(--text-dim); font-size: 14.5px; }
+.feature-row { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; margin-bottom: 80px; }
+.feature-row:last-child { margin-bottom: 0; }
+.feature-row.reverse .feature-text { order: 2; }
+.feature-row.reverse .feature-media { order: 1; }
+@media (max-width: 760px) { .feature-row, .feature-row.reverse { grid-template-columns: 1fr; gap: 24px; } .feature-row.reverse .feature-text, .feature-row.reverse .feature-media { order: 0; } }
+.feature-text h3 { font-size: clamp(22px, 2.6vw, 28px); font-weight: 700; color: white; margin: 0 0 14px; letter-spacing: -0.01em; }
+.feature-text p { font-size: 16px; color: var(--text-dim); margin: 0 0 16px; }
+.feature-text ul { margin: 0; padding-left: 18px; color: var(--text-dim); font-size: 15px; }
+.feature-text ul li { margin-bottom: 6px; }
+.feature-media img, .feature-media video { display: block; width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--border); background: var(--bg-1); box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45); aspect-ratio: 16 / 10; object-fit: cover; }
+.info-panel { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 0; background: var(--bg-1); border: 1px solid var(--border); border-radius: 14px; overflow: hidden; }
+.info-cell { padding: 18px 20px; border-right: 1px solid var(--border-soft); border-bottom: 1px solid var(--border-soft); }
+.info-cell:last-child { border-right: none; }
+.info-cell .label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-faint); font-weight: 600; margin-bottom: 6px; }
+.info-cell .value { font-size: 15px; color: white; font-weight: 500; }
+.info-cell .value .sub { display: block; font-size: 13px; font-weight: 400; color: var(--text-dim); margin-top: 2px; }
+.privacy-block { background: var(--bg-1); border: 1px solid var(--border); border-radius: 14px; padding: 30px; display: grid; grid-template-columns: auto 1fr; gap: 24px; align-items: start; }
+@media (max-width: 600px) { .privacy-block { grid-template-columns: 1fr; } }
+.privacy-block .shield { width: 56px; height: 56px; border-radius: 14px; background: rgba(52, 211, 153, 0.12); color: var(--good); display: grid; place-items: center; }
+.privacy-block .shield svg { width: 30px; height: 30px; }
+.privacy-block h3 { margin: 0 0 8px; font-size: 19px; }
+.privacy-block p { margin: 0 0 8px; color: var(--text-dim); }
+.privacy-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 8px 24px; margin-top: 14px; color: var(--text-dim); font-size: 14.5px; }
+.privacy-list li { list-style: none; padding-left: 24px; position: relative; }
+.privacy-list li::before { content: "✓"; position: absolute; left: 0; color: var(--good); font-weight: 700; }
+details.faq { border: 1px solid var(--border); border-radius: 10px; padding: 0; margin-bottom: 10px; background: var(--bg-1); overflow: hidden; }
+details.faq summary { list-style: none; cursor: pointer; padding: 16px 20px; color: white; font-weight: 600; display: flex; justify-content: space-between; align-items: center; }
+details.faq summary::-webkit-details-marker { display: none; }
+details.faq summary::after { content: "+"; color: var(--accent); font-size: 22px; line-height: 1; transition: transform 0.2s; }
+details.faq[open] summary::after { transform: rotate(45deg); }
+details.faq .body { padding: 0 20px 18px; color: var(--text-dim); }
+details.faq .body p { margin: 0; }
+section.final { text-align: center; background: radial-gradient(circle at 50% 100%, rgba(34, 211, 238, 0.16), transparent 60%); padding: 90px 0 100px; border-bottom: none; }
+section.final h2 { margin-bottom: 18px; }
+section.final p { color: var(--text-dim); margin: 0 auto 30px; max-width: 580px; font-size: 17px; }
+footer.site { padding: 40px 0 60px; border-top: 1px solid var(--border); color: var(--text-dim); font-size: 14px; }
+footer.site .wrap { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 14px; }
+footer.site nav { display: flex; gap: 18px; flex-wrap: wrap; }
+footer.site a { color: var(--text-dim); }
+footer.site a:hover { color: white; }
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <a href="/" class="brand" aria-label="GPX Map 3D início">
+      <span class="logo" aria-hidden="true">G</span>
+      <span>GPX Map 3D</span>
+    </a>
+    <nav>
+      <a href="/pt/guide/">Guia</a>
+      <a href="#features">Funcionalidades</a>
+      <a href="#faq">FAQ</a>
+      <a href="/app/" class="lang" hreflang="en" lang="en">EN</a>
+      <a href="/fr/app/" class="lang" hreflang="fr" lang="fr">FR</a>
+      <a href="/es/app/" class="lang" hreflang="es" lang="es">ES</a>
+      <a href="/de/app/" class="lang" hreflang="de" lang="de">DE</a>
+      <a href="/it/app/" class="lang" hreflang="it" lang="it">IT</a>
+      <select class="lang-select" aria-label="Idioma" onchange="if(this.value)location.href=this.value">
+        <option value="/app/">English</option>
+        <option value="/fr/app/">Français</option>
+        <option value="/es/app/">Español</option>
+        <option value="/pt/app/" selected>Português</option>
+        <option value="/de/app/">Deutsch</option>
+        <option value="/it/app/">Italiano</option>
+      </select>
+      <a href="/" class="cta">Abrir no navegador</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="hero-app">
+  <div class="container">
+    <div class="hero-app-wrap">
+      <div class="app-icon" aria-hidden="true">
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <path d="M15 75 Q35 25 50 55 T85 35" fill="none" stroke="white" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="85" cy="35" r="6" fill="white"/>
+        </svg>
+      </div>
+      <div>
+        <h1>GPX Map 3D para Mac</h1>
+        <p class="subtitle">Planeie, edite e anime caminhadas em relevo 3D. Nativa macOS — gratuita, assinada, notarizada.</p>
+        <div class="hero-app-meta">
+          <span class="pill"><strong>Gratuita</strong> — sem conta</span>
+          <span class="pill"><strong>macOS 11+</strong></span>
+          <span class="pill"><strong>Apple Silicon</strong></span>
+          <span class="pill"><strong>~35 MB</strong></span>
+          <span class="pill"><strong>v0.1.0</strong></span>
+        </div>
+        <div class="hero-cta-row">
+          <a href="/downloads/gpx-map-3d.dmg" class="btn btn-download" download>
+            ↓ Transferir para Mac
+            <span class="arch">.dmg · ARM64</span>
+          </a>
+          <a href="/" class="btn btn-ghost">Ou usar no navegador →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="preview" aria-label="Pré-visualização da app">
+  <div class="preview-frame">
+    <video poster="/app/hero-poster.jpg" width="1600" height="1000" autoplay loop muted playsinline preload="metadata" aria-label="GPX Map 3D para Mac — câmara cinematográfica a sobrevoar uma caminhada na montanha em 3D.">
+      <source src="/example-flythrough.webm" type="video/webm" />
+      <source src="/example-flythrough.mp4" type="video/mp4" />
+    </video>
+  </div>
+</section>
+
+<section id="why">
+  <div class="container">
+    <span class="eyebrow">Porquê a app Mac</span>
+    <h2>Tudo o que a versão web faz — mais nítido, mais rápido, mais nativo.</h2>
+    <p class="lead">
+      A versão para navegador já é uma ferramenta completa. A app Mac acrescenta o que só um binário nativo consegue oferecer: verdadeira aceleração Metal, associação dos ficheiros GPX ao sistema, feedback háptico Force Touch nos trackpads compatíveis, e uma experiência fluida mesmo nas travessias longas de vários dias.
+    </p>
+    <div class="grid">
+      <div class="card">
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+        <h3>3D com aceleração Metal</h3>
+        <p>WKWebView nativo com Metal — o relevo 3D mantém-se fluido mesmo com pitch elevado em rotas longas.</p>
+      </div>
+      <div class="card">
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8V7a2 2 0 0 0-2-2h-5l-2-2H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h7"/><path d="M16 19l2 2 4-4"/></svg></div>
+        <h3>Integração com o Finder</h3>
+        <p>Faça duplo clique em qualquer .gpx no Finder para o abrir no GPX Map 3D — sem necessidade de arrastar e largar.</p>
+      </div>
+      <div class="card">
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/></svg></div>
+        <h3>Háptico Force Touch</h3>
+        <p>Os Mac com trackpad Force Touch recebem um feedback tátil subtil quando um waypoint encaixa na rota.</p>
+      </div>
+      <div class="card">
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+        <h3>Assinada e notarizada</h3>
+        <p>Assinada com o nosso Apple Developer ID e notarizada pela Apple — abre com um clique em qualquer Mac.</p>
+      </div>
+      <div class="card">
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg></div>
+        <h3>Funciona 100% offline</h3>
+        <p>Depois de instalada, a app abre e funciona sem ligação à Internet. Faça pré-cache dos tiles de uma travessia e está tudo a postos.</p>
+      </div>
+      <div class="card">
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M2 12h20"/></svg></div>
+        <h3>100% gratuita, para sempre</h3>
+        <p>Sem subscrição, sem versão de teste limitada no tempo. A app inteira é sua, com todas as funcionalidades desbloqueadas.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="screenshots">
+  <div class="container">
+    <span class="eyebrow">Capturas de ecrã</span>
+    <h2>Como se vê.</h2>
+  </div>
+  <div class="screenshots" role="list" aria-label="Capturas da app">
+    <figure class="shot" role="listitem">
+      <img src="/app/screenshots/01-viewer.jpg" alt="GPX Map 3D — o visualizador 3D com uma rota de caminhada em relevo real, câmara chase a seguir o ponto da frente." width="1600" height="1000" loading="lazy" />
+      <figcaption class="caption"><strong>Visualizador 3D</strong>Relevo real, câmara chase, linha com gradiente de inclinação.</figcaption>
+    </figure>
+    <figure class="shot" role="listitem">
+      <img src="/app/screenshots/02-editor.jpg" alt="GPX Map 3D — o planeador com waypoints e a rota gerada pelo BRouter sobre mapa topográfico 3D." width="1600" height="1000" loading="lazy" />
+      <figcaption class="caption"><strong>Planeador de rotas</strong>Toque para colocar waypoints. O BRouter faz o routing automático pelos trilhos reais.</figcaption>
+    </figure>
+    <figure class="shot" role="listitem">
+      <img src="/app/screenshots/03-elevation.jpg" alt="GPX Map 3D — o perfil de elevação com marcadores de nascer/pôr do sol e gradiente de inclinação por segmento." width="1600" height="1000" loading="lazy" />
+      <figcaption class="caption"><strong>Perfil de elevação</strong>Cores de inclinação, nascer / pôr do sol, tempo Munter, desnível acumulado.</figcaption>
+    </figure>
+    <figure class="shot" role="listitem">
+      <img src="/app/screenshots/04-poi.jpg" alt="GPX Map 3D — camada POI a mostrar refúgios, fontes de água e picos ao longo da rota." width="1600" height="1000" loading="lazy" />
+      <figcaption class="caption"><strong>POI ao longo do caminho</strong>Refúgios, fontes de água, picos — clicáveis, sem chave de API.</figcaption>
+    </figure>
+    <figure class="shot" role="listitem">
+      <img src="/app/screenshots/05-photos.jpg" alt="GPX Map 3D — foto fixada à coordenada GPS via EXIF, apresentada no mapa 3D." width="1600" height="1000" loading="lazy" />
+      <figcaption class="caption"><strong>Fotos georreferenciadas</strong>Largue as suas fotos da caminhada — aparecem no sítio certo da linha.</figcaption>
+    </figure>
+    <figure class="shot" role="listitem">
+      <img src="/app/screenshots/06-library.jpg" alt="GPX Map 3D — biblioteca integrada a mostrar os resultados de pesquisa para Tour do Monte Branco." width="1600" height="1000" loading="lazy" />
+      <figcaption class="caption">
+        <strong>Biblioteca de rotas integrada</strong>
+        GR 20, Tour do Monte Branco, Caminho, PCT — pré-carregadas, prontas a pesquisar.
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="features">
+  <div class="container">
+    <span class="eyebrow">Funcionalidades</span>
+    <h2>Pensada para caminhantes que querem cada detalhe.</h2>
+
+    <div class="feature-row">
+      <div class="feature-text">
+        <h3>Planeie uma rota de raiz</h3>
+        <p>Toque no mapa para colocar um waypoint; o BRouter (perfil hiking-mountain) faz automaticamente o routing entre waypoints pelos trilhos e caminhos reais. Arraste um waypoint para remodelar. Toque numa linha de segmento para inserir um novo waypoint entre dois existentes.</p>
+        <ul>
+          <li>Perfil de elevação + tempo Munter ao vivo durante o traçado</li>
+          <li>Pesquisa de locais com autocompletar (Photon) — salte para "Lisboa", "Serra da Estrela", "Refúgio do Goûter"</li>
+          <li>Feche um loop tocando no primeiro waypoint</li>
+          <li>Transferência direta .gpx — utilizável no Garmin, Strava, Komoot</li>
+        </ul>
+      </div>
+      <div class="feature-media">
+        <img src="/app/features/planner.jpg" alt="O planeador com waypoints ligados pelo BRouter e perfil de elevação ao vivo." width="1600" height="1000" loading="lazy" />
+      </div>
+    </div>
+
+    <div class="feature-row reverse">
+      <div class="feature-text">
+        <h3>Leitura 3D cinematográfica</h3>
+        <p>Veja o seu GPX a atravessar um relevo 3D real com uma câmara chase animada. Ajuste o pitch, a exagerão, o modo de seguimento (chase / vista de cima / lateral) e a velocidade. O modo cinema esconde a UI para uma vista imersiva ao estilo da app Fotos.</p>
+        <ul>
+          <li>Relevo real a partir do DEM AWS Open Data</li>
+          <li>Três modos de seguimento — chase, vista de cima, lateral</li>
+          <li>Modo cinema — prima F para esconder toda a UI</li>
+          <li>Prima play e deixe correr — voo autónomo</li>
+        </ul>
+      </div>
+      <div class="feature-media">
+        <img src="/app/features/cinematic.jpg" alt="A câmara chase a sobrevoar uma paisagem 3D montanhosa com a linha da rota GPX." width="1600" height="1000" loading="lazy" />
+      </div>
+    </div>
+
+    <div class="feature-row">
+      <div class="feature-text">
+        <h3>Edite qualquer GPX</h3>
+        <p>Largue um .gpx existente e passe para o modo de edição. A rota é subamostrada (Ramer-Douglas-Peucker) em ~30 waypoints editáveis; o BRouter faz o re-routing entre eles. Arraste, insira, elimine, prolongue um desvio ou remova uma secção desatualizada. Guarde como .gpx limpo ou como bundle .gxm (com fotos e anotações).</p>
+        <ul>
+          <li>Subamostragem inteligente que preserva a forma</li>
+          <li>Arraste um waypoint para remodelar uma secção</li>
+          <li>Clique entre dois waypoints para inserir um novo</li>
+          <li>Anote (nome, descrição, foto) — exportado como &lt;wpt&gt;</li>
+        </ul>
+      </div>
+      <div class="feature-media">
+        <img src="/app/features/edit.jpg" alt="Um GPX existente em edição — waypoints arrastados para remodelar, segmentos re-encaminhados." width="1600" height="1000" loading="lazy" />
+      </div>
+    </div>
+
+    <div class="feature-row reverse">
+      <div class="feature-text">
+        <h3>Tudo fica no seu Mac</h3>
+        <p>A app corre inteiramente na sua máquina. Os seus ficheiros GPX, fotos e planos de rota nunca saem do dispositivo — sem envio, sem sincronização cloud, sem conta, sem telemetria. Mesmo a previsão meteorológica opcional é obtida anonimamente, sem qualquer informação identificadora.</p>
+        <ul>
+          <li>Sem login. Nunca.</li>
+          <li>Sem analytics, sem tracking</li>
+          <li>Toda a persistência é local (Application Support)</li>
+          <li>Mentalidade open source, dependências transparentes</li>
+        </ul>
+      </div>
+      <div class="feature-media">
+        <img src="/app/features/privacy.jpg" alt="Um ícone de cadeado sobre a interface do GPX Map 3D — a ilustrar o design privacy-first." width="1600" height="1000" loading="lazy" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="info">
+  <div class="container">
+    <span class="eyebrow">Informação</span>
+    <h2>Os detalhes técnicos.</h2>
+    <div class="info-panel">
+      <div class="info-cell"><div class="label">Vendedor</div><div class="value">Frédéric Léaux<span class="sub">leaux.ovh</span></div></div>
+      <div class="info-cell"><div class="label">Tamanho</div><div class="value">~35 MB<span class="sub">Instalador DMG</span></div></div>
+      <div class="info-cell"><div class="label">Categoria</div><div class="value">Viagens<span class="sub">Navegação &amp; GPS</span></div></div>
+      <div class="info-cell"><div class="label">Compatibilidade</div><div class="value">macOS 11.0+<span class="sub">Apple Silicon (M1, M2, M3, M4)</span></div></div>
+      <div class="info-cell"><div class="label">Idiomas</div><div class="value">6 idiomas<span class="sub">EN · FR · ES · PT · DE · IT</span></div></div>
+      <div class="info-cell"><div class="label">Classificação etária</div><div class="value">Todas as idades<span class="sub">Sem conteúdo, sem chat</span></div></div>
+      <div class="info-cell"><div class="label">Preço</div><div class="value">Gratuita<span class="sub">Sem compras integradas</span></div></div>
+      <div class="info-cell"><div class="label">Assinatura</div><div class="value">Developer ID<span class="sub">Assinada &amp; notarizada pela Apple</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="privacy">
+  <div class="container">
+    <span class="eyebrow">Privacidade</span>
+    <h2>O programador não recolhe nenhum dado.</h2>
+    <div class="privacy-block">
+      <div class="shield" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          <path d="M9 12l2 2 4-4"/>
+        </svg>
+      </div>
+      <div>
+        <h3>Sem tracking. Sem contas. Sem envio.</h3>
+        <p>O GPX Map 3D não recolhe quaisquer dados pessoais, não exige conta e não transmite nenhuma rota, foto ou anotação para qualquer servidor. As únicas chamadas de rede são pedidos diretos a dados cartográficos públicos (OpenFreeMap, tiles de relevo AWS, POI Overpass, meteorologia Open-Meteo, routing BRouter) — nenhum deles o identifica.</p>
+        <ul class="privacy-list">
+          <li>Sem analytics</li>
+          <li>Sem telemetria</li>
+          <li>Sem cookies</li>
+          <li>Sem conta</li>
+          <li>Sem publicidade</li>
+          <li>Sem SDKs de terceiros</li>
+          <li>Dados GPX locais</li>
+          <li>Fotos locais (IndexedDB)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="container">
+    <span class="eyebrow">FAQ</span>
+    <h2>Perguntas frequentes.</h2>
+
+    <details class="faq"><summary>A app vai funcionar no meu Mac?</summary><div class="body"><p>A app Mac requer macOS 11 (Big Sur) ou superior e um chip Apple Silicon (M1, M2, M3, M4). Se tem um Mac Intel, a versão para navegador em www.gpxmap3d.com corre exatamente o mesmo código sem precisar de instalação.</p></div></details>
+
+    <details class="faq"><summary>Vou ver "GPX Map 3D está danificada"?</summary><div class="body"><p>Não. A app está assinada com o nosso Apple Developer ID e notarizada pela Apple. Abre com um único clique em qualquer Mac, sem clique-direito → Abrir, sem comando no Terminal. Se vir um aviso do Gatekeeper, é porque a transferência do DMG ficou corrompida — transfira novamente e tente outra vez.</p></div></details>
+
+    <details class="faq"><summary>É mesmo gratuita?</summary><div class="body"><p>Sim, totalmente gratuita. Sem versão de teste, sem nível premium, sem compras integradas. Todas as funcionalidades estão disponíveis para toda a gente, sem custos. Pagamos os 99 $/ano da Apple Developer do nosso bolso para que não tenha de o fazer.</p></div></details>
+
+    <details class="faq"><summary>Como a instalo?</summary><div class="body"><p>Clique no botão Transferir no topo da página, abra o .dmg transferido e arraste o ícone do GPX Map 3D para a pasta Aplicações. Está feito — abra-a a partir do Spotlight ou do Launchpad.</p></div></details>
+
+    <details class="faq"><summary>Qual é a diferença entre a app Mac e a versão para navegador?</summary><div class="body"><p>Mesmas funcionalidades, mesmo código. A app Mac acrescenta: associação nativa dos ficheiros no Finder (duplo clique em qualquer .gpx para o abrir), feedback háptico Force Touch nos trackpads compatíveis, verdadeira aceleração Metal e a capacidade de abrir offline (a versão para navegador precisa de uma visita online inicial para se colocar em cache).</p></div></details>
+
+    <details class="faq"><summary>Vou receber atualizações automáticas?</summary><div class="body"><p>Ainda não — por agora, transfira o DMG mais recente desta página sempre que sair uma nova versão. A atualização automática através do updater do Tauri está prevista para a v0.2.</p></div></details>
+
+    <details class="faq"><summary>Funciona offline?</summary><div class="body"><p>Sim. O código da app corre inteiramente no seu Mac. Os tiles do mapa 3D requerem ligação à Internet por predefinição, mas pode fazer pré-cache dos tiles para a bbox de uma rota específica na secção Offline das Definições — depois disso toda a experiência funciona sem rede.</p></div></details>
+
+    <details class="faq"><summary>Onde é que a app guarda os meus dados?</summary><div class="body"><p>As preferências estão em <code>~/Library/Preferences/com.flexweg.gpxmap3d.plist</code>. As fotos e os bundles ficam em <code>~/Library/Application Support/com.flexweg.gpxmap3d/</code>. O cache de tiles está no cache do WKWebView. Nada sai da sua máquina.</p></div></details>
+
+    <details class="faq"><summary>Vai haver uma app para iPhone e iPad?</summary><div class="body"><p>Sim — a base de código já está portada para o Tauri 2 mobile (os alvos iOS / iPadOS estão inicializados). A submissão à App Store está em curso; aguarde um link de convite TestFlight nesta página em breve.</p></div></details>
+
+    <details class="faq"><summary>Vai haver versão Windows ou Linux?</summary><div class="body"><p>Provavelmente não a curto prazo. A versão para navegador em www.gpxmap3d.com oferece as mesmas funcionalidades e funciona de forma idêntica em Windows, Linux, ChromeOS, Android. A app Mac nativa existe porque o Apple Silicon entrega um desempenho 3D mensuravelmente superior ao do contexto web nos mesmos chips.</p></div></details>
+  </div>
+</section>
+
+<section class="final">
+  <div class="container">
+    <h2>Pronto para passar as suas rotas a 3D?</h2>
+    <p>Um DMG, um arrastar e largar, e está a sobrevoar os Alpes em 60 segundos.</p>
+    <a href="/downloads/gpx-map-3d.dmg" class="btn btn-download" download>
+      ↓ Transferir GPX Map 3D para Mac
+      <span class="arch">.dmg · Apple Silicon · 35 MB</span>
+    </a>
+  </div>
+</section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap container">
+    <div>© GPX Map 3D — Frédéric Léaux</div>
+    <nav>
+      <a href="/">Abrir no navegador</a>
+      <a href="/pt/guide/">Guia</a>
+      <a href="https://leaux.ovh">leaux.ovh</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

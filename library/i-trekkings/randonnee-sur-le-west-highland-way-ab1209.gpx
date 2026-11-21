@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="gpx-map import-itrekkings" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>Randonnée sur le West Highland Way</name></metadata>
+  <trk><name>Randonnée sur le West Highland Way</name><trkseg>
+      <trkpt lat="56.540790" lon="-4.813810"><ele>179.0</ele></trkpt>
+      <trkpt lat="56.539090" lon="-4.820770"><ele>174.0</ele></trkpt>
+      <trkpt lat="56.541550" lon="-4.824710"><ele>179.0</ele></trkpt>
+      <trkpt lat="56.541360" lon="-4.832100"><ele>182.0</ele></trkpt>
+      <trkpt lat="56.541930" lon="-4.837760"><ele>186.0</ele></trkpt>
+      <trkpt lat="56.554470" lon="-4.846690"><ele>302.0</ele></trkpt>
+      <trkpt lat="56.561370" lon="-4.843940"><ele>433.0</ele></trkpt>
+      <trkpt lat="56.568280" lon="-4.853380"><ele>553.0</ele></trkpt>
+      <trkpt lat="56.571210" lon="-4.860940"><ele>664.0</ele></trkpt>
+      <trkpt lat="56.571120" lon="-4.865740"><ele>712.0</ele></trkpt>
+      <trkpt lat="56.569980" lon="-4.870550"><ele>797.0</ele></trkpt>
+      <trkpt lat="56.566950" lon="-4.871230"><ele>939.0</ele></trkpt>
+      <trkpt lat="56.566010" lon="-4.877070"><ele>1004.0</ele></trkpt>
+      <trkpt lat="56.568000" lon="-4.882740"><ele>1057.0</ele></trkpt>
+      <trkpt lat="56.570270" lon="-4.883940"><ele>1004.0</ele></trkpt>
+      <trkpt lat="56.574050" lon="-4.882740"><ele>965.0</ele></trkpt>
+      <trkpt lat="56.577170" lon="-4.883590"><ele>926.0</ele></trkpt>
+      <trkpt lat="56.583410" lon="-4.889090"><ele>828.0</ele></trkpt>
+      <trkpt lat="56.588610" lon="-4.893550"><ele>749.0</ele></trkpt>
+      <trkpt lat="56.589080" lon="-4.889090"><ele>728.0</ele></trkpt>
+      <trkpt lat="56.595130" lon="-4.885830"><ele>691.0</ele></trkpt>
+      <trkpt lat="56.598530" lon="-4.877410"><ele>969.0</ele></trkpt>
+      <trkpt lat="56.601650" lon="-4.868830"><ele>1080.0</ele></trkpt>
+      <trkpt lat="56.604390" lon="-4.869000"><ele>1004.0</ele></trkpt>
+      <trkpt lat="56.608740" lon="-4.872780"><ele>1059.0</ele></trkpt>
+      <trkpt lat="56.614400" lon="-4.871750"><ele>1079.0</ele></trkpt>
+      <trkpt lat="56.608830" lon="-4.870890"><ele>1049.0</ele></trkpt>
+      <trkpt lat="56.612510" lon="-4.852520"><ele>1084.0</ele></trkpt>
+      <trkpt lat="56.623000" lon="-4.848060"><ele>736.0</ele></trkpt>
+      <trkpt lat="56.624890" lon="-4.839480"><ele>686.0</ele></trkpt>
+      <trkpt lat="56.625270" lon="-4.834840"><ele>639.0</ele></trkpt>
+      <trkpt lat="56.631500" lon="-4.829520"><ele>371.0</ele></trkpt>
+      <trkpt lat="56.637350" lon="-4.825570"><ele>312.0</ele></trkpt>
+  </trkseg></trk>
+</gpx>
