@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T17:07:41.505Z",
+  "generatedAt": "2026-11-21T17:19:03.979Z",
   "attribution": {
     "traileasy": {
       "name": "Traileasy",
@@ -204,6 +204,11 @@
       "flag": "🇬🇧"
     },
     {
+      "code": "RS",
+      "name": "Serbie",
+      "flag": "🇷🇸"
+    },
+    {
       "code": "SI",
       "name": "Slovénie",
       "flag": "🇸🇮"
@@ -391,11 +396,11 @@
       "thumbnailWide": "library/images/it-traversee-du-parc-national-de-lanin-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Traversée du parc national de Lanín",
-        "de": "Traversée du parc national de Lanín",
-        "es": "Traversée du parc national de Lanín",
-        "it": "Traversée du parc national de Lanín",
-        "pt": "Traversée du parc national de Lanín",
+        "en": "Crossing Lanín National Park",
+        "de": "Durchquerung des Nationalparks Lanín",
+        "es": "Travesía del Parque Nacional Lanín",
+        "it": "Traversata del Parco nazionale Lanín",
+        "pt": "Travessia do Parque Nacional Lanín",
         "fr": "Traversée du parc national de Lanín"
       }
     },
@@ -489,13 +494,14 @@
       "thumbnailWide": "library/images/it-nahuel-huapi-tour-du-cerro-catedral-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Nahuel Huapi Tour du Cerro Catedral",
-        "de": "Nahuel Huapi Tour du Cerro Catedral",
-        "es": "Nahuel Huapi Tour du Cerro Catedral",
-        "it": "Nahuel Huapi Tour du Cerro Catedral",
-        "pt": "Nahuel Huapi Tour du Cerro Catedral",
+        "en": "Nahuel Huapi, Cerro Catedral Loop",
+        "de": "Nahuel Huapi, Rund um den Cerro Catedral",
+        "es": "Nahuel Huapi, vuelta al Cerro Catedral",
+        "it": "Nahuel Huapi, giro del Cerro Catedral",
+        "pt": "Nahuel Huapi, volta ao Cerro Catedral",
         "fr": "Nahuel Huapi Tour du Cerro Catedral"
-      }
+      },
+      "activityType": "hiking-mountain"
     },
     {
       "id": "it-fitz-roy-le-paradis-du-trek-en-patagonie-3507c4",
@@ -635,11 +641,11 @@
       "thumbnailWide": "library/images/it-kaiserkrone-tour-du-massif-de-wilder-kaiser-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Kaiserkrone Tour du massif de Wilder Kaiser",
-        "de": "Kaiserkrone Tour du massif de Wilder Kaiser",
-        "es": "Kaiserkrone Tour du massif de Wilder Kaiser",
-        "it": "Kaiserkrone Tour du massif de Wilder Kaiser",
-        "pt": "Kaiserkrone Tour du massif de Wilder Kaiser",
+        "en": "Kaiserkrone, Wilder Kaiser Circuit",
+        "de": "Kaiserkrone, Rundweg um den Wilden Kaiser",
+        "es": "Kaiserkrone, vuelta al macizo del Wilder Kaiser",
+        "it": "Kaiserkrone, giro del massiccio del Wilder Kaiser",
+        "pt": "Kaiserkrone, volta ao maciço do Wilder Kaiser",
         "fr": "Kaiserkrone Tour du massif de Wilder Kaiser"
       }
     },
@@ -782,18 +788,18 @@
       "thumbnailWide": "library/images/it-700-km-a-pied-a-travers-la-bulgarie-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Traversée de la Bulgarie",
-        "de": "Traversée de la Bulgarie",
-        "es": "Traversée de la Bulgarie",
-        "it": "Traversée de la Bulgarie",
-        "pt": "Traversée de la Bulgarie",
+        "en": "Crossing Bulgaria",
+        "de": "Bulgarien-Durchquerung",
+        "es": "Travesía de Bulgaria",
+        "it": "Traversata della Bulgaria",
+        "pt": "Travessia da Bulgária",
         "fr": "Traversée de la Bulgarie"
       }
     },
     {
       "id": "it-randonnee-hivernale-sur-les-bords-du-danube",
-      "name": "Bords du Danube",
-      "country": "BG",
+      "name": "Bords du Danube en Serbie",
+      "country": "RS",
       "difficulty": "modere",
       "daysTypical": 23,
       "source": "local",
@@ -808,23 +814,20 @@
         22.381477,
         45.528382
       ],
-      "nearestCity": "Иваново",
-      "county": "Јужнобанатски управни округ",
+      "nearestCity": "Ivanovo",
+      "county": "District du Banat du Sud",
       "regionName": "Voïvodine",
       "activityType": "hiking",
-      "countries": [
-        "BG"
-      ],
       "thumbnail": "library/images/it-randonnee-hivernale-sur-les-bords-du-danube-square.jpg",
       "thumbnailWide": "library/images/it-randonnee-hivernale-sur-les-bords-du-danube-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Bords du Danube",
-        "de": "Bords du Danube",
-        "es": "Bords du Danube",
-        "it": "Bords du Danube",
-        "pt": "Bords du Danube",
-        "fr": "Bords du Danube"
+        "en": "Along the Danube in Serbia",
+        "de": "Entlang der Donau in Serbien",
+        "es": "A orillas del Danubio en Serbia",
+        "it": "Lungo il Danubio in Serbia",
+        "pt": "Nas margens do Danúbio na Sérvia",
+        "fr": "Bords du Danube en Serbie"
       }
     },
     {
@@ -849,13 +852,14 @@
       "thumbnailWide": "library/images/it-tour-de-lillampu-en-bolivie-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Tour de l'Illampu",
-        "de": "Tour de l'Illampu",
-        "es": "Tour de l'Illampu",
-        "it": "Tour de l'Illampu",
-        "pt": "Tour de l'Illampu",
+        "en": "Illampu Circuit",
+        "de": "Rund um den Illampu",
+        "es": "Vuelta al Illampu",
+        "it": "Giro dell'Illampu",
+        "pt": "Volta ao Illampu",
         "fr": "Tour de l'Illampu"
-      }
+      },
+      "activityType": "hiking-mountain"
     },
     {
       "id": "it-raid-en-raquettes-pulka-sur-lile-de-baffin-dans-le-parc-national-auyuittuq",
@@ -968,9 +972,6 @@
         9.667865,
         52.02605
       ],
-      "nearestCity": "Heusweiler",
-      "county": "Communauté régionale de Sarrebruck",
-      "regionName": "Sarre",
       "activityType": "mtb",
       "countries": [
         "DE",
@@ -1086,11 +1087,11 @@
       "thumbnailWide": "library/images/it-grande-traversee-des-cretes-du-jura-suisse-jura-hohenweg-ab8b82-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Grande traversée des Crêtes du Jura suisse (Jura Hohenweg)",
-        "de": "Grande traversée des Crêtes du Jura suisse (Jura Hohenweg)",
-        "es": "Grande traversée des Crêtes du Jura suisse (Jura Hohenweg)",
-        "it": "Grande traversée des Crêtes du Jura suisse (Jura Hohenweg)",
-        "pt": "Grande traversée des Crêtes du Jura suisse (Jura Hohenweg)",
+        "en": "Grand Traverse of the Swiss Jura Crests (Jura Hohenweg)",
+        "de": "Große Kammüberschreitung des Schweizer Juras (Jura Hohenweg)",
+        "es": "Gran travesía de las crestas del Jura suizo (Jura Hohenweg)",
+        "it": "Grande traversata delle creste del Giura svizzero (Jura Hohenweg)",
+        "pt": "Grande travessia das cristas do Jura suíço (Jura Hohenweg)",
         "fr": "Grande traversée des Crêtes du Jura suisse (Jura Hohenweg)"
       }
     },
@@ -1192,11 +1193,11 @@
       "thumbnailWide": "library/images/it-tour-des-lacs-de-neuchatel-bienne-et-morat-en-bikepacking-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Tour des lacs de Neuchâtel, Bienne et Morat",
-        "de": "Tour des lacs de Neuchâtel, Bienne et Morat",
-        "es": "Tour des lacs de Neuchâtel, Bienne et Morat",
-        "it": "Tour des lacs de Neuchâtel, Bienne et Morat",
-        "pt": "Tour des lacs de Neuchâtel, Bienne et Morat",
+        "en": "Neuchâtel, Biel and Murten Lakes Loop",
+        "de": "Rund um den Neuenburger-, Bieler- und Murtensee",
+        "es": "Vuelta a los lagos de Neuchâtel, Biel y Morat",
+        "it": "Giro dei laghi di Neuchâtel, Bienne e Morat",
+        "pt": "Volta aos lagos de Neuchâtel, Biel e Morat",
         "fr": "Tour des lacs de Neuchâtel, Bienne et Morat"
       }
     },
@@ -1334,11 +1335,11 @@
       "thumbnailWide": "library/images/it-grande-traversee-des-cretes-du-jura-suisse-jura-hohenweg-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Grande traversée des Crêtes du Jura suisse (Jura Hohenweg)",
-        "de": "Grande traversée des Crêtes du Jura suisse (Jura Hohenweg)",
-        "es": "Grande traversée des Crêtes du Jura suisse (Jura Hohenweg)",
-        "it": "Grande traversée des Crêtes du Jura suisse (Jura Hohenweg)",
-        "pt": "Grande traversée des Crêtes du Jura suisse (Jura Hohenweg)",
+        "en": "Grand Traverse of the Swiss Jura Crests (Jura Hohenweg)",
+        "de": "Große Kammüberschreitung des Schweizer Juras (Jura Hohenweg)",
+        "es": "Gran travesía de las crestas del Jura suizo (Jura Hohenweg)",
+        "it": "Grande traversata delle creste del Giura svizzero (Jura Hohenweg)",
+        "pt": "Grande travessia das cristas do Jura suíço (Jura Hohenweg)",
         "fr": "Grande traversée des Crêtes du Jura suisse (Jura Hohenweg)"
       }
     },
@@ -1368,11 +1369,11 @@
       "thumbnailWide": "library/images/it-grande-traversee-des-cretes-du-jura-suisse-jura-hohenweg-42eba5-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Grande traversée des Crêtes du Jura suisse (Jura Hohenweg)",
-        "de": "Grande traversée des Crêtes du Jura suisse (Jura Hohenweg)",
-        "es": "Grande traversée des Crêtes du Jura suisse (Jura Hohenweg)",
-        "it": "Grande traversée des Crêtes du Jura suisse (Jura Hohenweg)",
-        "pt": "Grande traversée des Crêtes du Jura suisse (Jura Hohenweg)",
+        "en": "Grand Traverse of the Swiss Jura Crests (Jura Hohenweg)",
+        "de": "Große Kammüberschreitung des Schweizer Juras (Jura Hohenweg)",
+        "es": "Gran travesía de las crestas del Jura suizo (Jura Hohenweg)",
+        "it": "Grande traversata delle creste del Giura svizzero (Jura Hohenweg)",
+        "pt": "Grande travessia das cristas do Jura suíço (Jura Hohenweg)",
         "fr": "Grande traversée des Crêtes du Jura suisse (Jura Hohenweg)"
       }
     },
@@ -1407,7 +1408,8 @@
         "it": "Colombia alla ricerca della città perduta",
         "pt": "Colômbia em busca da cidade perdida",
         "fr": "Colombie à la recherche de la citée perdue"
-      }
+      },
+      "activityType": "hiking"
     },
     {
       "id": "it-ascension-du-cerro-chirripo",
@@ -1646,11 +1648,11 @@
       "thumbnailWide": "library/images/it-traversee-de-lestremadure-a-pied-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Traversée de l'Estrémadure",
-        "de": "Traversée de l'Estrémadure",
-        "es": "Traversée de l'Estrémadure",
-        "it": "Traversée de l'Estrémadure",
-        "pt": "Traversée de l'Estrémadure",
+        "en": "Crossing Extremadura",
+        "de": "Extremadura-Durchquerung",
+        "es": "Travesía de Extremadura",
+        "it": "Traversata dell'Estremadura",
+        "pt": "Travessia da Extremadura",
         "fr": "Traversée de l'Estrémadure"
       }
     },
@@ -1680,11 +1682,11 @@
       "activityType": "hiking",
       "validated": true,
       "names": {
-        "en": "O camiño dos Faros",
-        "de": "O camiño dos Faros",
-        "es": "O camiño dos Faros",
-        "it": "O camiño dos Faros",
-        "pt": "O camiño dos Faros",
+        "en": "O Camiño dos Faros",
+        "de": "O Camiño dos Faros",
+        "es": "O Camiño dos Faros",
+        "it": "O Camiño dos Faros",
+        "pt": "O Camiño dos Faros",
         "fr": "O camiño dos Faros"
       }
     },
@@ -2407,7 +2409,7 @@
     },
     {
       "id": "it-velodyssee-cols-et-coteaux-darcachon-a-luchon",
-      "name": "Du cols et coteaux d'Arcachon à Luchon",
+      "name": "Cols et coteaux, d'Arcachon à Luchon",
       "country": "FR",
       "difficulty": "modere",
       "daysTypical": 9,
@@ -2431,12 +2433,12 @@
       "thumbnailWide": "library/images/it-velodyssee-cols-et-coteaux-darcachon-a-luchon-wide.jpg",
       "validated": true,
       "names": {
-        "en": "From the hills and slopes of Arcachon to Luchon",
-        "de": "Von den Hügeln und Hängen von Arcachon nach Luchon",
-        "es": "De los collados y colinas de Arcachon a Luchon",
-        "it": "Dai colli e dalle colline di Arcachon a Luchon",
-        "pt": "Dos colos e colinas de Arcachon a Luchon",
-        "fr": "Du cols et coteaux d'Arcachon à Luchon"
+        "en": "Passes and Hillsides, Arcachon to Luchon",
+        "de": "Pässe und Hügel, von Arcachon nach Luchon",
+        "es": "Puertos y colinas, de Arcachon a Luchon",
+        "it": "Valichi e colline, da Arcachon a Luchon",
+        "pt": "Colos e colinas, de Arcachon a Luchon",
+        "fr": "Cols et coteaux, d'Arcachon à Luchon"
       }
     },
     {
@@ -2465,11 +2467,11 @@
       "thumbnailWide": "library/images/it-le-tour-de-la-manche-a-velo-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Le Tour de la Manche",
-        "de": "Le Tour de la Manche",
-        "es": "Le Tour de la Manche",
-        "it": "Le Tour de la Manche",
-        "pt": "Le Tour de la Manche",
+        "en": "Tour of the Manche, Normandy",
+        "de": "Manche-Rundtour (Normandie)",
+        "es": "Vuelta a la Manche (Normandía)",
+        "it": "Giro della Manche (Normandia)",
+        "pt": "Volta à Manche (Normandia)",
         "fr": "Le Tour de la Manche"
       }
     },
@@ -2543,11 +2545,11 @@
       "thumbnailWide": "library/images/it-la-meuse-a-velo-5-jours-sur-leurovelo-19-wide.jpg",
       "validated": true,
       "names": {
-        "en": "La Meuse, EuroVelo 19",
-        "de": "La Meuse, EuroVelo 19",
-        "es": "La Meuse, EuroVelo 19",
-        "it": "La Meuse, EuroVelo 19",
-        "pt": "La Meuse, EuroVelo 19",
+        "en": "The Meuse, EuroVelo 19",
+        "de": "Die Maas, EuroVelo 19",
+        "es": "El Mosa, EuroVelo 19",
+        "it": "La Mosa, EuroVelo 19",
+        "pt": "O Mosa, EuroVelo 19",
         "fr": "La Meuse, EuroVelo 19"
       }
     },
@@ -2687,10 +2689,10 @@
       "validated": true,
       "names": {
         "en": "Steven Run, Cévennes",
-        "de": "Steven Run, Cévennes",
-        "es": "Steven Run, Cévennes",
-        "it": "Steven Run, Cévennes",
-        "pt": "Steven Run, Cévennes",
+        "de": "Steven Run, Cevennen",
+        "es": "Steven Run, Cevenas",
+        "it": "Steven Run, Cevenne",
+        "pt": "Steven Run, Cevenas",
         "fr": "Steven Run, Cévennes"
       },
       "descriptions": {
@@ -2970,11 +2972,11 @@
       "thumbnailWide": "library/images/it-grande-traversee-des-volcans-dauvergne-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Grande Traversée des Volcans d'Auvergne",
-        "de": "Grande Traversée des Volcans d'Auvergne",
-        "es": "Grande Traversée des Volcans d'Auvergne",
-        "it": "Grande Traversée des Volcans d'Auvergne",
-        "pt": "Grande Traversée des Volcans d'Auvergne",
+        "en": "Grand Traverse of the Auvergne Volcanoes",
+        "de": "Große Durchquerung der Vulkane der Auvergne",
+        "es": "Gran travesía de los volcanes de Auvernia",
+        "it": "Grande traversata dei vulcani d'Alvernia",
+        "pt": "Grande travessia dos vulcões de Auvérnia",
         "fr": "Grande Traversée des Volcans d'Auvergne"
       }
     },
@@ -3006,11 +3008,11 @@
       "thumbnailWide": "library/images/it-trail-du-vercors-au-ventoux-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Trail du Vercors au Ventoux",
-        "de": "Trail du Vercors au Ventoux",
-        "es": "Trail du Vercors au Ventoux",
-        "it": "Trail du Vercors au Ventoux",
-        "pt": "Trail du Vercors au Ventoux",
+        "en": "Vercors to Ventoux Trail Run",
+        "de": "Trail vom Vercors zum Ventoux",
+        "es": "Trail del Vercors al Ventoux",
+        "it": "Trail dal Vercors al Ventoux",
+        "pt": "Trail do Vercors ao Ventoux",
         "fr": "Trail du Vercors au Ventoux"
       },
       "descriptions": {
@@ -3118,11 +3120,11 @@
       "activityType": "hiking",
       "validated": true,
       "names": {
-        "en": "Le Haut-Jura",
-        "de": "Le Haut-Jura",
-        "es": "Le Haut-Jura",
-        "it": "Le Haut-Jura",
-        "pt": "Le Haut-Jura",
+        "en": "The High Jura",
+        "de": "Hochjura",
+        "es": "Alto Jura",
+        "it": "Alto Giura",
+        "pt": "Alto Jura",
         "fr": "Le Haut-Jura"
       }
     },
@@ -3153,11 +3155,11 @@
       "activityType": "hiking",
       "validated": true,
       "names": {
-        "en": "Vosges du Nord",
-        "de": "Vosges du Nord",
-        "es": "Vosges du Nord",
-        "it": "Vosges du Nord",
-        "pt": "Vosges du Nord",
+        "en": "Northern Vosges",
+        "de": "Nordvogesen",
+        "es": "Vosgos del Norte",
+        "it": "Vosgi settentrionali",
+        "pt": "Vosges do Norte",
         "fr": "Vosges du Nord"
       }
     },
@@ -3222,11 +3224,11 @@
       "thumbnailWide": "library/images/it-traversee-des-volcans-dauvergne-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Traversée des Volcans d’Auvergne",
-        "de": "Traversée des Volcans d’Auvergne",
-        "es": "Traversée des Volcans d’Auvergne",
-        "it": "Traversée des Volcans d’Auvergne",
-        "pt": "Traversée des Volcans d’Auvergne",
+        "en": "Crossing the Auvergne Volcanoes",
+        "de": "Durchquerung der Vulkane der Auvergne",
+        "es": "Travesía de los volcanes de Auvernia",
+        "it": "Traversata dei vulcani d'Alvernia",
+        "pt": "Travessia dos vulcões de Auvérnia",
         "fr": "Traversée des Volcans d’Auvergne"
       }
     },
@@ -3372,11 +3374,11 @@
       "thumbnailWide": "library/images/it-sur-le-sentier-des-maitres-sonneurs-wide.jpg",
       "validated": true,
       "names": {
-        "en": "On the Path of the Bell Masters",
-        "de": "Auf dem Weg der Glockenmeister",
-        "es": "Por el Sendero de los Maestros Campaneros",
-        "it": "Sul Sentiero dei Maestri Campanari",
-        "pt": "No Caminho dos Mestres Sineiros",
+        "en": "On the Trail of the Master Pipers",
+        "de": "Auf dem Weg der Dudelsackmeister",
+        "es": "Por el sendero de los Maestros Gaiteros",
+        "it": "Sul sentiero dei Maestri Zampognari",
+        "pt": "No Caminho dos Mestres Gaiteiros",
         "fr": "Sur le Sentier des Maîtres Sonneurs"
       }
     },
@@ -3566,11 +3568,11 @@
       "thumbnailWide": "library/images/it-gr30-tour-des-lacs-dauvergne-wide.jpg",
       "validated": true,
       "names": {
-        "en": "GR 30 Tour des lacs d'Auvergne",
-        "de": "GR 30 Tour des lacs d'Auvergne",
-        "es": "GR 30 Tour des lacs d'Auvergne",
-        "it": "GR 30 Tour des lacs d'Auvergne",
-        "pt": "GR 30 Tour des lacs d'Auvergne",
+        "en": "GR 30 Auvergne Lakes Loop",
+        "de": "GR 30 Rund um die Seen der Auvergne",
+        "es": "GR 30 vuelta a los lagos de Auvernia",
+        "it": "GR 30 giro dei laghi d'Alvernia",
+        "pt": "GR 30 volta aos lagos de Auvérnia",
         "fr": "GR 30 Tour des lacs d'Auvergne"
       }
     },
@@ -3602,11 +3604,11 @@
       "thumbnailWide": "library/images/it-tour-des-ecrins-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Tour des Ecrins",
-        "de": "Tour des Ecrins",
-        "es": "Tour des Ecrins",
-        "it": "Tour des Ecrins",
-        "pt": "Tour des Ecrins",
+        "en": "Tour des Écrins",
+        "de": "Tour des Écrins",
+        "es": "Tour des Écrins",
+        "it": "Tour des Écrins",
+        "pt": "Tour des Écrins",
         "fr": "Tour des Ecrins"
       },
       "descriptions": {
@@ -3726,11 +3728,11 @@
       "thumbnailWide": "library/images/it-la-grande-traversee-vtt-de-la-creuse-daubusson-a-la-souterraine-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Grande Traversée de la Creuse d’Aubusson à La Souterraine",
-        "de": "Grande Traversée de la Creuse d’Aubusson à La Souterraine",
-        "es": "Grande Traversée de la Creuse d’Aubusson à La Souterraine",
-        "it": "Grande Traversée de la Creuse d’Aubusson à La Souterraine",
-        "pt": "Grande Traversée de la Creuse d’Aubusson à La Souterraine",
+        "en": "Creuse Grand Traverse, Aubusson to La Souterraine",
+        "de": "Große Creuse-Durchquerung von Aubusson nach La Souterraine",
+        "es": "Gran travesía de la Creuse, de Aubusson a La Souterraine",
+        "it": "Grande traversata della Creuse, da Aubusson a La Souterraine",
+        "pt": "Grande travessia da Creuse, de Aubusson a La Souterraine",
         "fr": "Grande Traversée de la Creuse d’Aubusson à La Souterraine"
       }
     },
@@ -3899,11 +3901,11 @@
       "thumbnailWide": "library/images/it-grande-traversee-vtt-de-la-creuse-de-gueret-a-mainsat-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Grande Traversée de la Creuse de Guéret à Mainsat",
-        "de": "Grande Traversée de la Creuse de Guéret à Mainsat",
-        "es": "Grande Traversée de la Creuse de Guéret à Mainsat",
-        "it": "Grande Traversée de la Creuse de Guéret à Mainsat",
-        "pt": "Grande Traversée de la Creuse de Guéret à Mainsat",
+        "en": "Creuse Grand Traverse, Guéret to Mainsat",
+        "de": "Große Creuse-Durchquerung von Guéret nach Mainsat",
+        "es": "Gran travesía de la Creuse, de Guéret a Mainsat",
+        "it": "Grande traversata della Creuse, da Guéret a Mainsat",
+        "pt": "Grande travessia da Creuse, de Guéret a Mainsat",
         "fr": "Grande Traversée de la Creuse de Guéret à Mainsat"
       }
     },
@@ -3977,11 +3979,11 @@
       "thumbnailWide": "library/images/it-boucle-de-figeac-a-velo-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Boucle de Figeac",
-        "de": "Boucle de Figeac",
-        "es": "Boucle de Figeac",
-        "it": "Boucle de Figeac",
-        "pt": "Boucle de Figeac",
+        "en": "Figeac Loop",
+        "de": "Rundtour um Figeac",
+        "es": "Circuito de Figeac",
+        "it": "Anello di Figeac",
+        "pt": "Circuito de Figeac",
         "fr": "Boucle de Figeac"
       }
     },
@@ -4045,11 +4047,11 @@
       "activityType": "hiking",
       "validated": true,
       "names": {
-        "en": "Tour de la presqu’île de Crozon",
-        "de": "Tour de la presqu’île de Crozon",
-        "es": "Tour de la presqu’île de Crozon",
-        "it": "Tour de la presqu’île de Crozon",
-        "pt": "Tour de la presqu’île de Crozon",
+        "en": "Crozon Peninsula Loop",
+        "de": "Rund um die Halbinsel Crozon",
+        "es": "Vuelta a la península de Crozon",
+        "it": "Giro della penisola di Crozon",
+        "pt": "Volta à península de Crozon",
         "fr": "Tour de la presqu’île de Crozon"
       }
     },
@@ -4225,11 +4227,11 @@
       "thumbnailWide": "library/images/it-gr-34-le-pays-de-tregor-et-la-cote-de-granit-rose-wide.jpg",
       "validated": true,
       "names": {
-        "en": "GR 34 le Pays de Trégor et la côte de Granit Rose",
-        "de": "GR 34 le Pays de Trégor et la côte de Granit Rose",
-        "es": "GR 34 le Pays de Trégor et la côte de Granit Rose",
-        "it": "GR 34 le Pays de Trégor et la côte de Granit Rose",
-        "pt": "GR 34 le Pays de Trégor et la côte de Granit Rose",
+        "en": "GR 34 Trégor and the Pink Granite Coast",
+        "de": "GR 34 Trégor und die Rosa Granitküste",
+        "es": "GR 34 Trégor y la Costa de Granito Rosa",
+        "it": "GR 34 Trégor e la Costa di Granito Rosa",
+        "pt": "GR 34 Trégor e a Costa de Granito Rosa",
         "fr": "GR 34 le Pays de Trégor et la côte de Granit Rose"
       }
     },
@@ -4259,11 +4261,11 @@
       "activityType": "hiking",
       "validated": true,
       "names": {
-        "en": "Tour de la Hague",
-        "de": "Tour de la Hague",
-        "es": "Tour de la Hague",
-        "it": "Tour de la Hague",
-        "pt": "Tour de la Hague",
+        "en": "La Hague Loop",
+        "de": "Rund um La Hague",
+        "es": "Vuelta a La Hague",
+        "it": "Giro di La Hague",
+        "pt": "Volta a La Hague",
         "fr": "Tour de la Hague"
       }
     },
@@ -4295,11 +4297,11 @@
       "thumbnailWide": "library/images/it-tour-de-la-chartreuse-en-bikepacking-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Tour de la Chartreuse",
-        "de": "Tour de la Chartreuse",
-        "es": "Tour de la Chartreuse",
-        "it": "Tour de la Chartreuse",
-        "pt": "Tour de la Chartreuse",
+        "en": "Chartreuse Loop",
+        "de": "Rund um die Chartreuse",
+        "es": "Vuelta a la Chartreuse",
+        "it": "Giro della Chartreuse",
+        "pt": "Volta à Chartreuse",
         "fr": "Tour de la Chartreuse"
       },
       "descriptions": {
@@ -4448,11 +4450,11 @@
       "activityType": "hiking-mountain",
       "validated": true,
       "names": {
-        "en": "Mare è Monti Nord",
-        "de": "Mare è Monti Nord",
-        "es": "Mare è Monti Nord",
-        "it": "Mare è Monti Nord",
-        "pt": "Mare è Monti Nord",
+        "en": "Mare e Monti Nord",
+        "de": "Mare e Monti Nord",
+        "es": "Mare e Monti Nord",
+        "it": "Mare e Monti Nord",
+        "pt": "Mare e Monti Nord",
         "fr": "Mare è Monti Nord"
       }
     },
@@ -4483,11 +4485,11 @@
       "thumbnailWide": "library/images/it-traversee-de-la-drome-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Traversée de la Drôme",
-        "de": "Traversée de la Drôme",
-        "es": "Traversée de la Drôme",
-        "it": "Traversée de la Drôme",
-        "pt": "Traversée de la Drôme",
+        "en": "Crossing the Drôme",
+        "de": "Drôme-Durchquerung",
+        "es": "Travesía de la Drôme",
+        "it": "Traversata della Drôme",
+        "pt": "Travessia da Drôme",
         "fr": "Traversée de la Drôme"
       }
     },
@@ -4552,11 +4554,11 @@
       "thumbnailWide": "library/images/it-chemin-doleron-le-tour-de-lile-a-pied-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Chemin d'Oléron le tour de l'île",
-        "de": "Chemin d'Oléron le tour de l'île",
-        "es": "Chemin d'Oléron le tour de l'île",
-        "it": "Chemin d'Oléron le tour de l'île",
-        "pt": "Chemin d'Oléron le tour de l'île",
+        "en": "Chemin d'Oléron, Around the Island",
+        "de": "Chemin d'Oléron, rund um die Insel",
+        "es": "Chemin d'Oléron, vuelta a la isla",
+        "it": "Chemin d'Oléron, giro dell'isola",
+        "pt": "Chemin d'Oléron, volta à ilha",
         "fr": "Chemin d'Oléron le tour de l'île"
       }
     },
@@ -4621,11 +4623,11 @@
       "activityType": "hiking-mountain",
       "validated": true,
       "names": {
-        "en": "Tour du Cézallier",
-        "de": "Tour du Cézallier",
-        "es": "Tour du Cézallier",
-        "it": "Tour du Cézallier",
-        "pt": "Tour du Cézallier",
+        "en": "Cézallier Loop",
+        "de": "Rund um den Cézallier",
+        "es": "Vuelta al Cézallier",
+        "it": "Giro del Cézallier",
+        "pt": "Volta ao Cézallier",
         "fr": "Tour du Cézallier"
       }
     },
@@ -4656,11 +4658,11 @@
       "thumbnailWide": "library/images/it-tour-de-la-vallee-de-larve-a-vtt-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Tour de la Vallée de l'Arve",
-        "de": "Tour de la Vallée de l'Arve",
-        "es": "Tour de la Vallée de l'Arve",
-        "it": "Tour de la Vallée de l'Arve",
-        "pt": "Tour de la Vallée de l'Arve",
+        "en": "Arve Valley Loop",
+        "de": "Rund um das Arvetal",
+        "es": "Vuelta al valle del Arve",
+        "it": "Giro della valle dell'Arve",
+        "pt": "Volta ao vale do Arve",
         "fr": "Tour de la Vallée de l'Arve"
       }
     },
@@ -4726,20 +4728,21 @@
         -0.9832,
         44.774
       ],
-      "nearestCity": "Dispute",
-      "regionName": "France métropolitaine",
+      "nearestCity": "Arcachon",
+      "regionName": "Nouvelle-Aquitaine",
       "activityType": "hiking",
       "thumbnail": "library/images/it-tour-du-bassin-darcachon-a-pied-gr-de-pays-square.jpg",
       "thumbnailWide": "library/images/it-tour-du-bassin-darcachon-a-pied-gr-de-pays-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Tour du bassin d'Arcachon",
-        "de": "Tour du bassin d'Arcachon",
-        "es": "Tour du bassin d'Arcachon",
-        "it": "Tour du bassin d'Arcachon",
-        "pt": "Tour du bassin d'Arcachon",
+        "en": "Arcachon Bay Loop",
+        "de": "Rund um das Becken von Arcachon",
+        "es": "Vuelta a la bahía de Arcachon",
+        "it": "Giro del bacino di Arcachon",
+        "pt": "Volta à baía de Arcachon",
         "fr": "Tour du bassin d'Arcachon"
-      }
+      },
+      "county": "Gironde"
     },
     {
       "id": "it-tour-du-queyras-gr-58",
@@ -4852,11 +4855,11 @@
       "thumbnailWide": "library/images/it-tour-de-letang-de-vaccares-a-velo-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Tour de l’étang de Vaccarès",
-        "de": "Tour de l’étang de Vaccarès",
-        "es": "Tour de l’étang de Vaccarès",
-        "it": "Tour de l’étang de Vaccarès",
-        "pt": "Tour de l’étang de Vaccarès",
+        "en": "Vaccarès Lagoon Loop",
+        "de": "Rund um den Étang de Vaccarès",
+        "es": "Vuelta al estanque de Vaccarès",
+        "it": "Giro dello stagno di Vaccarès",
+        "pt": "Volta à lagoa de Vaccarès",
         "fr": "Tour de l’étang de Vaccarès"
       }
     },
@@ -4956,11 +4959,11 @@
       "thumbnailWide": "library/images/it-tour-du-carlit-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Tour du Carlit",
-        "de": "Tour du Carlit",
-        "es": "Tour du Carlit",
-        "it": "Tour du Carlit",
-        "pt": "Tour du Carlit",
+        "en": "Carlit Circuit",
+        "de": "Rund um den Carlit",
+        "es": "Vuelta al Carlit",
+        "it": "Giro del Carlit",
+        "pt": "Volta ao Carlit",
         "fr": "Tour du Carlit"
       }
     },
@@ -5061,11 +5064,11 @@
       "activityType": "hiking-mountain",
       "validated": true,
       "names": {
-        "en": "Tour du Beaufortain",
-        "de": "Tour du Beaufortain",
-        "es": "Tour du Beaufortain",
-        "it": "Tour du Beaufortain",
-        "pt": "Tour du Beaufortain",
+        "en": "Beaufortain Circuit",
+        "de": "Rund um das Beaufortain",
+        "es": "Vuelta al Beaufortain",
+        "it": "Giro del Beaufortain",
+        "pt": "Volta ao Beaufortain",
         "fr": "Tour du Beaufortain"
       }
     },
@@ -5127,11 +5130,11 @@
       "thumbnailWide": "library/images/it-descente-de-la-leyre-en-canoe-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Descente de la Leyre",
-        "de": "Descente de la Leyre",
-        "es": "Descente de la Leyre",
-        "it": "Descente de la Leyre",
-        "pt": "Descente de la Leyre",
+        "en": "Paddling Down the Leyre",
+        "de": "Paddeltour auf der Leyre",
+        "es": "Descenso del Leyre",
+        "it": "Discesa della Leyre",
+        "pt": "Descida do Leyre",
         "fr": "Descente de la Leyre"
       }
     },
@@ -5163,11 +5166,11 @@
       "activityType": "hiking",
       "validated": true,
       "names": {
-        "en": "Le Vercors",
-        "de": "Le Vercors",
-        "es": "Le Vercors",
-        "it": "Le Vercors",
-        "pt": "Le Vercors",
+        "en": "Vercors",
+        "de": "Vercors",
+        "es": "El Vercors",
+        "it": "Il Vercors",
+        "pt": "O Vercors",
         "fr": "Le Vercors"
       },
       "descriptions": {
@@ -5362,11 +5365,11 @@
       "thumbnailWide": "library/images/it-sur-le-grp-entre-deux-lacs-avene-salagou-wide.jpg",
       "validated": true,
       "names": {
-        "en": "GRP Entre deux lacs Avène – Salagou",
-        "de": "GRP Entre deux lacs Avène – Salagou",
-        "es": "GRP Entre deux lacs Avène – Salagou",
-        "it": "GRP Entre deux lacs Avène – Salagou",
-        "pt": "GRP Entre deux lacs Avène – Salagou",
+        "en": "GRP Between Two Lakes, Avène – Salagou",
+        "de": "GRP Zwischen zwei Seen, Avène – Salagou",
+        "es": "GRP Entre dos lagos, Avène – Salagou",
+        "it": "GRP Tra due laghi, Avène – Salagou",
+        "pt": "GRP Entre dois lagos, Avène – Salagou",
         "fr": "GRP Entre deux lacs Avène – Salagou"
       }
     },
@@ -5466,11 +5469,11 @@
       "thumbnailWide": "library/images/it-tour-du-lac-dannecy-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Tour du lac d'Annecy",
-        "de": "Tour du lac d'Annecy",
-        "es": "Tour du lac d'Annecy",
-        "it": "Tour du lac d'Annecy",
-        "pt": "Tour du lac d'Annecy",
+        "en": "Lake Annecy Loop",
+        "de": "Rund um den Lac d'Annecy",
+        "es": "Vuelta al lago de Annecy",
+        "it": "Giro del lago di Annecy",
+        "pt": "Volta ao lago de Annecy",
         "fr": "Tour du lac d'Annecy"
       }
     },
@@ -5583,11 +5586,11 @@
       "thumbnailWide": "library/images/it-tour-des-balcons-du-valromey-953194-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Tour des balcons du Valromey",
-        "de": "Tour des balcons du Valromey",
-        "es": "Tour des balcons du Valromey",
-        "it": "Tour des balcons du Valromey",
-        "pt": "Tour des balcons du Valromey",
+        "en": "Valromey Balcony Trails Loop",
+        "de": "Balkonweg-Runde im Valromey",
+        "es": "Vuelta a los balcones del Valromey",
+        "it": "Giro dei balconi del Valromey",
+        "pt": "Volta aos balcões do Valromey",
         "fr": "Tour des balcons du Valromey"
       }
     },
@@ -5654,11 +5657,11 @@
       "thumbnailWide": "library/images/it-traversee-de-la-vanoise-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Traversée de la Vanoise",
-        "de": "Traversée de la Vanoise",
-        "es": "Traversée de la Vanoise",
-        "it": "Traversée de la Vanoise",
-        "pt": "Traversée de la Vanoise",
+        "en": "Crossing the Vanoise",
+        "de": "Vanoise-Durchquerung",
+        "es": "Travesía de la Vanoise",
+        "it": "Traversata della Vanoise",
+        "pt": "Travessia da Vanoise",
         "fr": "Traversée de la Vanoise"
       },
       "descriptions": {
@@ -5697,11 +5700,11 @@
       "activityType": "hiking-mountain",
       "validated": true,
       "names": {
-        "en": "Tour du Dévoluy",
-        "de": "Tour du Dévoluy",
-        "es": "Tour du Dévoluy",
-        "it": "Tour du Dévoluy",
-        "pt": "Tour du Dévoluy",
+        "en": "Dévoluy Circuit",
+        "de": "Rund um das Dévoluy",
+        "es": "Vuelta al Dévoluy",
+        "it": "Giro del Dévoluy",
+        "pt": "Volta ao Dévoluy",
         "fr": "Tour du Dévoluy"
       }
     },
@@ -5801,11 +5804,11 @@
       "activityType": "hiking-mountain",
       "validated": true,
       "names": {
-        "en": "Mare a Mare sud",
-        "de": "Mare a Mare sud",
-        "es": "Mare a Mare sud",
-        "it": "Mare a Mare sud",
-        "pt": "Mare a Mare sud",
+        "en": "Mare a Mare Sud",
+        "de": "Mare a Mare Sud",
+        "es": "Mare a Mare Sud",
+        "it": "Mare a Mare Sud",
+        "pt": "Mare a Mare Sud",
         "fr": "Mare a Mare sud"
       }
     },
@@ -5836,11 +5839,11 @@
       "thumbnailWide": "library/images/it-traversee-de-la-margeride-par-le-gr4-wide.jpg",
       "validated": true,
       "names": {
-        "en": "GR 4 Traversée de la Margeride",
-        "de": "GR 4 Traversée de la Margeride",
-        "es": "GR 4 Traversée de la Margeride",
-        "it": "GR 4 Traversée de la Margeride",
-        "pt": "GR 4 Traversée de la Margeride",
+        "en": "GR 4 Crossing the Margeride",
+        "de": "GR 4 Durchquerung der Margeride",
+        "es": "GR 4 travesía de la Margeride",
+        "it": "GR 4 traversata della Margeride",
+        "pt": "GR 4 travessia da Margeride",
         "fr": "GR 4 Traversée de la Margeride"
       }
     },
@@ -5910,11 +5913,11 @@
       "thumbnailWide": "library/images/it-tour-des-glaciers-de-la-vanoise-en-bivouac-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Tour des glaciers de la Vanoise",
-        "de": "Tour des glaciers de la Vanoise",
-        "es": "Tour des glaciers de la Vanoise",
-        "it": "Tour des glaciers de la Vanoise",
-        "pt": "Tour des glaciers de la Vanoise",
+        "en": "Vanoise Glaciers Circuit",
+        "de": "Rund um die Gletscher der Vanoise",
+        "es": "Vuelta a los glaciares de la Vanoise",
+        "it": "Giro dei ghiacciai della Vanoise",
+        "pt": "Volta aos glaciares da Vanoise",
         "fr": "Tour des glaciers de la Vanoise"
       },
       "descriptions": {
@@ -5953,11 +5956,11 @@
       "thumbnailWide": "library/images/it-gr-de-pays-du-val-de-sioule-wide.jpg",
       "validated": true,
       "names": {
-        "en": "GR de Pays du Val de Sioule",
-        "de": "GR de Pays du Val de Sioule",
-        "es": "GR de Pays du Val de Sioule",
-        "it": "GR de Pays du Val de Sioule",
-        "pt": "GR de Pays du Val de Sioule",
+        "en": "Val de Sioule Regional GR",
+        "de": "Regionaler GR im Val de Sioule",
+        "es": "GR regional del Val de Sioule",
+        "it": "GR regionale della Val de Sioule",
+        "pt": "GR regional do Val de Sioule",
         "fr": "GR de Pays du Val de Sioule"
       }
     },
@@ -5987,11 +5990,11 @@
       "thumbnailWide": "library/images/it-tour-de-belle-ile-en-mer-a-pied-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Tour de Belle-Ile en mer à pied",
-        "de": "Tour de Belle-Ile en mer à pied",
-        "es": "Tour de Belle-Ile en mer à pied",
-        "it": "Tour de Belle-Ile en mer à pied",
-        "pt": "Tour de Belle-Ile en mer à pied",
+        "en": "Around Belle-Île-en-Mer on Foot",
+        "de": "Belle-Île-en-Mer zu Fuß umrunden",
+        "es": "Vuelta a Belle-Île-en-Mer a pie",
+        "it": "Giro di Belle-Île-en-Mer a piedi",
+        "pt": "Volta a Belle-Île-en-Mer a pé",
         "fr": "Tour de Belle-Ile en mer à pied"
       }
     },
@@ -6021,11 +6024,11 @@
       "activityType": "hiking",
       "validated": true,
       "names": {
-        "en": "Boucle de la Côte de Granit Rose",
-        "de": "Boucle de la Côte de Granit Rose",
-        "es": "Boucle de la Côte de Granit Rose",
-        "it": "Boucle de la Côte de Granit Rose",
-        "pt": "Boucle de la Côte de Granit Rose",
+        "en": "Pink Granite Coast Loop",
+        "de": "Rundweg an der Rosa Granitküste",
+        "es": "Circuito de la Costa de Granito Rosa",
+        "it": "Anello della Costa di Granito Rosa",
+        "pt": "Circuito da Costa de Granito Rosa",
         "fr": "Boucle de la Côte de Granit Rose"
       }
     },
@@ -6091,11 +6094,11 @@
       "activityType": "hiking",
       "validated": true,
       "names": {
-        "en": "Grand Tour du Mourre de Chanier dans le Verdon",
-        "de": "Grand Tour du Mourre de Chanier dans le Verdon",
-        "es": "Grand Tour du Mourre de Chanier dans le Verdon",
-        "it": "Grand Tour du Mourre de Chanier dans le Verdon",
-        "pt": "Grand Tour du Mourre de Chanier dans le Verdon",
+        "en": "Mourre de Chanier Grand Loop in the Verdon",
+        "de": "Große Runde um den Mourre de Chanier im Verdon",
+        "es": "Gran vuelta al Mourre de Chanier en el Verdon",
+        "it": "Grande giro del Mourre de Chanier nel Verdon",
+        "pt": "Grande volta ao Mourre de Chanier no Verdon",
         "fr": "Grand Tour du Mourre de Chanier dans le Verdon"
       }
     },
@@ -6169,11 +6172,11 @@
       "thumbnailWide": "library/images/it-tour-des-baronnies-a-pied-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Tour des Baronnies",
-        "de": "Tour des Baronnies",
-        "es": "Tour des Baronnies",
-        "it": "Tour des Baronnies",
-        "pt": "Tour des Baronnies",
+        "en": "Baronnies Circuit",
+        "de": "Rund um die Baronnies",
+        "es": "Vuelta a las Baronnies",
+        "it": "Giro delle Baronnies",
+        "pt": "Volta às Baronnies",
         "fr": "Tour des Baronnies"
       }
     },
@@ -6248,11 +6251,11 @@
       "activityType": "hiking",
       "validated": true,
       "names": {
-        "en": "Tour du Beaujolais des Pierres dorées",
-        "de": "Tour du Beaujolais des Pierres dorées",
-        "es": "Tour du Beaujolais des Pierres dorées",
-        "it": "Tour du Beaujolais des Pierres dorées",
-        "pt": "Tour du Beaujolais des Pierres dorées",
+        "en": "Beaujolais of the Golden Stones Loop",
+        "de": "Rund um das Beaujolais der Goldenen Steine",
+        "es": "Vuelta al Beaujolais de las Piedras Doradas",
+        "it": "Giro del Beaujolais delle Pietre Dorate",
+        "pt": "Volta ao Beaujolais das Pedras Douradas",
         "fr": "Tour du Beaujolais des Pierres dorées"
       }
     },
@@ -6283,11 +6286,11 @@
       "thumbnailWide": "library/images/it-randonnee-dans-la-vallee-de-la-haute-truyere-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Vallée de la Haute Truyère",
-        "de": "Vallée de la Haute Truyère",
-        "es": "Vallée de la Haute Truyère",
-        "it": "Vallée de la Haute Truyère",
-        "pt": "Vallée de la Haute Truyère",
+        "en": "Upper Truyère Valley",
+        "de": "Tal der oberen Truyère",
+        "es": "Valle del Alto Truyère",
+        "it": "Valle dell'alta Truyère",
+        "pt": "Vale do Alto Truyère",
         "fr": "Vallée de la Haute Truyère"
       }
     },
@@ -6400,11 +6403,11 @@
       "thumbnailWide": "library/images/it-tour-des-dents-blanches-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Tour des Dents blanches",
-        "de": "Tour des Dents blanches",
-        "es": "Tour des Dents blanches",
-        "it": "Tour des Dents blanches",
-        "pt": "Tour des Dents blanches",
+        "en": "Tour des Dents Blanches",
+        "de": "Tour des Dents Blanches",
+        "es": "Tour des Dents Blanches",
+        "it": "Tour des Dents Blanches",
+        "pt": "Tour des Dents Blanches",
         "fr": "Tour des Dents blanches"
       }
     },
@@ -6435,11 +6438,11 @@
       "thumbnailWide": "library/images/it-grand-tour-du-pic-du-midi-dossau-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Grand tour du Pic du Midi d'Ossau",
-        "de": "Grand tour du Pic du Midi d'Ossau",
-        "es": "Grand tour du Pic du Midi d'Ossau",
-        "it": "Grand tour du Pic du Midi d'Ossau",
-        "pt": "Grand tour du Pic du Midi d'Ossau",
+        "en": "Pic du Midi d'Ossau Grand Loop",
+        "de": "Große Runde um den Pic du Midi d'Ossau",
+        "es": "Gran vuelta al Pic du Midi d'Ossau",
+        "it": "Grande giro del Pic du Midi d'Ossau",
+        "pt": "Grande volta ao Pic du Midi d'Ossau",
         "fr": "Grand tour du Pic du Midi d'Ossau"
       }
     },
@@ -6470,11 +6473,11 @@
       "thumbnailWide": "library/images/it-tour-du-haut-beaujolais-a-pied-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Tour du Haut Beaujolais",
-        "de": "Tour du Haut Beaujolais",
-        "es": "Tour du Haut Beaujolais",
-        "it": "Tour du Haut Beaujolais",
-        "pt": "Tour du Haut Beaujolais",
+        "en": "Upper Beaujolais Loop",
+        "de": "Rund um das Haut-Beaujolais",
+        "es": "Vuelta al Alto Beaujolais",
+        "it": "Giro dell'Alto Beaujolais",
+        "pt": "Volta ao Alto Beaujolais",
         "fr": "Tour du Haut Beaujolais"
       }
     },
@@ -6584,11 +6587,11 @@
       "activityType": "hiking-mountain",
       "validated": true,
       "names": {
-        "en": "Tour de la Grande Casse",
-        "de": "Tour de la Grande Casse",
-        "es": "Tour de la Grande Casse",
-        "it": "Tour de la Grande Casse",
-        "pt": "Tour de la Grande Casse",
+        "en": "Grande Casse Circuit",
+        "de": "Rund um die Grande Casse",
+        "es": "Vuelta a la Grande Casse",
+        "it": "Giro della Grande Casse",
+        "pt": "Volta à Grande Casse",
         "fr": "Tour de la Grande Casse"
       }
     },
@@ -6620,11 +6623,11 @@
       "thumbnailWide": "library/images/it-traversee-de-la-chartreuse-a-pied-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Traversée de la Chartreuse",
-        "de": "Traversée de la Chartreuse",
-        "es": "Traversée de la Chartreuse",
-        "it": "Traversée de la Chartreuse",
-        "pt": "Traversée de la Chartreuse",
+        "en": "Crossing the Chartreuse",
+        "de": "Chartreuse-Durchquerung",
+        "es": "Travesía de la Chartreuse",
+        "it": "Traversata della Chartreuse",
+        "pt": "Travessia da Chartreuse",
         "fr": "Traversée de la Chartreuse"
       },
       "descriptions": {
@@ -6744,9 +6747,9 @@
       "names": {
         "en": "GR 441 Chaîne des Puys",
         "de": "GR 441 Chaîne des Puys",
-        "es": "GR 441 Chaîne des Puys",
-        "it": "GR 441 Chaîne des Puys",
-        "pt": "GR 441 Chaîne des Puys",
+        "es": "GR 441 Cadena de los Puys",
+        "it": "GR 441 Catena dei Puys",
+        "pt": "GR 441 Cadeia dos Puys",
         "fr": "GR 441 Chaîne des Puys"
       }
     },
@@ -6810,11 +6813,11 @@
       "thumbnailWide": "library/images/it-tour-des-perics-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Tour des Pérics",
-        "de": "Tour des Pérics",
-        "es": "Tour des Pérics",
-        "it": "Tour des Pérics",
-        "pt": "Tour des Pérics",
+        "en": "Pérics Circuit",
+        "de": "Rund um die Pérics",
+        "es": "Vuelta a los Pérics",
+        "it": "Giro dei Pérics",
+        "pt": "Volta aos Pérics",
         "fr": "Tour des Pérics"
       }
     },
@@ -6890,11 +6893,11 @@
       "thumbnailWide": "library/images/it-5-jours-de-randonnee-sur-les-balcons-de-la-vanoise-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Balcons de la Vanoise",
-        "de": "Balcons de la Vanoise",
-        "es": "Balcons de la Vanoise",
-        "it": "Balcons de la Vanoise",
-        "pt": "Balcons de la Vanoise",
+        "en": "Vanoise Balcony Trails",
+        "de": "Balkonwege der Vanoise",
+        "es": "Balcones de la Vanoise",
+        "it": "Balconi della Vanoise",
+        "pt": "Balcões da Vanoise",
         "fr": "Balcons de la Vanoise"
       },
       "descriptions": {
@@ -6933,11 +6936,11 @@
       "thumbnailWide": "library/images/it-tour-des-pics-du-combeynot-et-de-laiguillette-du-lauzet-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Tour des Pics du Combeynot et de l'Aiguillette du Lauzet",
-        "de": "Tour des Pics du Combeynot et de l'Aiguillette du Lauzet",
-        "es": "Tour des Pics du Combeynot et de l'Aiguillette du Lauzet",
-        "it": "Tour des Pics du Combeynot et de l'Aiguillette du Lauzet",
-        "pt": "Tour des Pics du Combeynot et de l'Aiguillette du Lauzet",
+        "en": "Combeynot Peaks and Aiguillette du Lauzet Circuit",
+        "de": "Rund um die Combeynot-Gipfel und die Aiguillette du Lauzet",
+        "es": "Vuelta a los picos del Combeynot y la Aiguillette du Lauzet",
+        "it": "Giro dei picchi del Combeynot e dell'Aiguillette du Lauzet",
+        "pt": "Volta aos picos do Combeynot e à Aiguillette du Lauzet",
         "fr": "Tour des Pics du Combeynot et de l'Aiguillette du Lauzet"
       }
     },
@@ -7056,11 +7059,11 @@
       "thumbnailWide": "library/images/it-randonnee-sur-la-cote-bleue-une-introduction-aux-calanques-de-marseille-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Côte Bleue, calanques de Marseille",
-        "de": "Côte Bleue, calanques de Marseille",
-        "es": "Côte Bleue, calanques de Marseille",
-        "it": "Côte Bleue, calanques de Marseille",
-        "pt": "Côte Bleue, calanques de Marseille",
+        "en": "Côte Bleue, Marseille Calanques",
+        "de": "Côte Bleue, Calanques von Marseille",
+        "es": "Côte Bleue, calas de Marsella",
+        "it": "Côte Bleue, calanchi di Marsiglia",
+        "pt": "Côte Bleue, calanques de Marselha",
         "fr": "Côte Bleue, calanques de Marseille"
       }
     },
@@ -7231,11 +7234,11 @@
       "thumbnailWide": "library/images/it-tour-des-lacs-des-7-laux-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Tour des Lacs des 7 Laux",
-        "de": "Tour des Lacs des 7 Laux",
-        "es": "Tour des Lacs des 7 Laux",
-        "it": "Tour des Lacs des 7 Laux",
-        "pt": "Tour des Lacs des 7 Laux",
+        "en": "7 Laux Lakes Loop",
+        "de": "Rund um die Seen der 7 Laux",
+        "es": "Vuelta a los lagos de los 7 Laux",
+        "it": "Giro dei laghi dei 7 Laux",
+        "pt": "Volta aos lagos dos 7 Laux",
         "fr": "Tour des Lacs des 7 Laux"
       }
     },
@@ -7301,11 +7304,11 @@
       "thumbnailWide": "library/images/it-tour-des-fiz-38d507-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Tour des Fiz",
-        "de": "Tour des Fiz",
-        "es": "Tour des Fiz",
-        "it": "Tour des Fiz",
-        "pt": "Tour des Fiz",
+        "en": "Fiz Circuit",
+        "de": "Rund um die Fiz",
+        "es": "Vuelta a los Fiz",
+        "it": "Giro dei Fiz",
+        "pt": "Volta aos Fiz",
         "fr": "Tour des Fiz"
       }
     },
@@ -7409,11 +7412,11 @@
       "thumbnailWide": "library/images/it-tour-du-mont-pourri-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Tour du Mont Pourri",
-        "de": "Tour du Mont Pourri",
-        "es": "Tour du Mont Pourri",
-        "it": "Tour du Mont Pourri",
-        "pt": "Tour du Mont Pourri",
+        "en": "Mont Pourri Circuit",
+        "de": "Rund um den Mont Pourri",
+        "es": "Vuelta al Mont Pourri",
+        "it": "Giro del Mont Pourri",
+        "pt": "Volta ao Mont Pourri",
         "fr": "Tour du Mont Pourri"
       }
     },
@@ -7558,11 +7561,11 @@
       "thumbnailWide": "library/images/it-tour-des-cerces-en-3-jours-en-bivouac-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Tour des Cerces",
-        "de": "Tour des Cerces",
-        "es": "Tour des Cerces",
-        "it": "Tour des Cerces",
-        "pt": "Tour des Cerces",
+        "en": "Cerces Circuit",
+        "de": "Rund um die Cerces",
+        "es": "Vuelta a las Cerces",
+        "it": "Giro delle Cerces",
+        "pt": "Volta às Cerces",
         "fr": "Tour des Cerces"
       }
     },
@@ -7663,11 +7666,11 @@
       "thumbnailWide": "library/images/it-tour-du-mont-julioz-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Tour du Mont Julioz",
-        "de": "Tour du Mont Julioz",
-        "es": "Tour du Mont Julioz",
-        "it": "Tour du Mont Julioz",
-        "pt": "Tour du Mont Julioz",
+        "en": "Mont Julioz Circuit",
+        "de": "Rund um den Mont Julioz",
+        "es": "Vuelta al Mont Julioz",
+        "it": "Giro del Mont Julioz",
+        "pt": "Volta ao Mont Julioz",
         "fr": "Tour du Mont Julioz"
       }
     },
@@ -7742,11 +7745,11 @@
       "thumbnailWide": "library/images/it-tour-des-pics-de-la-font-sancte-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Tour des Pics de la Font Sancte",
-        "de": "Tour des Pics de la Font Sancte",
-        "es": "Tour des Pics de la Font Sancte",
-        "it": "Tour des Pics de la Font Sancte",
-        "pt": "Tour des Pics de la Font Sancte",
+        "en": "Font Sancte Peaks Circuit",
+        "de": "Rund um die Gipfel der Font Sancte",
+        "es": "Vuelta a los picos de la Font Sancte",
+        "it": "Giro dei picchi della Font Sancte",
+        "pt": "Volta aos picos da Font Sancte",
         "fr": "Tour des Pics de la Font Sancte"
       }
     },
@@ -7777,11 +7780,11 @@
       "thumbnailWide": "library/images/it-tour-du-lac-dannecy-en-paddle-bivouac-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Tour du lac d'Annecy",
-        "de": "Tour du lac d'Annecy",
-        "es": "Tour du lac d'Annecy",
-        "it": "Tour du lac d'Annecy",
-        "pt": "Tour du lac d'Annecy",
+        "en": "Lake Annecy Loop",
+        "de": "Rund um den Lac d'Annecy",
+        "es": "Vuelta al lago de Annecy",
+        "it": "Giro del lago di Annecy",
+        "pt": "Volta ao lago de Annecy",
         "fr": "Tour du lac d'Annecy"
       }
     },
@@ -7812,11 +7815,11 @@
       "thumbnailWide": "library/images/it-2-jours-de-randonnee-dans-les-monts-du-forez-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Monts du Forez",
+        "en": "Forez Mountains",
         "de": "Monts du Forez",
-        "es": "Monts du Forez",
-        "it": "Monts du Forez",
-        "pt": "Monts du Forez",
+        "es": "Montes del Forez",
+        "it": "Monti del Forez",
+        "pt": "Montes do Forez",
         "fr": "Monts du Forez"
       }
     },
@@ -7846,11 +7849,11 @@
       "thumbnailWide": "library/images/it-tour-de-lile-douessant-a-pied-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Tour de l'île d'Ouessant",
-        "de": "Tour de l'île d'Ouessant",
-        "es": "Tour de l'île d'Ouessant",
-        "it": "Tour de l'île d'Ouessant",
-        "pt": "Tour de l'île d'Ouessant",
+        "en": "Ushant Island Loop",
+        "de": "Rund um die Insel Ouessant",
+        "es": "Vuelta a la isla de Ouessant",
+        "it": "Giro dell'isola di Ouessant",
+        "pt": "Volta à ilha de Ouessant",
         "fr": "Tour de l'île d'Ouessant"
       }
     },
@@ -7882,11 +7885,11 @@
       "activityType": "hiking",
       "validated": true,
       "names": {
-        "en": "Tour de la Vallaisonnay",
-        "de": "Tour de la Vallaisonnay",
-        "es": "Tour de la Vallaisonnay",
-        "it": "Tour de la Vallaisonnay",
-        "pt": "Tour de la Vallaisonnay",
+        "en": "Vallaisonnay Circuit",
+        "de": "Rund um die Vallaisonnay",
+        "es": "Vuelta a la Vallaisonnay",
+        "it": "Giro della Vallaisonnay",
+        "pt": "Volta à Vallaisonnay",
         "fr": "Tour de la Vallaisonnay"
       },
       "descriptions": {
@@ -7960,11 +7963,11 @@
       "activityType": "hiking-mountain",
       "validated": true,
       "names": {
-        "en": "Tour de la Tête Noire",
-        "de": "Tour de la Tête Noire",
-        "es": "Tour de la Tête Noire",
-        "it": "Tour de la Tête Noire",
-        "pt": "Tour de la Tête Noire",
+        "en": "Tête Noire Circuit",
+        "de": "Rund um die Tête Noire",
+        "es": "Vuelta a la Tête Noire",
+        "it": "Giro della Tête Noire",
+        "pt": "Volta à Tête Noire",
         "fr": "Tour de la Tête Noire"
       }
     },
@@ -8112,11 +8115,11 @@
       "thumbnailWide": "library/images/it-tour-du-pic-du-mauberme-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Tour du pic du Maubermé",
-        "de": "Tour du pic du Maubermé",
-        "es": "Tour du pic du Maubermé",
-        "it": "Tour du pic du Maubermé",
-        "pt": "Tour du pic du Maubermé",
+        "en": "Pic du Maubermé Circuit",
+        "de": "Rund um den Pic du Maubermé",
+        "es": "Vuelta al Pic du Maubermé",
+        "it": "Giro del Pic du Maubermé",
+        "pt": "Volta ao Pic du Maubermé",
         "fr": "Tour du pic du Maubermé"
       }
     },
@@ -8147,11 +8150,11 @@
       "thumbnailWide": "library/images/it-traversee-des-domes-de-miage-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Traversée des Dômes de Miage",
-        "de": "Traversée des Dômes de Miage",
-        "es": "Traversée des Dômes de Miage",
-        "it": "Traversée des Dômes de Miage",
-        "pt": "Traversée des Dômes de Miage",
+        "en": "Dômes de Miage Traverse",
+        "de": "Überschreitung der Dômes de Miage",
+        "es": "Travesía de los Dômes de Miage",
+        "it": "Traversata dei Dômes de Miage",
+        "pt": "Travessia dos Dômes de Miage",
         "fr": "Traversée des Dômes de Miage"
       }
     },
@@ -8182,11 +8185,11 @@
       "activityType": "hiking-mountain",
       "validated": true,
       "names": {
-        "en": "Tour de l'Aiguillette du Lauzet",
-        "de": "Tour de l'Aiguillette du Lauzet",
-        "es": "Tour de l'Aiguillette du Lauzet",
-        "it": "Tour de l'Aiguillette du Lauzet",
-        "pt": "Tour de l'Aiguillette du Lauzet",
+        "en": "Aiguillette du Lauzet Circuit",
+        "de": "Rund um die Aiguillette du Lauzet",
+        "es": "Vuelta a la Aiguillette du Lauzet",
+        "it": "Giro dell'Aiguillette du Lauzet",
+        "pt": "Volta à Aiguillette du Lauzet",
         "fr": "Tour de l'Aiguillette du Lauzet"
       }
     },
@@ -8218,11 +8221,11 @@
       "thumbnailWide": "library/images/it-traversee-des-hauts-de-chartreuse-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Traversée des Hauts de Chartreuse",
-        "de": "Traversée des Hauts de Chartreuse",
-        "es": "Traversée des Hauts de Chartreuse",
-        "it": "Traversée des Hauts de Chartreuse",
-        "pt": "Traversée des Hauts de Chartreuse",
+        "en": "Crossing the Chartreuse Highlands",
+        "de": "Durchquerung der Hauts de Chartreuse",
+        "es": "Travesía de los altos de Chartreuse",
+        "it": "Traversata degli altopiani della Chartreuse",
+        "pt": "Travessia dos altos da Chartreuse",
         "fr": "Traversée des Hauts de Chartreuse"
       },
       "descriptions": {
@@ -8261,11 +8264,11 @@
       "activityType": "hiking-mountain",
       "validated": true,
       "names": {
-        "en": "Tour du Combeynot",
-        "de": "Tour du Combeynot",
-        "es": "Tour du Combeynot",
-        "it": "Tour du Combeynot",
-        "pt": "Tour du Combeynot",
+        "en": "Combeynot Circuit",
+        "de": "Rund um den Combeynot",
+        "es": "Vuelta al Combeynot",
+        "it": "Giro del Combeynot",
+        "pt": "Volta ao Combeynot",
         "fr": "Tour du Combeynot"
       }
     },
@@ -8331,11 +8334,11 @@
       "activityType": "hiking-mountain",
       "validated": true,
       "names": {
-        "en": "Tour de la Pointe des Cerces",
-        "de": "Tour de la Pointe des Cerces",
-        "es": "Tour de la Pointe des Cerces",
-        "it": "Tour de la Pointe des Cerces",
-        "pt": "Tour de la Pointe des Cerces",
+        "en": "Pointe des Cerces Circuit",
+        "de": "Rund um die Pointe des Cerces",
+        "es": "Vuelta a la Pointe des Cerces",
+        "it": "Giro della Pointe des Cerces",
+        "pt": "Volta à Pointe des Cerces",
         "fr": "Tour de la Pointe des Cerces"
       }
     },
@@ -8401,11 +8404,11 @@
       "activityType": "hiking-mountain",
       "validated": true,
       "names": {
-        "en": "Tour du Moucherotte",
-        "de": "Tour du Moucherotte",
-        "es": "Tour du Moucherotte",
-        "it": "Tour du Moucherotte",
-        "pt": "Tour du Moucherotte",
+        "en": "Moucherotte Circuit",
+        "de": "Rund um den Moucherotte",
+        "es": "Vuelta al Moucherotte",
+        "it": "Giro del Moucherotte",
+        "pt": "Volta ao Moucherotte",
         "fr": "Tour du Moucherotte"
       }
     },
@@ -8471,11 +8474,11 @@
       "activityType": "hiking-mountain",
       "validated": true,
       "names": {
-        "en": "Tour de l'Arcalod",
-        "de": "Tour de l'Arcalod",
-        "es": "Tour de l'Arcalod",
-        "it": "Tour de l'Arcalod",
-        "pt": "Tour de l'Arcalod",
+        "en": "Arcalod Circuit",
+        "de": "Rund um den Arcalod",
+        "es": "Vuelta al Arcalod",
+        "it": "Giro dell'Arcalod",
+        "pt": "Volta ao Arcalod",
         "fr": "Tour de l'Arcalod"
       }
     },
@@ -8506,11 +8509,11 @@
       "activityType": "hiking-mountain",
       "validated": true,
       "names": {
-        "en": "Tour de la Tête de la Cassille",
-        "de": "Tour de la Tête de la Cassille",
-        "es": "Tour de la Tête de la Cassille",
-        "it": "Tour de la Tête de la Cassille",
-        "pt": "Tour de la Tête de la Cassille",
+        "en": "Tête de la Cassille Circuit",
+        "de": "Rund um die Tête de la Cassille",
+        "es": "Vuelta a la Tête de la Cassille",
+        "it": "Giro della Tête de la Cassille",
+        "pt": "Volta à Tête de la Cassille",
         "fr": "Tour de la Tête de la Cassille"
       }
     },
@@ -8581,7 +8584,8 @@
         "it": "Néouvielle",
         "pt": "Néouvielle",
         "fr": "Néouvielle"
-      }
+      },
+      "activityType": "hiking-mountain"
     },
     {
       "id": "it-de-pradelles-a-fouzilhac",
@@ -9013,11 +9017,11 @@
       "activityType": "hiking-mountain",
       "validated": true,
       "names": {
-        "en": "Tour de la Pointe des Cerces",
-        "de": "Tour de la Pointe des Cerces",
-        "es": "Tour de la Pointe des Cerces",
-        "it": "Tour de la Pointe des Cerces",
-        "pt": "Tour de la Pointe des Cerces",
+        "en": "Pointe des Cerces Circuit",
+        "de": "Rund um die Pointe des Cerces",
+        "es": "Vuelta a la Pointe des Cerces",
+        "it": "Giro della Pointe des Cerces",
+        "pt": "Volta à Pointe des Cerces",
         "fr": "Tour de la Pointe des Cerces"
       }
     },
@@ -9320,11 +9324,11 @@
       "thumbnailWide": "library/images/it-week-end-randonnees-hivernales-en-vallee-de-valserine-monts-du-jura-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Vallée de Valserine (Monts du Jura)",
-        "de": "Vallée de Valserine (Monts du Jura)",
-        "es": "Vallée de Valserine (Monts du Jura)",
-        "it": "Vallée de Valserine (Monts du Jura)",
-        "pt": "Vallée de Valserine (Monts du Jura)",
+        "en": "Valserine Valley (Jura Mountains)",
+        "de": "Valserine-Tal (Juragebirge)",
+        "es": "Valle de la Valserine (montes del Jura)",
+        "it": "Valle della Valserine (monti del Giura)",
+        "pt": "Vale da Valserine (montes do Jura)",
         "fr": "Vallée de Valserine (Monts du Jura)"
       }
     },
@@ -9355,11 +9359,11 @@
       "thumbnailWide": "library/images/it-randonnees-dans-le-parc-naturel-des-volcans-dauvergne-431913-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Parc Naturel des Volcans d'Auvergne",
-        "de": "Parc Naturel des Volcans d'Auvergne",
-        "es": "Parc Naturel des Volcans d'Auvergne",
-        "it": "Parc Naturel des Volcans d'Auvergne",
-        "pt": "Parc Naturel des Volcans d'Auvergne",
+        "en": "Auvergne Volcanoes Nature Park",
+        "de": "Naturpark der Vulkane der Auvergne",
+        "es": "Parque Natural de los Volcanes de Auvernia",
+        "it": "Parco naturale dei vulcani d'Alvernia",
+        "pt": "Parque Natural dos Vulcões de Auvérnia",
         "fr": "Parc Naturel des Volcans d'Auvergne"
       }
     },
@@ -9888,11 +9892,11 @@
       "thumbnailWide": "library/images/it-traversee-de-la-croatie-a-pied-en-hiver-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Traversée de la Croatie",
-        "de": "Traversée de la Croatie",
-        "es": "Traversée de la Croatie",
-        "it": "Traversée de la Croatie",
-        "pt": "Traversée de la Croatie",
+        "en": "Crossing Croatia",
+        "de": "Kroatien-Durchquerung",
+        "es": "Travesía de Croacia",
+        "it": "Traversata della Croazia",
+        "pt": "Travessia da Croácia",
         "fr": "Traversée de la Croatie"
       }
     },
@@ -10065,7 +10069,7 @@
     },
     {
       "id": "it-nos-randonnees-au-landmannalaugar-13ae3a",
-      "name": "Landmannalaugar",
+      "name": "Fimmvörðuháls",
       "country": "IS",
       "difficulty": "modere",
       "daysTypical": 1,
@@ -10088,12 +10092,12 @@
       "thumbnailWide": "library/images/it-nos-randonnees-au-landmannalaugar-13ae3a-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Landmannalaugar",
-        "de": "Landmannalaugar",
-        "es": "Landmannalaugar",
-        "it": "Landmannalaugar",
-        "pt": "Landmannalaugar",
-        "fr": "Landmannalaugar"
+        "en": "Fimmvörðuháls",
+        "de": "Fimmvörðuháls",
+        "es": "Fimmvörðuháls",
+        "it": "Fimmvörðuháls",
+        "pt": "Fimmvörðuháls",
+        "fr": "Fimmvörðuháls"
       }
     },
     {
@@ -10336,18 +10340,17 @@
       "massif": "Alpes",
       "activityType": "hiking-mountain",
       "countries": [
-        "CH",
-        "FR"
+        "CH"
       ],
       "thumbnail": "library/images/it-tour-du-mont-rose-square.jpg",
       "thumbnailWide": "library/images/it-tour-du-mont-rose-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Tour du Mont Rose",
-        "de": "Tour du Mont Rose",
-        "es": "Tour du Mont Rose",
-        "it": "Tour du Mont Rose",
-        "pt": "Tour du Mont Rose",
+        "en": "Tour of Monte Rosa",
+        "de": "Monte-Rosa-Tour",
+        "es": "Tour del Monte Rosa",
+        "it": "Tour del Monte Rosa",
+        "pt": "Tour do Monte Rosa",
         "fr": "Tour du Mont Rose"
       }
     },
@@ -10729,11 +10732,11 @@
       "thumbnailWide": "library/images/it-grande-traversee-de-latlas-central-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Grande Traversée de l'Atlas central",
-        "de": "Grande Traversée de l'Atlas central",
-        "es": "Grande Traversée de l'Atlas central",
-        "it": "Grande Traversée de l'Atlas central",
-        "pt": "Grande Traversée de l'Atlas central",
+        "en": "Grand Traverse of the Central Atlas",
+        "de": "Große Durchquerung des Zentralen Atlas",
+        "es": "Gran travesía del Atlas central",
+        "it": "Grande traversata dell'Atlante centrale",
+        "pt": "Grande travessia do Atlas central",
         "fr": "Grande Traversée de l'Atlas central"
       }
     },
@@ -10932,11 +10935,11 @@
       "thumbnailWide": "library/images/it-traversee-du-jotunheimen-a-pied-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Traversée du Jotunheimen",
-        "de": "Traversée du Jotunheimen",
-        "es": "Traversée du Jotunheimen",
-        "it": "Traversée du Jotunheimen",
-        "pt": "Traversée du Jotunheimen",
+        "en": "Crossing Jotunheimen",
+        "de": "Jotunheimen-Durchquerung",
+        "es": "Travesía del Jotunheimen",
+        "it": "Traversata dello Jotunheimen",
+        "pt": "Travessia do Jotunheimen",
         "fr": "Traversée du Jotunheimen"
       }
     },
@@ -11056,11 +11059,11 @@
       "activityType": "hiking-mountain",
       "validated": true,
       "names": {
-        "en": "Tour du Manaslu",
-        "de": "Tour du Manaslu",
-        "es": "Tour du Manaslu",
-        "it": "Tour du Manaslu",
-        "pt": "Tour du Manaslu",
+        "en": "Manaslu Circuit",
+        "de": "Manaslu-Umrundung",
+        "es": "Circuito del Manaslu",
+        "it": "Giro del Manaslu",
+        "pt": "Circuito do Manaslu",
         "fr": "Tour du Manaslu"
       }
     },
@@ -11090,11 +11093,11 @@
       "thumbnailWide": "library/images/it-trek-des-3-cols-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Trek des 3 Cols",
-        "de": "Trek des 3 Cols",
-        "es": "Trek des 3 Cols",
-        "it": "Trek des 3 Cols",
-        "pt": "Trek des 3 Cols",
+        "en": "3 Passes Trek",
+        "de": "3-Pässe-Trek",
+        "es": "Trek de los 3 pasos",
+        "it": "Trekking dei 3 passi",
+        "pt": "Trek dos 3 passos",
         "fr": "Trek des 3 Cols"
       }
     },
@@ -11135,7 +11138,8 @@
         "it": "Trekking emblematico nel massiccio degli Annapurna in Nepal.",
         "pt": "Trekking emblemático no maciço dos Annapurnas, no Nepal.",
         "fr": "Trek emblématique du massif des Annapurnas au Népal."
-      }
+      },
+      "activityType": "hiking-mountain"
     },
     {
       "id": "it-khopra-ridge-trekking",
@@ -11329,11 +11333,11 @@
       "activityType": "hiking-mountain",
       "validated": true,
       "names": {
-        "en": "Tour de l’Ausangate à la Cordillère Huayhuash",
-        "de": "Tour de l’Ausangate à la Cordillère Huayhuash",
-        "es": "Tour de l’Ausangate à la Cordillère Huayhuash",
-        "it": "Tour de l’Ausangate à la Cordillère Huayhuash",
-        "pt": "Tour de l’Ausangate à la Cordillère Huayhuash",
+        "en": "Ausangate Circuit to Cordillera Huayhuash",
+        "de": "Von der Ausangate-Runde zur Cordillera Huayhuash",
+        "es": "Del circuito del Ausangate a la Cordillera Huayhuash",
+        "it": "Dal giro dell'Ausangate alla Cordillera Huayhuash",
+        "pt": "Do circuito do Ausangate à Cordilheira Huayhuash",
         "fr": "Tour de l’Ausangate à la Cordillère Huayhuash"
       }
     },
@@ -11394,11 +11398,11 @@
       "thumbnailWide": "library/images/it-trek-du-santa-cruz-en-4-jours-wide.jpg",
       "validated": true,
       "names": {
-        "en": "Trek du Santa Cruz",
-        "de": "Trek du Santa Cruz",
-        "es": "Trek du Santa Cruz",
-        "it": "Trek du Santa Cruz",
-        "pt": "Trek du Santa Cruz",
+        "en": "Santa Cruz Trek",
+        "de": "Santa-Cruz-Trek",
+        "es": "Trek de Santa Cruz",
+        "it": "Trekking del Santa Cruz",
+        "pt": "Trek de Santa Cruz",
         "fr": "Trek du Santa Cruz"
       }
     },
@@ -11754,7 +11758,6 @@
         -116.412688,
         37.153348
       ],
-      "nearestCity": "Type A 52' x 80' Tri Bar Target (Modified) MIL STD 150A (A15/15)",
       "county": "San Bernardino County",
       "regionName": "Californie",
       "activityType": "hiking",
