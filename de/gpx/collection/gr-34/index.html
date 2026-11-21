@@ -31,23 +31,12 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Google tag (gtag.js) — static <script> so Google's automated
-         tag-installation checker picks it up via plain HTML scan
-         (dynamic injection via createElement is invisible to static
-         scanners). The init call below is gated on `!isTauri()`, so the
-         macOS native shell never calls `gtag('config')` and therefore
-         transmits zero measurement data. The .js library itself does
-         load on Tauri startup (~one HTTPS request, no cookies, no
-         user info) — the /app/ "no telemetry" promise refers to GPX /
-         route data, which never leaves the device. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NFXR22FP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      if (!window.__TAURI_INTERNALS__ && !window.__TAURI__) {
-        gtag('js', new Date());
-        gtag('config', 'G-ECJHFXK6DY');
-      }
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord, Slack…). The
@@ -175,7 +164,7 @@
   <p class="seo-sub">8 Touren</p>
   <img class="seo-hero" src="/library/images/collection-gr-34-wide.jpg" width="1600" height="900" alt="GR 34" />
   <div class="seo-text"><p>All sections of GR 34 grouped together, ordered from longest to shortest.</p></div>
-  <ol class="seo-list"><li><a href="/de/gpx/gr-34-from-mont-saint-michel-to-saint-brieuc/">GR 34 vom Mont-Saint-Michel nach Saint-Brieuc</a> <small>246 km · +4.617 m</small></li><li><a href="/de/gpx/gr-34-from-morlaix-to-plouguerneau/">GR 34 von Morlaix nach Plouguerneau</a> <small>155 km</small></li><li><a href="/de/gpx/gr-34-from-plouguerneau-to-brest/">GR 34 von Plouguerneau nach Brest</a> <small>138 km · +2.882 m</small></li><li><a href="/de/gpx/gr-34-from-brest-to-douarnenez/">GR 34 von Brest nach Douarnenez</a> <small>122 km · +3.699 m</small></li><li><a href="/de/gpx/gr-34-le-pays-de-tregor-et-la-cote-de-granit-rose/">GR 34 le Pays de Trégor et la côte de Granit Rose</a> <small>121 km · +1.828 m</small></li><li><a href="/de/gpx/tour-de-la-cote-de-granit-rose-tro-breizh-gr-34-and-gr-34a/">Tour de la Côte de Granit Rose (Tro Breizh, GR 34 und GR 34A)</a> <small>105 km · +2.397 m</small></li><li><a href="/de/gpx/gr-34-on-the-goelo-coast/">GR 34 an der Goëlo-Küste</a> <small>101 km · +3.646 m</small></li><li><a href="/de/gpx/gr-34-from-lannion-to-morlaix/">GR 34 von Lannion nach Morlaix</a> <small>89 km · +2.268 m</small></li></ol>
+  <ol class="seo-list"><li><a href="/de/gpx/gr-34-from-mont-saint-michel-to-saint-brieuc/">GR 34 vom Mont-Saint-Michel nach Saint-Brieuc</a> <small>246 km · +4.617 m</small></li><li><a href="/de/gpx/gr-34-from-morlaix-to-plouguerneau/">GR 34 von Morlaix nach Plouguerneau</a> <small>155 km · +2.644 m</small></li><li><a href="/de/gpx/gr-34-from-plouguerneau-to-brest/">GR 34 von Plouguerneau nach Brest</a> <small>138 km · +2.882 m</small></li><li><a href="/de/gpx/gr-34-from-brest-to-douarnenez/">GR 34 von Brest nach Douarnenez</a> <small>122 km · +3.699 m</small></li><li><a href="/de/gpx/gr-34-le-pays-de-tregor-et-la-cote-de-granit-rose/">GR 34 le Pays de Trégor et la côte de Granit Rose</a> <small>121 km · +1.828 m</small></li><li><a href="/de/gpx/tour-de-la-cote-de-granit-rose-tro-breizh-gr-34-and-gr-34a/">Tour de la Côte de Granit Rose (Tro Breizh, GR 34 und GR 34A)</a> <small>105 km · +2.397 m</small></li><li><a href="/de/gpx/gr-34-on-the-goelo-coast/">GR 34 an der Goëlo-Küste</a> <small>101 km · +3.646 m</small></li><li><a href="/de/gpx/gr-34-from-lannion-to-morlaix/">GR 34 von Lannion nach Morlaix</a> <small>89 km · +2.268 m</small></li></ol>
   <nav class="seo-langs" aria-label="Language"><a href="/gpx/collection/gr-34/" hreflang="en" lang="en">EN</a><a href="/fr/gpx/collection/gr-34/" hreflang="fr" lang="fr">FR</a><span>DE</span><a href="/es/gpx/collection/gr-34/" hreflang="es" lang="es">ES</a><a href="/it/gpx/collection/gr-34/" hreflang="it" lang="it">IT</a><a href="/pt/gpx/collection/gr-34/" hreflang="pt" lang="pt">PT</a></nav>
 </aside>
     <div id="boot-splash" aria-hidden="true">

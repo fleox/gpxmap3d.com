@@ -31,23 +31,12 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Google tag (gtag.js) — static <script> so Google's automated
-         tag-installation checker picks it up via plain HTML scan
-         (dynamic injection via createElement is invisible to static
-         scanners). The init call below is gated on `!isTauri()`, so the
-         macOS native shell never calls `gtag('config')` and therefore
-         transmits zero measurement data. The .js library itself does
-         load on Tauri startup (~one HTTPS request, no cookies, no
-         user info) — the /app/ "no telemetry" promise refers to GPX /
-         route data, which never leaves the device. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NFXR22FP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      if (!window.__TAURI_INTERNALS__ && !window.__TAURI__) {
-        gtag('js', new Date());
-        gtag('config', 'G-ECJHFXK6DY');
-      }
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord, Slack…). The
@@ -182,7 +171,7 @@
   <dl class="seo-stats"><div><dt>Distância</dt><dd>85 km</dd></div><div><dt>Subida</dt><dd>8.326 m</dd></div><div><dt>Descida</dt><dd>8.422 m</dd></div><div><dt>Ponto mais alto</dt><dd>4.140 m</dd></div><div><dt>Duração</dt><dd>3 dias</dd></div><div><dt>Tipo</dt><dd>Linear</dd></div></dl>
   <div class="seo-text"><p>Trekking emblemático do maciço dos Annapurnas, no Nepal, o Santuário dos Annapurnas leva ao coração do circo glaciar rodeado pelos cumes da cordilheira. O traçado cobre cerca de 85 km em sentido único, com partida e chegada bastante próximas.</p><p>O perfil é muito acidentado: cerca de 8330 m de subida e 8420 m de descida, entre 1019 m e 4140 m de altitude. Os dados indicam três dias, um ritmo muito rápido para tanto desnível; a maioria dos caminhantes reserva mais tempo para se aclimatar.</p></div>
   
-  <h2>Mais percursos: Nepal</h2><ul class="seo-list"><li><a href="/pt/gpx/langtang-valley-and-sacred-lakes-of-gosainkund/">Vale do Langtang e Lagos sagrados de Gosainkund</a> <small>173 km · +14.822 m</small></li><li><a href="/pt/gpx/tour-du-manaslu/">Tour du Manaslu</a> <small>167 km · +17.498 m</small></li><li><a href="/pt/gpx/trek-des-3-cols/">Trek des 3 Cols</a> <small>130 km · +10.790 m</small></li><li><a href="/pt/gpx/khopra-ridge/">Khopra Ridge</a> <small>47 km · +4.093 m</small></li></ul>
+  <h2>Mais percursos: Nepal</h2><ul class="seo-list"><li><a href="/pt/gpx/langtang-valley-and-sacred-lakes-of-gosainkund/">Vale do Langtang e Lagos sagrados de Gosainkund</a> <small>173 km · +14.822 m</small></li><li><a href="/pt/gpx/tour-du-manaslu/">Tour du Manaslu</a> <small>167 km · +17.498 m</small></li><li><a href="/pt/gpx/trek-des-3-cols/">Trek des 3 Cols</a> <small>130 km · +10.460 m</small></li><li><a href="/pt/gpx/khopra-ridge/">Khopra Ridge</a> <small>47 km · +4.093 m</small></li></ul>
   <nav class="seo-langs" aria-label="Language"><a href="/gpx/annapurna-sanctuary/" hreflang="en" lang="en">EN</a><a href="/fr/gpx/annapurna-sanctuary/" hreflang="fr" lang="fr">FR</a><a href="/de/gpx/annapurna-sanctuary/" hreflang="de" lang="de">DE</a><a href="/es/gpx/annapurna-sanctuary/" hreflang="es" lang="es">ES</a><a href="/it/gpx/annapurna-sanctuary/" hreflang="it" lang="it">IT</a><span>PT</span></nav>
 </aside>
     <div id="boot-splash" aria-hidden="true">

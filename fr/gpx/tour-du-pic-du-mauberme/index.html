@@ -31,23 +31,12 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Google tag (gtag.js) — static <script> so Google's automated
-         tag-installation checker picks it up via plain HTML scan
-         (dynamic injection via createElement is invisible to static
-         scanners). The init call below is gated on `!isTauri()`, so the
-         macOS native shell never calls `gtag('config')` and therefore
-         transmits zero measurement data. The .js library itself does
-         load on Tauri startup (~one HTTPS request, no cookies, no
-         user info) — the /app/ "no telemetry" promise refers to GPX /
-         route data, which never leaves the device. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NFXR22FP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      if (!window.__TAURI_INTERNALS__ && !window.__TAURI__) {
-        gtag('js', new Date());
-        gtag('config', 'G-ECJHFXK6DY');
-      }
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord, Slack…). The
@@ -179,10 +168,10 @@
     <a class="seo-btn" href="/library/i-trekkings/tour-du-pic-du-mauberme.gpx" download>Télécharger le GPX</a>
     <button type="button" class="seo-btn" data-seo-action="copy" data-copied="Lien copié">Copier le lien</button>
   </div>
-  <dl class="seo-stats"><div><dt>Distance</dt><dd>29 km</dd></div><div><dt>Point culminant</dt><dd>2 869 m</dd></div><div><dt>Type</dt><dd>Boucle</dd></div></dl>
-  <div class="seo-text"><p>Le Tour du pic du Maubermé est une boucle de randonnée en montagne d&#39;environ 29 km qui part du secteur de Sentein, en Ariège, au cœur du Couserans. Le pic du Maubermé se dresse sur la frontière franco-espagnole, et l&#39;itinéraire passe d&#39;un versant à l&#39;autre des Pyrénées.</p><p>Le point culminant du tracé approche les 2 870 m, ce qui en fait un parcours de haute montagne. Sur une telle distance et à ces altitudes, il faut compter avec une journée longue et engagée, à préparer avec soin selon son niveau et l&#39;état du terrain.</p></div>
+  <dl class="seo-stats"><div><dt>Distance</dt><dd>29 km</dd></div><div><dt>Dénivelé +</dt><dd>2 530 m</dd></div><div><dt>Dénivelé −</dt><dd>2 532 m</dd></div><div><dt>Point culminant</dt><dd>2 869 m</dd></div><div><dt>Type</dt><dd>Boucle</dd></div></dl>
+  <div class="seo-text"><p>Le Tour du pic du Maubermé est une boucle de randonnée en montagne d&#39;environ 29 km qui part du secteur de Sentein, en Ariège, au cœur du Couserans. Le pic du Maubermé se dresse sur la frontière franco-espagnole, et l&#39;itinéraire passe d&#39;un versant à l&#39;autre des Pyrénées.</p><p>Le point culminant du tracé approche les 2 870 m, ce qui en fait un parcours de haute montagne. Sur une telle distance, avec quelque 2 530 m de dénivelé positif, et à ces altitudes, il faut compter avec une journée longue et engagée, à préparer avec soin selon son niveau et l&#39;état du terrain.</p></div>
   
-  <h2>Autres itinéraires : France</h2><ul class="seo-list"><li><a href="/fr/gpx/from-the-pyrenees-to-the-alps/">Des Pyrénées aux Alpes</a> <small>1 092 km · +39 452 m</small></li><li><a href="/fr/gpx/gr-7-crossing-of-the-massif-central-via-the-parks/">GR 7 Traversée du Massif Central par les Parcs</a> <small>772 km · +29 360 m</small></li><li><a href="/fr/gpx/pyrenean-high-route/">Haute Route Pyrénéenne</a> <small>767 km · +43 767 m</small></li><li><a href="/fr/gpx/gr-10-from-cauterets-to-banyuls-sur-mer/">GR 10 de Cauterets à Banyuls-sur-Mer</a> <small>596 km · +43 221 m</small></li><li><a href="/fr/gpx/from-the-hills-and-slopes-of-arcachon-to-luchon/">Du cols et coteaux d&#39;Arcachon à Luchon</a> <small>524 km · +9 625 m</small></li><li><a href="/fr/gpx/le-tour-de-la-manche/">Le Tour de la Manche</a> <small>456 km</small></li><li><a href="/fr/gpx/gr-51-from-marseille-to-nice/">GR 51, de Marseille à Nice</a> <small>414 km · +17 500 m</small></li><li><a href="/fr/gpx/la-meuse-eurovelo-19/">La Meuse, EuroVelo 19</a> <small>387 km · +4 318 m</small></li></ul>
+  <h2>Autres itinéraires : France</h2><ul class="seo-list"><li><a href="/fr/gpx/from-the-pyrenees-to-the-alps/">Des Pyrénées aux Alpes</a> <small>1 092 km · +39 452 m</small></li><li><a href="/fr/gpx/gr-7-crossing-of-the-massif-central-via-the-parks/">GR 7 Traversée du Massif Central par les Parcs</a> <small>772 km · +29 360 m</small></li><li><a href="/fr/gpx/pyrenean-high-route/">Haute Route Pyrénéenne</a> <small>767 km · +43 767 m</small></li><li><a href="/fr/gpx/gr-10-from-cauterets-to-banyuls-sur-mer/">GR 10 de Cauterets à Banyuls-sur-Mer</a> <small>596 km · +43 221 m</small></li><li><a href="/fr/gpx/from-the-hills-and-slopes-of-arcachon-to-luchon/">Du cols et coteaux d&#39;Arcachon à Luchon</a> <small>524 km · +9 625 m</small></li><li><a href="/fr/gpx/le-tour-de-la-manche/">Le Tour de la Manche</a> <small>456 km · +5 135 m</small></li><li><a href="/fr/gpx/gr-51-from-marseille-to-nice/">GR 51, de Marseille à Nice</a> <small>414 km · +17 500 m</small></li><li><a href="/fr/gpx/la-meuse-eurovelo-19/">La Meuse, EuroVelo 19</a> <small>387 km · +4 318 m</small></li></ul>
   <nav class="seo-langs" aria-label="Language"><a href="/gpx/tour-du-pic-du-mauberme/" hreflang="en" lang="en">EN</a><span>FR</span><a href="/de/gpx/tour-du-pic-du-mauberme/" hreflang="de" lang="de">DE</a><a href="/es/gpx/tour-du-pic-du-mauberme/" hreflang="es" lang="es">ES</a><a href="/it/gpx/tour-du-pic-du-mauberme/" hreflang="it" lang="it">IT</a><a href="/pt/gpx/tour-du-pic-du-mauberme/" hreflang="pt" lang="pt">PT</a></nav>
 </aside>
     <div id="boot-splash" aria-hidden="true">

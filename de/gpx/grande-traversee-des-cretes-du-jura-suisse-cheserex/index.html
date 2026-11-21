@@ -31,23 +31,12 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Google tag (gtag.js) — static <script> so Google's automated
-         tag-installation checker picks it up via plain HTML scan
-         (dynamic injection via createElement is invisible to static
-         scanners). The init call below is gated on `!isTauri()`, so the
-         macOS native shell never calls `gtag('config')` and therefore
-         transmits zero measurement data. The .js library itself does
-         load on Tauri startup (~one HTTPS request, no cookies, no
-         user info) — the /app/ "no telemetry" promise refers to GPX /
-         route data, which never leaves the device. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NFXR22FP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      if (!window.__TAURI_INTERNALS__ && !window.__TAURI__) {
-        gtag('js', new Date());
-        gtag('config', 'G-ECJHFXK6DY');
-      }
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord, Slack…). The
@@ -182,7 +171,7 @@
   <dl class="seo-stats"><div><dt>Strecke</dt><dd>23 km</dd></div><div><dt>Aufstieg</dt><dd>645 m</dd></div><div><dt>Abstieg</dt><dd>1.375 m</dd></div><div><dt>Höchster Punkt</dt><dd>1.678 m</dd></div><div><dt>Typ</dt><dd>Streckentour</dd></div></dl>
   <div class="seo-text"><p>Auf dieser Etappe des Jura-Höhenwegs (Grande traversée des Crêtes du Jura suisse) erreicht die Route rund 1.680 m, bevor sie die Jurakämme verlässt und bei Chéserex im Bezirk Nyon in Richtung Genferseebecken absteigt.</p><p>Der etwa 23 km lange Abschnitt ist eine Streckenwanderung mit klarer Tendenz nach unten: nur rund 650 Höhenmeter im Aufstieg, aber fast 1.380 m im Abstieg, bis hinunter auf etwa 430 m. Hier sind eher die Knie als die Kondition gefordert, wenn der Weg von den Höhen des Waadtländer Juras zum Genfersee hinunterführt.</p></div>
   
-  <h2>Weitere Touren: Schweiz</h2><ul class="seo-list"><li><a href="/de/gpx/eurovelo-15-the-rhine-route/">EuroVelo 15, der Rheinradweg</a> <small>1.513 km · +13.548 m</small></li><li><a href="/de/gpx/eurovelo-17-from-annecy-to-the-source-of-the-rhone/">EuroVelo 17 von Annecy zur Rhônequelle</a> <small>410 km · +6.690 m</small></li><li><a href="/de/gpx/glacier-bike-tour-between-st-moritz-and-zermatt/">Glacier Bike Tour zwischen St-Moritz und Zermatt</a> <small>379 km · +10.157 m</small></li><li><a href="/de/gpx/grande-traversee-des-cretes-du-jura-suisse-jura-hohenweg/">Grande traversée des Crêtes du Jura suisse (Jura Hohenweg)</a> <small>320 km · +17.587 m</small></li><li><a href="/de/gpx/along-the-rhine-from-basel-to-bregenz/">Am Rhein entlang, von Basel nach Bregenz</a> <small>210 km · +3.089 m</small></li><li><a href="/de/gpx/lake-geneva-kayak-tour/">Kajaktour um den Genfersee</a> <small>166 km</small></li><li><a href="/de/gpx/tour-des-lacs-de-neuchatel-bienne-et-morat/">Tour des lacs de Neuchâtel, Bienne et Morat</a> <small>165 km · +737 m</small></li><li><a href="/de/gpx/tour-des-combins/">Tour des Combins</a> <small>99 km · +7.076 m</small></li></ul>
+  <h2>Weitere Touren: Schweiz</h2><ul class="seo-list"><li><a href="/de/gpx/eurovelo-15-the-rhine-route/">EuroVelo 15, der Rheinradweg</a> <small>1.513 km · +13.548 m</small></li><li><a href="/de/gpx/eurovelo-17-from-annecy-to-the-source-of-the-rhone/">EuroVelo 17 von Annecy zur Rhônequelle</a> <small>410 km · +6.690 m</small></li><li><a href="/de/gpx/glacier-bike-tour-between-st-moritz-and-zermatt/">Glacier Bike Tour zwischen St-Moritz und Zermatt</a> <small>379 km · +10.157 m</small></li><li><a href="/de/gpx/grande-traversee-des-cretes-du-jura-suisse-jura-hohenweg/">Grande traversée des Crêtes du Jura suisse (Jura Hohenweg)</a> <small>320 km · +17.587 m</small></li><li><a href="/de/gpx/along-the-rhine-from-basel-to-bregenz/">Am Rhein entlang, von Basel nach Bregenz</a> <small>210 km · +3.089 m</small></li><li><a href="/de/gpx/lake-geneva-kayak-tour/">Kajaktour um den Genfersee</a> <small>166 km</small></li><li><a href="/de/gpx/tour-des-lacs-de-neuchatel-bienne-et-morat/">Tour des lacs de Neuchâtel, Bienne et Morat</a> <small>165 km · +737 m</small></li><li><a href="/de/gpx/tour-des-combins/">Tour des Combins</a> <small>99 km · +6.456 m</small></li></ul>
   <nav class="seo-langs" aria-label="Language"><a href="/gpx/grande-traversee-des-cretes-du-jura-suisse-cheserex/" hreflang="en" lang="en">EN</a><a href="/fr/gpx/grande-traversee-des-cretes-du-jura-suisse-cheserex/" hreflang="fr" lang="fr">FR</a><span>DE</span><a href="/es/gpx/grande-traversee-des-cretes-du-jura-suisse-cheserex/" hreflang="es" lang="es">ES</a><a href="/it/gpx/grande-traversee-des-cretes-du-jura-suisse-cheserex/" hreflang="it" lang="it">IT</a><a href="/pt/gpx/grande-traversee-des-cretes-du-jura-suisse-cheserex/" hreflang="pt" lang="pt">PT</a></nav>
 </aside>
     <div id="boot-splash" aria-hidden="true">

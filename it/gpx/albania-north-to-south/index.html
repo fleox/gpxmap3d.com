@@ -31,23 +31,12 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Google tag (gtag.js) — static <script> so Google's automated
-         tag-installation checker picks it up via plain HTML scan
-         (dynamic injection via createElement is invisible to static
-         scanners). The init call below is gated on `!isTauri()`, so the
-         macOS native shell never calls `gtag('config')` and therefore
-         transmits zero measurement data. The .js library itself does
-         load on Tauri startup (~one HTTPS request, no cookies, no
-         user info) — the /app/ "no telemetry" promise refers to GPX /
-         route data, which never leaves the device. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NFXR22FP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      if (!window.__TAURI_INTERNALS__ && !window.__TAURI__) {
-        gtag('js', new Date());
-        gtag('config', 'G-ECJHFXK6DY');
-      }
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord, Slack…). The
@@ -179,7 +168,7 @@
     <a class="seo-btn" href="/library/i-trekkings/randonnee-en-albanie-du-nord-au-sud-1f5019.gpx" download>Scarica il GPX</a>
     <button type="button" class="seo-btn" data-seo-action="copy" data-copied="Link copiato">Copia link</button>
   </div>
-  <dl class="seo-stats"><div><dt>Distanza</dt><dd>386 km</dd></div><div><dt>Dislivello +</dt><dd>9035 m</dd></div><div><dt>Dislivello −</dt><dd>9758 m</dd></div><div><dt>Punto più alto</dt><dd>1512 m</dd></div><div><dt>Durata</dt><dd>15 giorni</dd></div><div><dt>Tipo</dt><dd>Traversata</dd></div></dl>
+  <dl class="seo-stats"><div><dt>Distanza</dt><dd>386 km</dd></div><div><dt>Dislivello +</dt><dd>9034 m</dd></div><div><dt>Dislivello −</dt><dd>9758 m</dd></div><div><dt>Punto più alto</dt><dd>1512 m</dd></div><div><dt>Durata</dt><dd>15 giorni</dd></div><div><dt>Tipo</dt><dd>Traversata</dd></div></dl>
   <div class="seo-text"><p>Questo tracciato copre la lunga parte meridionale di una traversata dell&#39;Albania da nord a sud: circa 386 km a piedi, solo andata, fino a oltrepassare il confine con la Grecia. Attraversa la prefettura di Argirocastro, passando nei pressi di Petran, e richiede di solito una quindicina di giorni.</p><p>La fatica si accumula tappa dopo tappa, con circa 9.000 m di dislivello positivo e quasi 9.760 m in discesa. Il punto più alto tocca 1.512 m: si resta in media montagna, ma salite e discese si susseguono senza sosta nel sud collinare e montuoso del paese, verso la frontiera greca.</p></div>
   
   <h2>Altri percorsi: Albania</h2><ul class="seo-list"><li><a href="/it/gpx/albania-north-to-south-118-km/">Albania da Nord a Sud</a> <small>118 km · +4254 m</small></li><li><a href="/it/gpx/albania-north-to-south-milot/">Albania da Nord a Sud</a> <small>77 km · +2037 m</small></li><li><a href="/it/gpx/albania-north-to-south-ana-e-malit/">Albania da nord a sud</a> <small>20 km · +542 m</small></li></ul>

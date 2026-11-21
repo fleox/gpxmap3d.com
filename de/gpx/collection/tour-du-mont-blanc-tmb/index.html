@@ -31,23 +31,12 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Google tag (gtag.js) — static <script> so Google's automated
-         tag-installation checker picks it up via plain HTML scan
-         (dynamic injection via createElement is invisible to static
-         scanners). The init call below is gated on `!isTauri()`, so the
-         macOS native shell never calls `gtag('config')` and therefore
-         transmits zero measurement data. The .js library itself does
-         load on Tauri startup (~one HTTPS request, no cookies, no
-         user info) — the /app/ "no telemetry" promise refers to GPX /
-         route data, which never leaves the device. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NFXR22FP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      if (!window.__TAURI_INTERNALS__ && !window.__TAURI__) {
-        gtag('js', new Date());
-        gtag('config', 'G-ECJHFXK6DY');
-      }
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord, Slack…). The
@@ -175,7 +164,7 @@
   <p class="seo-sub">8 Touren</p>
   <img class="seo-hero" src="/library/images/collection-tour-du-mont-blanc-wide.jpg" width="1600" height="900" alt="Tour du Mont-Blanc (TMB)" />
   <div class="seo-text"><p>Einer der ikonischsten Treks Europas: eine internationale Rundwanderung von rund 170 km um das Mont-Blanc-Massiv zwischen Frankreich, Italien und der Schweiz, in 10 bis 12 Tagen. Diese Sammlung vereint die Hauptroute und die 7 offiziellen Varianten, mit denen sich die Strecke individuell gestalten lässt (Fenêtre d&#39;Arpette, Col des Fours, Col de Tricot, Tête Bernarda, Grands, Tour, Vallorcine).</p></div>
-  <ol class="seo-list"><li><a href="/de/gpx/tour-du-mont-blanc-main-route/">Tour du Mont-Blanc — Hauptroute</a> <small>160 km · +12.019 m</small></li><li><a href="/de/gpx/tour-du-mont-blanc-arpette-window-variant/">Tour du Mont-Blanc — Variante über das Fenster von Arpette</a> <small>9,3 km · +1.073 m</small></li><li><a href="/de/gpx/tour-du-mont-blanc-col-des-fours-variant/">Tour du Mont-Blanc — Variante über den Col des Fours</a> <small>6,4 km · +234 m</small></li><li><a href="/de/gpx/tour-du-mont-blanc-col-de-tricot-variant/">Tour du Mont-Blanc — Variante über den Col de Tricot</a> <small>13 km · +947 m</small></li><li><a href="/de/gpx/tour-du-mont-blanc-tete-bernarda-variant/">Tour du Mont-Blanc — Variante der Tête Bernarda</a> <small>13 km · +801 m</small></li><li><a href="/de/gpx/tour-du-mont-blanc-grands-variant/">Tour du Mont-Blanc — Grands-Variante</a> <small>8,7 km · +1.215 m</small></li><li><a href="/de/gpx/tour-du-mont-blanc-tour-variant/">Tour du Mont-Blanc — Tour-Variante</a> <small>5,8 km · +846 m</small></li><li><a href="/de/gpx/tour-du-mont-blanc-vallorcine-variant/">Tour du Mont-Blanc — Variante von Vallorcine</a> <small>14 km · +1.147 m</small></li></ol>
+  <ol class="seo-list"><li><a href="/de/gpx/tour-du-mont-blanc-main-route/">Tour du Mont-Blanc — Hauptroute</a> <small>160 km · +12.019 m</small></li><li><a href="/de/gpx/tour-du-mont-blanc-arpette-window-variant/">Tour du Mont-Blanc — Variante über das Fenster von Arpette</a> <small>9,3 km · +1.073 m</small></li><li><a href="/de/gpx/tour-du-mont-blanc-col-des-fours-variant/">Tour du Mont-Blanc — Variante über den Col des Fours</a> <small>6,4 km · +234 m</small></li><li><a href="/de/gpx/tour-du-mont-blanc-col-de-tricot-variant/">Tour du Mont-Blanc — Variante über den Col de Tricot</a> <small>13 km · +947 m</small></li><li><a href="/de/gpx/tour-du-mont-blanc-tete-bernarda-variant/">Tour du Mont-Blanc — Variante der Tête Bernarda</a> <small>13 km · +792 m</small></li><li><a href="/de/gpx/tour-du-mont-blanc-grands-variant/">Tour du Mont-Blanc — Grands-Variante</a> <small>8,7 km · +1.215 m</small></li><li><a href="/de/gpx/tour-du-mont-blanc-tour-variant/">Tour du Mont-Blanc — Tour-Variante</a> <small>5,8 km · +846 m</small></li><li><a href="/de/gpx/tour-du-mont-blanc-vallorcine-variant/">Tour du Mont-Blanc — Variante von Vallorcine</a> <small>14 km · +1.147 m</small></li></ol>
   <nav class="seo-langs" aria-label="Language"><a href="/gpx/collection/tour-du-mont-blanc-tmb/" hreflang="en" lang="en">EN</a><a href="/fr/gpx/collection/tour-du-mont-blanc-tmb/" hreflang="fr" lang="fr">FR</a><span>DE</span><a href="/es/gpx/collection/tour-du-mont-blanc-tmb/" hreflang="es" lang="es">ES</a><a href="/it/gpx/collection/tour-du-mont-blanc-tmb/" hreflang="it" lang="it">IT</a><a href="/pt/gpx/collection/tour-du-mont-blanc-tmb/" hreflang="pt" lang="pt">PT</a></nav>
 </aside>
     <div id="boot-splash" aria-hidden="true">

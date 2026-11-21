@@ -31,23 +31,12 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Google tag (gtag.js) — static <script> so Google's automated
-         tag-installation checker picks it up via plain HTML scan
-         (dynamic injection via createElement is invisible to static
-         scanners). The init call below is gated on `!isTauri()`, so the
-         macOS native shell never calls `gtag('config')` and therefore
-         transmits zero measurement data. The .js library itself does
-         load on Tauri startup (~one HTTPS request, no cookies, no
-         user info) — the /app/ "no telemetry" promise refers to GPX /
-         route data, which never leaves the device. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NFXR22FP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      if (!window.__TAURI_INTERNALS__ && !window.__TAURI__) {
-        gtag('js', new Date());
-        gtag('config', 'G-ECJHFXK6DY');
-      }
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord, Slack…). The
@@ -182,7 +171,7 @@
   <dl class="seo-stats"><div><dt>Distance</dt><dd>47 km</dd></div><div><dt>Ascent</dt><dd>4,093 m</dd></div><div><dt>Descent</dt><dd>4,115 m</dd></div><div><dt>Highest point</dt><dd>3,684 m</dd></div><div><dt>Duration</dt><dd>2 days</dd></div><div><dt>Route type</dt><dd>One-way</dd></div></dl>
   <div class="seo-text"><p>Less known than the area&#39;s big classics, Khopra Ridge lies in the Annapurna region of Gandaki Province, Nepal, in the Myagdi district. This 46.5 km mountain trek runs one-way, over two days according to the track data.</p><p>Altitude ranges from 2,000 m to 3,684 m, with roughly 4,090 m of ascent and the same in descent. More than 2,000 m of climbing a day is a very brisk pace, and spreading it out further is a reasonable option.</p></div>
   
-  <h2>More routes in Nepal</h2><ul class="seo-list"><li><a href="/gpx/langtang-valley-and-sacred-lakes-of-gosainkund/">Langtang Valley and Sacred Lakes of Gosainkund</a> <small>173 km · +14,822 m</small></li><li><a href="/gpx/tour-du-manaslu/">Tour du Manaslu</a> <small>167 km · +17,498 m</small></li><li><a href="/gpx/trek-des-3-cols/">Trek des 3 Cols</a> <small>130 km · +10,790 m</small></li><li><a href="/gpx/annapurna-sanctuary/">Annapurna Sanctuary</a> <small>85 km · +8,326 m</small></li></ul>
+  <h2>More routes in Nepal</h2><ul class="seo-list"><li><a href="/gpx/langtang-valley-and-sacred-lakes-of-gosainkund/">Langtang Valley and Sacred Lakes of Gosainkund</a> <small>173 km · +14,822 m</small></li><li><a href="/gpx/tour-du-manaslu/">Tour du Manaslu</a> <small>167 km · +17,498 m</small></li><li><a href="/gpx/trek-des-3-cols/">Trek des 3 Cols</a> <small>130 km · +10,460 m</small></li><li><a href="/gpx/annapurna-sanctuary/">Annapurna Sanctuary</a> <small>85 km · +8,326 m</small></li></ul>
   <nav class="seo-langs" aria-label="Language"><span>EN</span><a href="/fr/gpx/khopra-ridge/" hreflang="fr" lang="fr">FR</a><a href="/de/gpx/khopra-ridge/" hreflang="de" lang="de">DE</a><a href="/es/gpx/khopra-ridge/" hreflang="es" lang="es">ES</a><a href="/it/gpx/khopra-ridge/" hreflang="it" lang="it">IT</a><a href="/pt/gpx/khopra-ridge/" hreflang="pt" lang="pt">PT</a></nav>
 </aside>
     <div id="boot-splash" aria-hidden="true">

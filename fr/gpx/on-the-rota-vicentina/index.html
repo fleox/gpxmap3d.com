@@ -31,23 +31,12 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Google tag (gtag.js) — static <script> so Google's automated
-         tag-installation checker picks it up via plain HTML scan
-         (dynamic injection via createElement is invisible to static
-         scanners). The init call below is gated on `!isTauri()`, so the
-         macOS native shell never calls `gtag('config')` and therefore
-         transmits zero measurement data. The .js library itself does
-         load on Tauri startup (~one HTTPS request, no cookies, no
-         user info) — the /app/ "no telemetry" promise refers to GPX /
-         route data, which never leaves the device. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NFXR22FP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      if (!window.__TAURI_INTERNALS__ && !window.__TAURI__) {
-        gtag('js', new Date());
-        gtag('config', 'G-ECJHFXK6DY');
-      }
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord, Slack…). The
@@ -179,8 +168,8 @@
     <a class="seo-btn" href="/library/i-trekkings/randonnee-sur-la-rota-vicentina.gpx" download>Télécharger le GPX</a>
     <button type="button" class="seo-btn" data-seo-action="copy" data-copied="Lien copié">Copier le lien</button>
   </div>
-  <dl class="seo-stats"><div><dt>Distance</dt><dd>137 km</dd></div><div><dt>Durée</dt><dd>5 jours</dd></div><div><dt>Type</dt><dd>Itinéraire</dd></div></dl>
-  <div class="seo-text"><p>La Rota Vicentina est un réseau de sentiers qui longe la côte sud-ouest du Portugal, à travers l&#39;Alentejo jusqu&#39;à l&#39;Algarve. Cette trace en suit une portion d&#39;environ 137 km dans le district de Beja, autour d&#39;Odemira.</p><p>L&#39;itinéraire est linéaire et se parcourt généralement en cinq jours. L&#39;altitude reste modeste, le point le plus haut ne dépassant pas 294 m, mais le relief côtier impose de nombreuses petites montées et descentes qui rendent les journées plus physiques que le profil ne le laisse croire.</p></div>
+  <dl class="seo-stats"><div><dt>Distance</dt><dd>137 km</dd></div><div><dt>Dénivelé +</dt><dd>2 568 m</dd></div><div><dt>Dénivelé −</dt><dd>2 604 m</dd></div><div><dt>Point culminant</dt><dd>294 m</dd></div><div><dt>Durée</dt><dd>5 jours</dd></div><div><dt>Type</dt><dd>Itinéraire</dd></div></dl>
+  <div class="seo-text"><p>La Rota Vicentina est un réseau de sentiers qui longe la côte sud-ouest du Portugal, à travers l&#39;Alentejo jusqu&#39;à l&#39;Algarve. Cette trace en suit une portion d&#39;environ 137 km dans le district de Beja, autour d&#39;Odemira.</p><p>L&#39;itinéraire est linéaire et se parcourt généralement en cinq jours. L&#39;altitude reste modeste, le point le plus haut ne dépassant pas 294 m, mais le relief côtier impose de nombreuses petites montées et descentes, environ 2 570 m de dénivelé positif au total, qui rendent les journées plus physiques que le profil ne le laisse croire.</p></div>
   
   
   <nav class="seo-langs" aria-label="Language"><a href="/gpx/on-the-rota-vicentina/" hreflang="en" lang="en">EN</a><span>FR</span><a href="/de/gpx/on-the-rota-vicentina/" hreflang="de" lang="de">DE</a><a href="/es/gpx/on-the-rota-vicentina/" hreflang="es" lang="es">ES</a><a href="/it/gpx/on-the-rota-vicentina/" hreflang="it" lang="it">IT</a><a href="/pt/gpx/on-the-rota-vicentina/" hreflang="pt" lang="pt">PT</a></nav>

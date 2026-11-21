@@ -31,23 +31,12 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Google tag (gtag.js) — static <script> so Google's automated
-         tag-installation checker picks it up via plain HTML scan
-         (dynamic injection via createElement is invisible to static
-         scanners). The init call below is gated on `!isTauri()`, so the
-         macOS native shell never calls `gtag('config')` and therefore
-         transmits zero measurement data. The .js library itself does
-         load on Tauri startup (~one HTTPS request, no cookies, no
-         user info) — the /app/ "no telemetry" promise refers to GPX /
-         route data, which never leaves the device. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NFXR22FP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      if (!window.__TAURI_INTERNALS__ && !window.__TAURI__) {
-        gtag('js', new Date());
-        gtag('config', 'G-ECJHFXK6DY');
-      }
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord, Slack…). The
@@ -182,7 +171,7 @@
   <dl class="seo-stats"><div><dt>Distancia</dt><dd>49 km</dd></div><div><dt>Desnivel +</dt><dd>3124 m</dd></div><div><dt>Desnivel −</dt><dd>3005 m</dd></div><div><dt>Punto más alto</dt><dd>2602 m</dd></div><div><dt>Duración</dt><dd>2 días</dd></div><div><dt>Tipo</dt><dd>Circular</dd></div></dl>
   <div class="seo-text"><p>En los Pirineos Orientales, el Tour des Pérics es un circuito de alta montaña de unos 49 km que sale de la zona de Angoustrine-Villeneuve-des-Escaldes, en la Cerdaña. Debe su nombre a los Pérics, cumbres del Pirineo catalán.</p><p>Suele hacerse en dos días. El recorrido nunca baja de 1.884 m y sube hasta 2.602 m, con unos 3.120 m de desnivel positivo, más de 1.500 m de subida diaria. Una ruta íntegramente en altura que exige buena aclimatación y una sólida forma física.</p></div>
   
-  <h2>Más rutas: Francia</h2><ul class="seo-list"><li><a href="/es/gpx/from-the-pyrenees-to-the-alps/">De los Pirineos a los Alpes</a> <small>1092 km · +39.452 m</small></li><li><a href="/es/gpx/gr-7-crossing-of-the-massif-central-via-the-parks/">GR 7 Travesía del Macizo Central por los Parques</a> <small>772 km · +29.360 m</small></li><li><a href="/es/gpx/pyrenean-high-route/">Haute Route Pyrénéenne</a> <small>767 km · +43.767 m</small></li><li><a href="/es/gpx/gr-10-from-cauterets-to-banyuls-sur-mer/">GR 10 de Cauterets a Banyuls-sur-Mer</a> <small>596 km · +43.221 m</small></li><li><a href="/es/gpx/from-the-hills-and-slopes-of-arcachon-to-luchon/">De los collados y colinas de Arcachon a Luchon</a> <small>524 km · +9625 m</small></li><li><a href="/es/gpx/le-tour-de-la-manche/">Le Tour de la Manche</a> <small>456 km</small></li><li><a href="/es/gpx/gr-51-from-marseille-to-nice/">GR 51, de Marsella a Niza</a> <small>414 km · +17.500 m</small></li><li><a href="/es/gpx/la-meuse-eurovelo-19/">La Meuse, EuroVelo 19</a> <small>387 km · +4318 m</small></li></ul>
+  <h2>Más rutas: Francia</h2><ul class="seo-list"><li><a href="/es/gpx/from-the-pyrenees-to-the-alps/">De los Pirineos a los Alpes</a> <small>1092 km · +39.452 m</small></li><li><a href="/es/gpx/gr-7-crossing-of-the-massif-central-via-the-parks/">GR 7 Travesía del Macizo Central por los Parques</a> <small>772 km · +29.360 m</small></li><li><a href="/es/gpx/pyrenean-high-route/">Haute Route Pyrénéenne</a> <small>767 km · +43.767 m</small></li><li><a href="/es/gpx/gr-10-from-cauterets-to-banyuls-sur-mer/">GR 10 de Cauterets a Banyuls-sur-Mer</a> <small>596 km · +43.221 m</small></li><li><a href="/es/gpx/from-the-hills-and-slopes-of-arcachon-to-luchon/">De los collados y colinas de Arcachon a Luchon</a> <small>524 km · +9625 m</small></li><li><a href="/es/gpx/le-tour-de-la-manche/">Le Tour de la Manche</a> <small>456 km · +5135 m</small></li><li><a href="/es/gpx/gr-51-from-marseille-to-nice/">GR 51, de Marsella a Niza</a> <small>414 km · +17.500 m</small></li><li><a href="/es/gpx/la-meuse-eurovelo-19/">La Meuse, EuroVelo 19</a> <small>387 km · +4318 m</small></li></ul>
   <nav class="seo-langs" aria-label="Language"><a href="/gpx/tour-des-perics/" hreflang="en" lang="en">EN</a><a href="/fr/gpx/tour-des-perics/" hreflang="fr" lang="fr">FR</a><a href="/de/gpx/tour-des-perics/" hreflang="de" lang="de">DE</a><span>ES</span><a href="/it/gpx/tour-des-perics/" hreflang="it" lang="it">IT</a><a href="/pt/gpx/tour-des-perics/" hreflang="pt" lang="pt">PT</a></nav>
 </aside>
     <div id="boot-splash" aria-hidden="true">

@@ -31,23 +31,12 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Google tag (gtag.js) — static <script> so Google's automated
-         tag-installation checker picks it up via plain HTML scan
-         (dynamic injection via createElement is invisible to static
-         scanners). The init call below is gated on `!isTauri()`, so the
-         macOS native shell never calls `gtag('config')` and therefore
-         transmits zero measurement data. The .js library itself does
-         load on Tauri startup (~one HTTPS request, no cookies, no
-         user info) — the /app/ "no telemetry" promise refers to GPX /
-         route data, which never leaves the device. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NFXR22FP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      if (!window.__TAURI_INTERNALS__ && !window.__TAURI__) {
-        gtag('js', new Date());
-        gtag('config', 'G-ECJHFXK6DY');
-      }
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord, Slack…). The
@@ -179,8 +168,8 @@
     <a class="seo-btn" href="/library/i-trekkings/randonnee-sur-le-west-highland-way-ab1209.gpx" download>Descarregar GPX</a>
     <button type="button" class="seo-btn" data-seo-action="copy" data-copied="Link copiado">Copiar link</button>
   </div>
-  <dl class="seo-stats"><div><dt>Distância</dt><dd>19 km</dd></div><div><dt>Subida</dt><dd>1.382 m</dd></div><div><dt>Descida</dt><dd>1.249 m</dd></div><div><dt>Ponto mais alto</dt><dd>1.084 m</dd></div><div><dt>Tipo</dt><dd>Linear</dd></div></dl>
-  <div class="seo-text"><p>Este traçado de cerca de 19 km corresponde a um trecho do West Highland Way, a célebre trilha que atravessa as Terras Altas da Escócia, de Glasgow a Fort William. Fica na área de Highland, perto do rio Ba, e é feito só de ida.</p><p>O perfil é bem mais montanhoso do que o da trilha no seu conjunto: cerca de 1.380 m de subida e 1.250 m de descida, entre 175 m e quase 1.085 m de altitude. Um dia exigente, que pede boa forma física e hábito de terreno de montanha.</p></div>
+  <dl class="seo-stats"><div><dt>Distância</dt><dd>19 km</dd></div><div><dt>Subida</dt><dd>1.245 m</dd></div><div><dt>Descida</dt><dd>1.112 m</dd></div><div><dt>Ponto mais alto</dt><dd>1.084 m</dd></div><div><dt>Tipo</dt><dd>Linear</dd></div></dl>
+  <div class="seo-text"><p>Este traçado de cerca de 19 km corresponde a um trecho do West Highland Way, a célebre trilha que atravessa as Terras Altas da Escócia, de Glasgow a Fort William. Fica na área de Highland, perto do rio Ba, e é feito só de ida.</p><p>O perfil é bem mais montanhoso do que o da trilha no seu conjunto: cerca de 1.250 m de subida e 1.110 m de descida, entre 175 m e quase 1.085 m de altitude. Um dia exigente, que pede boa forma física e hábito de terreno de montanha.</p></div>
   
   <h2>Mais percursos: Reino Unido</h2><ul class="seo-list"><li><a href="/pt/gpx/west-highland-way/">West Highland Way</a> <small>156 km · +5.592 m</small></li><li><a href="/pt/gpx/wales-coast-around-the-llyn-peninsula/">Wales Coast em torno da península de Llyn</a> <small>75 km · +1.817 m</small></li></ul>
   <nav class="seo-langs" aria-label="Language"><a href="/gpx/west-highland-way-river-ba/" hreflang="en" lang="en">EN</a><a href="/fr/gpx/west-highland-way-river-ba/" hreflang="fr" lang="fr">FR</a><a href="/de/gpx/west-highland-way-river-ba/" hreflang="de" lang="de">DE</a><a href="/es/gpx/west-highland-way-river-ba/" hreflang="es" lang="es">ES</a><a href="/it/gpx/west-highland-way-river-ba/" hreflang="it" lang="it">IT</a><span>PT</span></nav>

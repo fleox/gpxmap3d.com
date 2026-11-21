@@ -31,23 +31,12 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Google tag (gtag.js) — static <script> so Google's automated
-         tag-installation checker picks it up via plain HTML scan
-         (dynamic injection via createElement is invisible to static
-         scanners). The init call below is gated on `!isTauri()`, so the
-         macOS native shell never calls `gtag('config')` and therefore
-         transmits zero measurement data. The .js library itself does
-         load on Tauri startup (~one HTTPS request, no cookies, no
-         user info) — the /app/ "no telemetry" promise refers to GPX /
-         route data, which never leaves the device. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NFXR22FP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      if (!window.__TAURI_INTERNALS__ && !window.__TAURI__) {
-        gtag('js', new Date());
-        gtag('config', 'G-ECJHFXK6DY');
-      }
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord, Slack…). The
@@ -182,7 +171,7 @@
   <dl class="seo-stats"><div><dt>Distanza</dt><dd>167 km</dd></div><div><dt>Dislivello +</dt><dd>17.498 m</dd></div><div><dt>Dislivello −</dt><dd>16.965 m</dd></div><div><dt>Punto più alto</dt><dd>5134 m</dd></div><div><dt>Durata</dt><dd>7 giorni</dd></div><div><dt>Tipo</dt><dd>Traversata</dd></div></dl>
   <div class="seo-text"><p>Il Tour du Manaslu gira attorno, in Nepal, al massiccio del Manaslu, la cui vetta di 8.163 m è l&#39;ottava più alta del mondo. Questo tracciato di 167 km è di sola andata: parte da 764 m e sale gradualmente fino a un punto massimo di 5.134 m.</p><p>È un trekking molto fisico, con quasi 17.500 m di dislivello positivo complessivo. I dati indicano circa sette giorni, un ritmo molto sostenuto; l&#39;altissima quota impone un&#39;acclimatazione seria.</p></div>
   
-  <h2>Altri percorsi: Nepal</h2><ul class="seo-list"><li><a href="/it/gpx/langtang-valley-and-sacred-lakes-of-gosainkund/">Valle del Langtang e Laghi sacri del Gosainkund</a> <small>173 km · +14.822 m</small></li><li><a href="/it/gpx/trek-des-3-cols/">Trek des 3 Cols</a> <small>130 km · +10.790 m</small></li><li><a href="/it/gpx/annapurna-sanctuary/">Santuario degli Annapurna</a> <small>85 km · +8326 m</small></li><li><a href="/it/gpx/khopra-ridge/">Khopra Ridge</a> <small>47 km · +4093 m</small></li></ul>
+  <h2>Altri percorsi: Nepal</h2><ul class="seo-list"><li><a href="/it/gpx/langtang-valley-and-sacred-lakes-of-gosainkund/">Valle del Langtang e Laghi sacri del Gosainkund</a> <small>173 km · +14.822 m</small></li><li><a href="/it/gpx/trek-des-3-cols/">Trek des 3 Cols</a> <small>130 km · +10.460 m</small></li><li><a href="/it/gpx/annapurna-sanctuary/">Santuario degli Annapurna</a> <small>85 km · +8326 m</small></li><li><a href="/it/gpx/khopra-ridge/">Khopra Ridge</a> <small>47 km · +4093 m</small></li></ul>
   <nav class="seo-langs" aria-label="Language"><a href="/gpx/tour-du-manaslu/" hreflang="en" lang="en">EN</a><a href="/fr/gpx/tour-du-manaslu/" hreflang="fr" lang="fr">FR</a><a href="/de/gpx/tour-du-manaslu/" hreflang="de" lang="de">DE</a><a href="/es/gpx/tour-du-manaslu/" hreflang="es" lang="es">ES</a><span>IT</span><a href="/pt/gpx/tour-du-manaslu/" hreflang="pt" lang="pt">PT</a></nav>
 </aside>
     <div id="boot-splash" aria-hidden="true">

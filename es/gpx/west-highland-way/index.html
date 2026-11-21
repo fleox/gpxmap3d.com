@@ -31,23 +31,12 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Google tag (gtag.js) — static <script> so Google's automated
-         tag-installation checker picks it up via plain HTML scan
-         (dynamic injection via createElement is invisible to static
-         scanners). The init call below is gated on `!isTauri()`, so the
-         macOS native shell never calls `gtag('config')` and therefore
-         transmits zero measurement data. The .js library itself does
-         load on Tauri startup (~one HTTPS request, no cookies, no
-         user info) — the /app/ "no telemetry" promise refers to GPX /
-         route data, which never leaves the device. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NFXR22FP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      if (!window.__TAURI_INTERNALS__ && !window.__TAURI__) {
-        gtag('js', new Date());
-        gtag('config', 'G-ECJHFXK6DY');
-      }
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord, Slack…). The
@@ -182,7 +171,7 @@
   <dl class="seo-stats"><div><dt>Distancia</dt><dd>156 km</dd></div><div><dt>Desnivel +</dt><dd>5592 m</dd></div><div><dt>Desnivel −</dt><dd>5611 m</dd></div><div><dt>Punto más alto</dt><dd>1319 m</dd></div><div><dt>Duración</dt><dd>6 días</dd></div><div><dt>Tipo</dt><dd>Lineal</dd></div></dl>
   <div class="seo-text"><p>El West Highland Way es el sendero de gran recorrido más conocido de Escocia: une Milngavie, a las afueras de Glasgow, con Fort William, al pie del Ben Nevis, atravesando las Tierras Altas de sur a norte. Este trazado lo sigue durante unos 156 km, solo de ida.</p><p>Suele recorrerse en seis días. El desnivel acumulado ronda los 5.600 m de subida y otros tantos de bajada, desde un punto casi al nivel del mar; el punto más alto registrado en el track ronda los 1.320 m. Una ruta de largo recorrido exigente, pero consolidada y muy transitada.</p></div>
   
-  <h2>Más rutas: Reino Unido</h2><ul class="seo-list"><li><a href="/es/gpx/wales-coast-around-the-llyn-peninsula/">Wales Coast alrededor de la península de Llyn</a> <small>75 km · +1817 m</small></li><li><a href="/es/gpx/west-highland-way-river-ba/">West Highland Way</a> <small>19 km · +1382 m</small></li></ul>
+  <h2>Más rutas: Reino Unido</h2><ul class="seo-list"><li><a href="/es/gpx/wales-coast-around-the-llyn-peninsula/">Wales Coast alrededor de la península de Llyn</a> <small>75 km · +1817 m</small></li><li><a href="/es/gpx/west-highland-way-river-ba/">West Highland Way</a> <small>19 km · +1245 m</small></li></ul>
   <nav class="seo-langs" aria-label="Language"><a href="/gpx/west-highland-way/" hreflang="en" lang="en">EN</a><a href="/fr/gpx/west-highland-way/" hreflang="fr" lang="fr">FR</a><a href="/de/gpx/west-highland-way/" hreflang="de" lang="de">DE</a><span>ES</span><a href="/it/gpx/west-highland-way/" hreflang="it" lang="it">IT</a><a href="/pt/gpx/west-highland-way/" hreflang="pt" lang="pt">PT</a></nav>
 </aside>
     <div id="boot-splash" aria-hidden="true">

@@ -31,23 +31,12 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Google tag (gtag.js) — static <script> so Google's automated
-         tag-installation checker picks it up via plain HTML scan
-         (dynamic injection via createElement is invisible to static
-         scanners). The init call below is gated on `!isTauri()`, so the
-         macOS native shell never calls `gtag('config')` and therefore
-         transmits zero measurement data. The .js library itself does
-         load on Tauri startup (~one HTTPS request, no cookies, no
-         user info) — the /app/ "no telemetry" promise refers to GPX /
-         route data, which never leaves the device. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NFXR22FP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      if (!window.__TAURI_INTERNALS__ && !window.__TAURI__) {
-        gtag('js', new Date());
-        gtag('config', 'G-ECJHFXK6DY');
-      }
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord, Slack…). The
@@ -182,7 +171,7 @@
   <dl class="seo-stats"><div><dt>Distance</dt><dd>379 km</dd></div><div><dt>Dénivelé +</dt><dd>10 157 m</dd></div><div><dt>Dénivelé −</dt><dd>10 327 m</dd></div><div><dt>Point culminant</dt><dd>2 429 m</dd></div><div><dt>Type</dt><dd>Itinéraire</dd></div></dl>
   <div class="seo-text"><p>Entre Saint-Moritz, en Engadine, et Zermatt, au pied du Cervin, le Glacier Bike Tour relie à VTT deux stations alpines célèbres que joint aussi le train Glacier Express. Ce tracé d&#39;environ 379 km traverse la Suisse d&#39;est en ouest et passe notamment par le Tessin, dans la Léventine, près de Chironico.</p><p>C&#39;est un grand voyage à VTT : environ 10 160 m de montée et 10 330 m de descente, entre 643 m et 2 429 m d&#39;altitude, avec plusieurs cols alpins à franchir. On le parcourt habituellement en une quinzaine d&#39;étapes, ce qui suppose une bonne endurance et l&#39;habitude des longues journées en selle.</p></div>
   
-  <h2>Autres itinéraires : Suisse</h2><ul class="seo-list"><li><a href="/fr/gpx/eurovelo-15-the-rhine-route/">Eurovélo 15, la route du Rhin</a> <small>1 513 km · +13 548 m</small></li><li><a href="/fr/gpx/eurovelo-17-from-annecy-to-the-source-of-the-rhone/">Eurovélo 17 d&#39;Annecy à la source du Rhône</a> <small>410 km · +6 690 m</small></li><li><a href="/fr/gpx/grande-traversee-des-cretes-du-jura-suisse-jura-hohenweg/">Grande traversée des Crêtes du Jura suisse (Jura Hohenweg)</a> <small>320 km · +17 587 m</small></li><li><a href="/fr/gpx/along-the-rhine-from-basel-to-bregenz/">Le long du Rhin, de Bâle à Bregenz</a> <small>210 km · +3 089 m</small></li><li><a href="/fr/gpx/lake-geneva-kayak-tour/">Tour du lac Léman en kayak</a> <small>166 km</small></li><li><a href="/fr/gpx/tour-des-lacs-de-neuchatel-bienne-et-morat/">Tour des lacs de Neuchâtel, Bienne et Morat</a> <small>165 km · +737 m</small></li><li><a href="/fr/gpx/tour-des-combins/">Tour des Combins</a> <small>99 km · +7 076 m</small></li><li><a href="/fr/gpx/from-chamonix-to-zermatt/">De Chamonix à Zermatt</a> <small>98 km · +4 833 m</small></li></ul>
+  <h2>Autres itinéraires : Suisse</h2><ul class="seo-list"><li><a href="/fr/gpx/eurovelo-15-the-rhine-route/">Eurovélo 15, la route du Rhin</a> <small>1 513 km · +13 548 m</small></li><li><a href="/fr/gpx/eurovelo-17-from-annecy-to-the-source-of-the-rhone/">Eurovélo 17 d&#39;Annecy à la source du Rhône</a> <small>410 km · +6 690 m</small></li><li><a href="/fr/gpx/grande-traversee-des-cretes-du-jura-suisse-jura-hohenweg/">Grande traversée des Crêtes du Jura suisse (Jura Hohenweg)</a> <small>320 km · +17 587 m</small></li><li><a href="/fr/gpx/along-the-rhine-from-basel-to-bregenz/">Le long du Rhin, de Bâle à Bregenz</a> <small>210 km · +3 089 m</small></li><li><a href="/fr/gpx/lake-geneva-kayak-tour/">Tour du lac Léman en kayak</a> <small>166 km</small></li><li><a href="/fr/gpx/tour-des-lacs-de-neuchatel-bienne-et-morat/">Tour des lacs de Neuchâtel, Bienne et Morat</a> <small>165 km · +737 m</small></li><li><a href="/fr/gpx/tour-des-combins/">Tour des Combins</a> <small>99 km · +6 456 m</small></li><li><a href="/fr/gpx/from-chamonix-to-zermatt/">De Chamonix à Zermatt</a> <small>98 km · +4 833 m</small></li></ul>
   <nav class="seo-langs" aria-label="Language"><a href="/gpx/glacier-bike-tour-between-st-moritz-and-zermatt/" hreflang="en" lang="en">EN</a><span>FR</span><a href="/de/gpx/glacier-bike-tour-between-st-moritz-and-zermatt/" hreflang="de" lang="de">DE</a><a href="/es/gpx/glacier-bike-tour-between-st-moritz-and-zermatt/" hreflang="es" lang="es">ES</a><a href="/it/gpx/glacier-bike-tour-between-st-moritz-and-zermatt/" hreflang="it" lang="it">IT</a><a href="/pt/gpx/glacier-bike-tour-between-st-moritz-and-zermatt/" hreflang="pt" lang="pt">PT</a></nav>
 </aside>
     <div id="boot-splash" aria-hidden="true">

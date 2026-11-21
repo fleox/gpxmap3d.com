@@ -31,23 +31,12 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Google tag (gtag.js) — static <script> so Google's automated
-         tag-installation checker picks it up via plain HTML scan
-         (dynamic injection via createElement is invisible to static
-         scanners). The init call below is gated on `!isTauri()`, so the
-         macOS native shell never calls `gtag('config')` and therefore
-         transmits zero measurement data. The .js library itself does
-         load on Tauri startup (~one HTTPS request, no cookies, no
-         user info) — the /app/ "no telemetry" promise refers to GPX /
-         route data, which never leaves the device. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NFXR22FP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      if (!window.__TAURI_INTERNALS__ && !window.__TAURI__) {
-        gtag('js', new Date());
-        gtag('config', 'G-ECJHFXK6DY');
-      }
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord, Slack…). The
@@ -182,7 +171,7 @@
   <dl class="seo-stats"><div><dt>Distance</dt><dd>166 km</dd></div><div><dt>Point culminant</dt><dd>381 m</dd></div><div><dt>Durée</dt><dd>7 jours</dd></div><div><dt>Type</dt><dd>Boucle</dd></div></dl>
   <div class="seo-text"><p>Faire le tour complet du Léman en kayak, c&#39;est longer les rives suisses et françaises du plus grand lac alpin d&#39;Europe occidentale. Cette boucle d&#39;environ 166 km part de la rive haut-savoyarde, dans le secteur de Féternes, et y revient après un circuit que l&#39;on étale en général sur sept jours.</p><p>L&#39;altitude ne varie guère, entre 369 m et 380 m, et le dénivelé enregistré est négligeable. L&#39;effort tient à la distance, autour de 24 km par jour en moyenne, et aux conditions de navigation sur un lac assez vaste pour que le vent et les vagues y jouent un rôle réel.</p></div>
   
-  <h2>Autres itinéraires : Suisse</h2><ul class="seo-list"><li><a href="/fr/gpx/eurovelo-15-the-rhine-route/">Eurovélo 15, la route du Rhin</a> <small>1 513 km · +13 548 m</small></li><li><a href="/fr/gpx/eurovelo-17-from-annecy-to-the-source-of-the-rhone/">Eurovélo 17 d&#39;Annecy à la source du Rhône</a> <small>410 km · +6 690 m</small></li><li><a href="/fr/gpx/glacier-bike-tour-between-st-moritz-and-zermatt/">Glacier Bike Tour entre St-Moritz et Zermatt</a> <small>379 km · +10 157 m</small></li><li><a href="/fr/gpx/grande-traversee-des-cretes-du-jura-suisse-jura-hohenweg/">Grande traversée des Crêtes du Jura suisse (Jura Hohenweg)</a> <small>320 km · +17 587 m</small></li><li><a href="/fr/gpx/along-the-rhine-from-basel-to-bregenz/">Le long du Rhin, de Bâle à Bregenz</a> <small>210 km · +3 089 m</small></li><li><a href="/fr/gpx/tour-des-lacs-de-neuchatel-bienne-et-morat/">Tour des lacs de Neuchâtel, Bienne et Morat</a> <small>165 km · +737 m</small></li><li><a href="/fr/gpx/tour-des-combins/">Tour des Combins</a> <small>99 km · +7 076 m</small></li><li><a href="/fr/gpx/from-chamonix-to-zermatt/">De Chamonix à Zermatt</a> <small>98 km · +4 833 m</small></li></ul>
+  <h2>Autres itinéraires : Suisse</h2><ul class="seo-list"><li><a href="/fr/gpx/eurovelo-15-the-rhine-route/">Eurovélo 15, la route du Rhin</a> <small>1 513 km · +13 548 m</small></li><li><a href="/fr/gpx/eurovelo-17-from-annecy-to-the-source-of-the-rhone/">Eurovélo 17 d&#39;Annecy à la source du Rhône</a> <small>410 km · +6 690 m</small></li><li><a href="/fr/gpx/glacier-bike-tour-between-st-moritz-and-zermatt/">Glacier Bike Tour entre St-Moritz et Zermatt</a> <small>379 km · +10 157 m</small></li><li><a href="/fr/gpx/grande-traversee-des-cretes-du-jura-suisse-jura-hohenweg/">Grande traversée des Crêtes du Jura suisse (Jura Hohenweg)</a> <small>320 km · +17 587 m</small></li><li><a href="/fr/gpx/along-the-rhine-from-basel-to-bregenz/">Le long du Rhin, de Bâle à Bregenz</a> <small>210 km · +3 089 m</small></li><li><a href="/fr/gpx/tour-des-lacs-de-neuchatel-bienne-et-morat/">Tour des lacs de Neuchâtel, Bienne et Morat</a> <small>165 km · +737 m</small></li><li><a href="/fr/gpx/tour-des-combins/">Tour des Combins</a> <small>99 km · +6 456 m</small></li><li><a href="/fr/gpx/from-chamonix-to-zermatt/">De Chamonix à Zermatt</a> <small>98 km · +4 833 m</small></li></ul>
   <nav class="seo-langs" aria-label="Language"><a href="/gpx/lake-geneva-kayak-tour/" hreflang="en" lang="en">EN</a><span>FR</span><a href="/de/gpx/lake-geneva-kayak-tour/" hreflang="de" lang="de">DE</a><a href="/es/gpx/lake-geneva-kayak-tour/" hreflang="es" lang="es">ES</a><a href="/it/gpx/lake-geneva-kayak-tour/" hreflang="it" lang="it">IT</a><a href="/pt/gpx/lake-geneva-kayak-tour/" hreflang="pt" lang="pt">PT</a></nav>
 </aside>
     <div id="boot-splash" aria-hidden="true">

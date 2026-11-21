@@ -31,23 +31,12 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Google tag (gtag.js) — static <script> so Google's automated
-         tag-installation checker picks it up via plain HTML scan
-         (dynamic injection via createElement is invisible to static
-         scanners). The init call below is gated on `!isTauri()`, so the
-         macOS native shell never calls `gtag('config')` and therefore
-         transmits zero measurement data. The .js library itself does
-         load on Tauri startup (~one HTTPS request, no cookies, no
-         user info) — the /app/ "no telemetry" promise refers to GPX /
-         route data, which never leaves the device. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NFXR22FP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      if (!window.__TAURI_INTERNALS__ && !window.__TAURI__) {
-        gtag('js', new Date());
-        gtag('config', 'G-ECJHFXK6DY');
-      }
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord, Slack…). The
@@ -180,7 +169,7 @@
     <button type="button" class="seo-btn" data-seo-action="copy" data-copied="Link copiado">Copiar link</button>
   </div>
   <dl class="seo-stats"><div><dt>Distância</dt><dd>1.083 km</dd></div><div><dt>Subida</dt><dd>9.609 m</dd></div><div><dt>Ponto mais alto</dt><dd>474 m</dd></div><div><dt>Tipo</dt><dd>Linear</dd></div></dl>
-  <div class="seo-text"><p>A EuroVelo 19, a rota ciclável do Mosa, acompanha o rio entre a nascente em França e o mar do Norte. Este traçado de cerca de 1083 km percorre-a de bicicleta rio acima, dos Países Baixos até França passando pela Bélgica, nomeadamente pela província de Namur, junto a Bièvre e ao distrito de Dinant.</p><p>A altitude é modesta, do nível do mar até 474 m, com cerca de 9600 m de desnível positivo acumulado. Contam-se em média 43 dias para esta viagem linear.</p></div>
+  <div class="seo-text"><p>A EuroVelo 19, a rota ciclável do Mosa, acompanha o rio entre a nascente em França e o mar do Norte. Este traçado de cerca de 1083 km percorre-a de bicicleta rio acima, dos Países Baixos até França passando pela Bélgica, nomeadamente pela província de Namur, junto a Bièvre e ao distrito de Dinant.</p><p>A altitude é modesta, do nível do mar até 474 m, com cerca de 9600 m de desnível positivo acumulado. Contam-se em média cerca de 18 dias para esta viagem linear.</p></div>
   
   
   <nav class="seo-langs" aria-label="Language"><a href="/gpx/eurovelo-19-the-meuse-cycle-route/" hreflang="en" lang="en">EN</a><a href="/fr/gpx/eurovelo-19-the-meuse-cycle-route/" hreflang="fr" lang="fr">FR</a><a href="/de/gpx/eurovelo-19-the-meuse-cycle-route/" hreflang="de" lang="de">DE</a><a href="/es/gpx/eurovelo-19-the-meuse-cycle-route/" hreflang="es" lang="es">ES</a><a href="/it/gpx/eurovelo-19-the-meuse-cycle-route/" hreflang="it" lang="it">IT</a><span>PT</span></nav>

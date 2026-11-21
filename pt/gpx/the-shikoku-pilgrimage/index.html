@@ -31,23 +31,12 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Google tag (gtag.js) — static <script> so Google's automated
-         tag-installation checker picks it up via plain HTML scan
-         (dynamic injection via createElement is invisible to static
-         scanners). The init call below is gated on `!isTauri()`, so the
-         macOS native shell never calls `gtag('config')` and therefore
-         transmits zero measurement data. The .js library itself does
-         load on Tauri startup (~one HTTPS request, no cookies, no
-         user info) — the /app/ "no telemetry" promise refers to GPX /
-         route data, which never leaves the device. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NFXR22FP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      if (!window.__TAURI_INTERNALS__ && !window.__TAURI__) {
-        gtag('js', new Date());
-        gtag('config', 'G-ECJHFXK6DY');
-      }
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord, Slack…). The
@@ -179,8 +168,8 @@
     <a class="seo-btn" href="/library/i-trekkings/le-pelerinage-de-shikoku-a-velo.gpx" download>Descarregar GPX</a>
     <button type="button" class="seo-btn" data-seo-action="copy" data-copied="Link copiado">Copiar link</button>
   </div>
-  <dl class="seo-stats"><div><dt>Distância</dt><dd>1.007 km</dd></div><div><dt>Subida</dt><dd>13.976 m</dd></div><div><dt>Descida</dt><dd>13.975 m</dd></div><div><dt>Ponto mais alto</dt><dd>874 m</dd></div><div><dt>Tipo</dt><dd>Circular</dd></div></dl>
-  <div class="seo-text"><p>A peregrinação de Shikoku liga tradicionalmente 88 templos budistas em torno da mais pequena das quatro grandes ilhas do Japão, seguindo os passos do monge Kūkai. Este traçado faz o percurso de bicicleta, num grande circuito de cerca de 1007 km que regressa ao ponto de partida e atravessa, entre outras, a prefeitura de Kōchi.</p><p>O relevo é moderado, com um ponto mais alto de 874 m, mas os quase 14 000 m de desnível positivo acumulado pesam ao longo dos dias. Contam-se em média uns quarenta dias.</p></div>
+  <dl class="seo-stats"><div><dt>Distância</dt><dd>1.007 km</dd></div><div><dt>Subida</dt><dd>9.961 m</dd></div><div><dt>Descida</dt><dd>9.961 m</dd></div><div><dt>Ponto mais alto</dt><dd>726 m</dd></div><div><dt>Tipo</dt><dd>Circular</dd></div></dl>
+  <div class="seo-text"><p>A peregrinação de Shikoku liga tradicionalmente 88 templos budistas em torno da mais pequena das quatro grandes ilhas do Japão, seguindo os passos do monge Kūkai. Este traçado faz o percurso de bicicleta, num grande circuito de cerca de 1007 km que regressa ao ponto de partida e atravessa, entre outras, a prefeitura de Kōchi.</p><p>O relevo é moderado, com um ponto mais alto de 726 m, mas os quase 10 000 m de desnível positivo acumulado pesam ao longo dos dias. Contam-se em média uns dezassete dias.</p></div>
   
   <h2>Mais percursos: Japão</h2><ul class="seo-list"><li><a href="/pt/gpx/hokkaido/">Hokkaido</a> <small>227 km · +1.745 m</small></li></ul>
   <nav class="seo-langs" aria-label="Language"><a href="/gpx/the-shikoku-pilgrimage/" hreflang="en" lang="en">EN</a><a href="/fr/gpx/the-shikoku-pilgrimage/" hreflang="fr" lang="fr">FR</a><a href="/de/gpx/the-shikoku-pilgrimage/" hreflang="de" lang="de">DE</a><a href="/es/gpx/the-shikoku-pilgrimage/" hreflang="es" lang="es">ES</a><a href="/it/gpx/the-shikoku-pilgrimage/" hreflang="it" lang="it">IT</a><span>PT</span></nav>

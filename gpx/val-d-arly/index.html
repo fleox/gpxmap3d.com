@@ -31,23 +31,12 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Google tag (gtag.js) — static <script> so Google's automated
-         tag-installation checker picks it up via plain HTML scan
-         (dynamic injection via createElement is invisible to static
-         scanners). The init call below is gated on `!isTauri()`, so the
-         macOS native shell never calls `gtag('config')` and therefore
-         transmits zero measurement data. The .js library itself does
-         load on Tauri startup (~one HTTPS request, no cookies, no
-         user info) — the /app/ "no telemetry" promise refers to GPX /
-         route data, which never leaves the device. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NFXR22FP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      if (!window.__TAURI_INTERNALS__ && !window.__TAURI__) {
-        gtag('js', new Date());
-        gtag('config', 'G-ECJHFXK6DY');
-      }
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord, Slack…). The
@@ -182,7 +171,7 @@
   <dl class="seo-stats"><div><dt>Distance</dt><dd>30 km</dd></div><div><dt>Ascent</dt><dd>2,281 m</dd></div><div><dt>Descent</dt><dd>2,281 m</dd></div><div><dt>Highest point</dt><dd>1,908 m</dd></div><div><dt>Route type</dt><dd>Loop</dd></div></dl>
   <div class="seo-text"><p>This mountain-bike loop of about 30 km explores the slopes of the Val d&#39;Arly in Savoie, starting and finishing at Notre-Dame-de-Bellecombe. It stays between roughly 1,300 m and 1,900 m above sea level.</p><p>The standout figure is the climbing: close to 2,280 m of cumulative ascent over a fairly short distance, which means a tight succession of ups and downs. The Val d&#39;Arly links the Mont Blanc area to Albertville, lying between the Aravis range and the Beaufortain, mid-mountain country well suited to riding.</p></div>
   
-  <h2>More routes in France</h2><ul class="seo-list"><li><a href="/gpx/from-the-pyrenees-to-the-alps/">From the Pyrenees to the Alps</a> <small>1,092 km · +39,452 m</small></li><li><a href="/gpx/gr-7-crossing-of-the-massif-central-via-the-parks/">GR 7 Crossing of the Massif Central via the Parks</a> <small>772 km · +29,360 m</small></li><li><a href="/gpx/pyrenean-high-route/">Pyrenean High Route</a> <small>767 km · +43,767 m</small></li><li><a href="/gpx/gr-10-from-cauterets-to-banyuls-sur-mer/">GR 10 from Cauterets to Banyuls-sur-Mer</a> <small>596 km · +43,221 m</small></li><li><a href="/gpx/from-the-hills-and-slopes-of-arcachon-to-luchon/">From the hills and slopes of Arcachon to Luchon</a> <small>524 km · +9,625 m</small></li><li><a href="/gpx/le-tour-de-la-manche/">Le Tour de la Manche</a> <small>456 km</small></li><li><a href="/gpx/gr-51-from-marseille-to-nice/">GR 51, from Marseille to Nice</a> <small>414 km · +17,500 m</small></li><li><a href="/gpx/la-meuse-eurovelo-19/">La Meuse, EuroVelo 19</a> <small>387 km · +4,318 m</small></li></ul>
+  <h2>More routes in France</h2><ul class="seo-list"><li><a href="/gpx/from-the-pyrenees-to-the-alps/">From the Pyrenees to the Alps</a> <small>1,092 km · +39,452 m</small></li><li><a href="/gpx/gr-7-crossing-of-the-massif-central-via-the-parks/">GR 7 Crossing of the Massif Central via the Parks</a> <small>772 km · +29,360 m</small></li><li><a href="/gpx/pyrenean-high-route/">Pyrenean High Route</a> <small>767 km · +43,767 m</small></li><li><a href="/gpx/gr-10-from-cauterets-to-banyuls-sur-mer/">GR 10 from Cauterets to Banyuls-sur-Mer</a> <small>596 km · +43,221 m</small></li><li><a href="/gpx/from-the-hills-and-slopes-of-arcachon-to-luchon/">From the hills and slopes of Arcachon to Luchon</a> <small>524 km · +9,625 m</small></li><li><a href="/gpx/le-tour-de-la-manche/">Le Tour de la Manche</a> <small>456 km · +5,135 m</small></li><li><a href="/gpx/gr-51-from-marseille-to-nice/">GR 51, from Marseille to Nice</a> <small>414 km · +17,500 m</small></li><li><a href="/gpx/la-meuse-eurovelo-19/">La Meuse, EuroVelo 19</a> <small>387 km · +4,318 m</small></li></ul>
   <nav class="seo-langs" aria-label="Language"><span>EN</span><a href="/fr/gpx/val-d-arly/" hreflang="fr" lang="fr">FR</a><a href="/de/gpx/val-d-arly/" hreflang="de" lang="de">DE</a><a href="/es/gpx/val-d-arly/" hreflang="es" lang="es">ES</a><a href="/it/gpx/val-d-arly/" hreflang="it" lang="it">IT</a><a href="/pt/gpx/val-d-arly/" hreflang="pt" lang="pt">PT</a></nav>
 </aside>
     <div id="boot-splash" aria-hidden="true">

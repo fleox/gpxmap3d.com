@@ -31,23 +31,12 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Google tag (gtag.js) — static <script> so Google's automated
-         tag-installation checker picks it up via plain HTML scan
-         (dynamic injection via createElement is invisible to static
-         scanners). The init call below is gated on `!isTauri()`, so the
-         macOS native shell never calls `gtag('config')` and therefore
-         transmits zero measurement data. The .js library itself does
-         load on Tauri startup (~one HTTPS request, no cookies, no
-         user info) — the /app/ "no telemetry" promise refers to GPX /
-         route data, which never leaves the device. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NFXR22FP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      if (!window.__TAURI_INTERNALS__ && !window.__TAURI__) {
-        gtag('js', new Date());
-        gtag('config', 'G-ECJHFXK6DY');
-      }
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord, Slack…). The
@@ -182,7 +171,7 @@
   <dl class="seo-stats"><div><dt>Distance</dt><dd>90 km</dd></div><div><dt>Dénivelé +</dt><dd>4 715 m</dd></div><div><dt>Dénivelé −</dt><dd>5 538 m</dd></div><div><dt>Point culminant</dt><dd>5 041 m</dd></div><div><dt>Durée</dt><dd>4 jours</dd></div><div><dt>Type</dt><dd>Itinéraire</dd></div></dl>
   <div class="seo-text"><p>Ce tracé porte le nom d&#39;un trek reliant deux massifs emblématiques des Andes péruviennes, l&#39;Ausangate et la Cordillère Huayhuash, très éloignés l&#39;un de l&#39;autre : la trace correspond donc à une portion de ce programme plutôt qu&#39;à l&#39;ensemble.</p><p>Elle couvre environ 90 km en sens unique, avec 4 715 m de montée pour environ 5 540 m de descente. L&#39;altitude oscille entre 3 313 m et 5 041 m, ce qui impose une bonne acclimatation. On le parcourt habituellement en quatre jours ; la descente cumulée, nettement supérieure à la montée, distingue cette variante de sa jumelle tracée près d&#39;Ocongate.</p></div>
   
-  <h2>Autres itinéraires : Pérou</h2><ul class="seo-list"><li><a href="/fr/gpx/tahuantinsuyu-on-the-inca-trail/">Tahuantinsuyu, sur la route des Incas</a> <small>5 752 km · +112 311 m</small></li><li><a href="/fr/gpx/alpamayo-trek-in-the-cordillera-blanca/">Tour de l&#39;Alpamayo dans la Cordillère Blanche</a> <small>120 km · +8 556 m</small></li><li><a href="/fr/gpx/tour-de-l-ausangate-a-la-cordillere-huayhuash/">Tour de l’Ausangate à la Cordillère Huayhuash</a> <small>89 km · +4 617 m</small></li><li><a href="/fr/gpx/central-andes-of-peru/">Andes Centrales du Pérou</a> <small>71 km · +3 855 m</small></li><li><a href="/fr/gpx/trek-du-santa-cruz/">Trek du Santa Cruz</a> <small>53 km · +2 549 m</small></li></ul>
+  <h2>Autres itinéraires : Pérou</h2><ul class="seo-list"><li><a href="/fr/gpx/tahuantinsuyu-on-the-inca-trail/">Tahuantinsuyu, sur la route des Incas</a> <small>5 752 km · +109 648 m</small></li><li><a href="/fr/gpx/alpamayo-trek-in-the-cordillera-blanca/">Tour de l&#39;Alpamayo dans la Cordillère Blanche</a> <small>120 km · +8 556 m</small></li><li><a href="/fr/gpx/tour-de-l-ausangate-a-la-cordillere-huayhuash/">Tour de l’Ausangate à la Cordillère Huayhuash</a> <small>89 km · +4 617 m</small></li><li><a href="/fr/gpx/central-andes-of-peru/">Andes Centrales du Pérou</a> <small>71 km · +3 852 m</small></li><li><a href="/fr/gpx/trek-du-santa-cruz/">Trek du Santa Cruz</a> <small>53 km · +2 549 m</small></li></ul>
   <nav class="seo-langs" aria-label="Language"><a href="/gpx/ausangate-to-cordillera-huayhuash-trek/" hreflang="en" lang="en">EN</a><span>FR</span><a href="/de/gpx/ausangate-to-cordillera-huayhuash-trek/" hreflang="de" lang="de">DE</a><a href="/es/gpx/ausangate-to-cordillera-huayhuash-trek/" hreflang="es" lang="es">ES</a><a href="/it/gpx/ausangate-to-cordillera-huayhuash-trek/" hreflang="it" lang="it">IT</a><a href="/pt/gpx/ausangate-to-cordillera-huayhuash-trek/" hreflang="pt" lang="pt">PT</a></nav>
 </aside>
     <div id="boot-splash" aria-hidden="true">

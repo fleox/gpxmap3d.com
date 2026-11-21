@@ -31,23 +31,12 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Google tag (gtag.js) — static <script> so Google's automated
-         tag-installation checker picks it up via plain HTML scan
-         (dynamic injection via createElement is invisible to static
-         scanners). The init call below is gated on `!isTauri()`, so the
-         macOS native shell never calls `gtag('config')` and therefore
-         transmits zero measurement data. The .js library itself does
-         load on Tauri startup (~one HTTPS request, no cookies, no
-         user info) — the /app/ "no telemetry" promise refers to GPX /
-         route data, which never leaves the device. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NFXR22FP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      if (!window.__TAURI_INTERNALS__ && !window.__TAURI__) {
-        gtag('js', new Date());
-        gtag('config', 'G-ECJHFXK6DY');
-      }
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord, Slack…). The
@@ -179,7 +168,7 @@
     <a class="seo-btn" href="/library/i-trekkings/olifants-trail-4-jours-de-trek-dans-le-kruger.gpx" download>Descarregar GPX</a>
     <button type="button" class="seo-btn" data-seo-action="copy" data-copied="Link copiado">Copiar link</button>
   </div>
-  <dl class="seo-stats"><div><dt>Distância</dt><dd>37 km</dd></div><div><dt>Subida</dt><dd>815 m</dd></div><div><dt>Descida</dt><dd>922 m</dd></div><div><dt>Ponto mais alto</dt><dd>338 m</dd></div><div><dt>Tipo</dt><dd>Linear</dd></div></dl>
+  <dl class="seo-stats"><div><dt>Distância</dt><dd>37 km</dd></div><div><dt>Subida</dt><dd>815 m</dd></div><div><dt>Descida</dt><dd>922 m</dd></div><div><dt>Ponto mais alto</dt><dd>338 m</dd></div><div><dt>Duração</dt><dd>4 dias</dd></div><div><dt>Tipo</dt><dd>Linear</dd></div></dl>
   <div class="seo-text"><p>O Olifants Trail é um dos trilhos de natureza selvagem do parque nacional Kruger, na África do Sul, uma das maiores reservas de fauna do continente. Deve o nome ao rio Olifants, «elefantes» em afrikaans.</p><p>O traçado estende-se por cerca de 37 km num só sentido, de oeste para leste. O relevo é suave: cerca de 815 m de subida e 920 m de descida, com a altitude sempre entre 198 m e 338 m. O esforço depende, portanto, mais da distância do que do desnível.</p></div>
   
   

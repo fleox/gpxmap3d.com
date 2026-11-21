@@ -31,23 +31,12 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Google tag (gtag.js) — static <script> so Google's automated
-         tag-installation checker picks it up via plain HTML scan
-         (dynamic injection via createElement is invisible to static
-         scanners). The init call below is gated on `!isTauri()`, so the
-         macOS native shell never calls `gtag('config')` and therefore
-         transmits zero measurement data. The .js library itself does
-         load on Tauri startup (~one HTTPS request, no cookies, no
-         user info) — the /app/ "no telemetry" promise refers to GPX /
-         route data, which never leaves the device. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NFXR22FP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      if (!window.__TAURI_INTERNALS__ && !window.__TAURI__) {
-        gtag('js', new Date());
-        gtag('config', 'G-ECJHFXK6DY');
-      }
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord, Slack…). The
@@ -179,8 +168,8 @@
     <a class="seo-btn" href="/library/i-trekkings/tour-des-combins.gpx" download>Télécharger le GPX</a>
     <button type="button" class="seo-btn" data-seo-action="copy" data-copied="Lien copié">Copier le lien</button>
   </div>
-  <dl class="seo-stats"><div><dt>Distance</dt><dd>99 km</dd></div><div><dt>Dénivelé +</dt><dd>7 076 m</dd></div><div><dt>Dénivelé −</dt><dd>7 081 m</dd></div><div><dt>Point culminant</dt><dd>2 915 m</dd></div><div><dt>Durée</dt><dd>4 jours</dd></div><div><dt>Type</dt><dd>Boucle</dd></div></dl>
-  <div class="seo-text"><p>Le Tour des Combins fait le tour du massif du Grand Combin, l&#39;un des sommets majeurs des Alpes valaisannes, en passant de la Suisse à l&#39;Italie. Cette boucle d&#39;environ 99 km part de Bourg-Saint-Pierre, dans le district d&#39;Entremont, et y revient au bout de quatre jours de marche en général.</p><p>C&#39;est une randonnée de haute montagne soutenue : environ 7 080 m de montée et autant de descente, sans jamais redescendre sous 1 616 m, avec un point culminant à 2 915 m. Les franchissements de cols s&#39;enchaînent, et l&#39;itinéraire s&#39;adresse à des randonneurs expérimentés, à l&#39;aise en terrain alpin.</p></div>
+  <dl class="seo-stats"><div><dt>Distance</dt><dd>99 km</dd></div><div><dt>Dénivelé +</dt><dd>6 456 m</dd></div><div><dt>Dénivelé −</dt><dd>7 080 m</dd></div><div><dt>Point culminant</dt><dd>2 915 m</dd></div><div><dt>Durée</dt><dd>4 jours</dd></div><div><dt>Type</dt><dd>Boucle</dd></div></dl>
+  <div class="seo-text"><p>Le Tour des Combins fait le tour du massif du Grand Combin, l&#39;un des sommets majeurs des Alpes valaisannes, en passant de la Suisse à l&#39;Italie. Cette boucle d&#39;environ 99 km part de Bourg-Saint-Pierre, dans le district d&#39;Entremont, et y revient au bout de quatre jours de marche en général.</p><p>C&#39;est une randonnée de haute montagne soutenue : environ 6 460 m de montée et 7 080 m de descente, sans jamais redescendre sous 1 616 m, avec un point culminant à 2 915 m. Les franchissements de cols s&#39;enchaînent, et l&#39;itinéraire s&#39;adresse à des randonneurs expérimentés, à l&#39;aise en terrain alpin.</p></div>
   
   <h2>Autres itinéraires : Suisse</h2><ul class="seo-list"><li><a href="/fr/gpx/eurovelo-15-the-rhine-route/">Eurovélo 15, la route du Rhin</a> <small>1 513 km · +13 548 m</small></li><li><a href="/fr/gpx/eurovelo-17-from-annecy-to-the-source-of-the-rhone/">Eurovélo 17 d&#39;Annecy à la source du Rhône</a> <small>410 km · +6 690 m</small></li><li><a href="/fr/gpx/glacier-bike-tour-between-st-moritz-and-zermatt/">Glacier Bike Tour entre St-Moritz et Zermatt</a> <small>379 km · +10 157 m</small></li><li><a href="/fr/gpx/grande-traversee-des-cretes-du-jura-suisse-jura-hohenweg/">Grande traversée des Crêtes du Jura suisse (Jura Hohenweg)</a> <small>320 km · +17 587 m</small></li><li><a href="/fr/gpx/along-the-rhine-from-basel-to-bregenz/">Le long du Rhin, de Bâle à Bregenz</a> <small>210 km · +3 089 m</small></li><li><a href="/fr/gpx/lake-geneva-kayak-tour/">Tour du lac Léman en kayak</a> <small>166 km</small></li><li><a href="/fr/gpx/tour-des-lacs-de-neuchatel-bienne-et-morat/">Tour des lacs de Neuchâtel, Bienne et Morat</a> <small>165 km · +737 m</small></li><li><a href="/fr/gpx/from-chamonix-to-zermatt/">De Chamonix à Zermatt</a> <small>98 km · +4 833 m</small></li></ul>
   <nav class="seo-langs" aria-label="Language"><a href="/gpx/tour-des-combins/" hreflang="en" lang="en">EN</a><span>FR</span><a href="/de/gpx/tour-des-combins/" hreflang="de" lang="de">DE</a><a href="/es/gpx/tour-des-combins/" hreflang="es" lang="es">ES</a><a href="/it/gpx/tour-des-combins/" hreflang="it" lang="it">IT</a><a href="/pt/gpx/tour-des-combins/" hreflang="pt" lang="pt">PT</a></nav>

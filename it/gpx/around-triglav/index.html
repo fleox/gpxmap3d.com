@@ -31,23 +31,12 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Google tag (gtag.js) — static <script> so Google's automated
-         tag-installation checker picks it up via plain HTML scan
-         (dynamic injection via createElement is invisible to static
-         scanners). The init call below is gated on `!isTauri()`, so the
-         macOS native shell never calls `gtag('config')` and therefore
-         transmits zero measurement data. The .js library itself does
-         load on Tauri startup (~one HTTPS request, no cookies, no
-         user info) — the /app/ "no telemetry" promise refers to GPX /
-         route data, which never leaves the device. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NFXR22FP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      if (!window.__TAURI_INTERNALS__ && !window.__TAURI__) {
-        gtag('js', new Date());
-        gtag('config', 'G-ECJHFXK6DY');
-      }
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord, Slack…). The
@@ -179,8 +168,8 @@
     <a class="seo-btn" href="/library/i-trekkings/4-jours-de-randonnee-autour-du-triglav.gpx" download>Scarica il GPX</a>
     <button type="button" class="seo-btn" data-seo-action="copy" data-copied="Link copiato">Copia link</button>
   </div>
-  <dl class="seo-stats"><div><dt>Distanza</dt><dd>48 km</dd></div><div><dt>Dislivello +</dt><dd>3407 m</dd></div><div><dt>Dislivello −</dt><dd>3207 m</dd></div><div><dt>Punto più alto</dt><dd>2556 m</dd></div><div><dt>Durata</dt><dd>2 giorni</dd></div><div><dt>Tipo</dt><dd>Traversata</dd></div></dl>
-  <div class="seo-text"><p>Il Triglav, la vetta più alta della Slovenia e simbolo nazionale, domina le Alpi Giulie e dà il nome al parco nazionale che lo circonda. Questa escursione parte dai dintorni di Bohinj e si snoda attorno al suo massiccio.</p><p>Nonostante il nome, il percorso non è un anello: collega due punti diversi in circa 48 km. Il dislivello è importante, con circa 3.400 m di salita tra 552 m e 2.556 m di quota. Distribuito di solito su due giorni, comporta giornate lunghe e un vero passaggio in alta montagna.</p></div>
+  <dl class="seo-stats"><div><dt>Distanza</dt><dd>48 km</dd></div><div><dt>Dislivello +</dt><dd>3407 m</dd></div><div><dt>Dislivello −</dt><dd>3207 m</dd></div><div><dt>Punto più alto</dt><dd>2556 m</dd></div><div><dt>Durata</dt><dd>4 giorni</dd></div><div><dt>Tipo</dt><dd>Traversata</dd></div></dl>
+  <div class="seo-text"><p>Il Triglav, la vetta più alta della Slovenia e simbolo nazionale, domina le Alpi Giulie e dà il nome al parco nazionale che lo circonda. Questa escursione parte dai dintorni di Bohinj e si snoda attorno al suo massiccio.</p><p>Nonostante il nome, il percorso non è un anello: collega due punti diversi in circa 48 km. Il dislivello è importante, con circa 3.400 m di salita tra 552 m e 2.556 m di quota. Distribuito di solito su quattro giorni, comporta giornate impegnative e un vero passaggio in alta montagna.</p></div>
   
   <h2>Altri percorsi: Slovenia</h2><ul class="seo-list"><li><a href="/it/gpx/slovenia-west-to-east/">Slovenia, da ovest a est</a> <small>622 km · +21.741 m</small></li><li><a href="/it/gpx/across-slovenia/">Attraverso la Slovenia</a> <small>336 km · +9737 m</small></li></ul>
   <nav class="seo-langs" aria-label="Language"><a href="/gpx/around-triglav/" hreflang="en" lang="en">EN</a><a href="/fr/gpx/around-triglav/" hreflang="fr" lang="fr">FR</a><a href="/de/gpx/around-triglav/" hreflang="de" lang="de">DE</a><a href="/es/gpx/around-triglav/" hreflang="es" lang="es">ES</a><span>IT</span><a href="/pt/gpx/around-triglav/" hreflang="pt" lang="pt">PT</a></nav>

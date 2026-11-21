@@ -2,17 +2,17 @@
 <gpx version="1.1" creator="gpx-map import-itrekkings" xmlns="http://www.topografix.com/GPX/1/1">
   <metadata><name>5 jours de randonnée sur les Hauts de la Vanoise</name></metadata>
   <trk><name>5 jours de randonnée sur les Hauts de la Vanoise</name><trkseg>
-      <trkpt lat="45.374072" lon="6.719737"><ele>1442.0</ele></trkpt>
+      <trkpt lat="45.374072" lon="6.719737"><ele>1568.0</ele></trkpt>
       <trkpt lat="45.365932" lon="6.710038"><ele>1568.0</ele></trkpt>
-      <trkpt lat="45.360745" lon="6.704545"><ele>1636.0</ele></trkpt>
-      <trkpt lat="45.346993" lon="6.701198"><ele>1712.0</ele></trkpt>
-      <trkpt lat="45.346270" lon="6.702056"><ele>1732.0</ele></trkpt>
-      <trkpt lat="45.346692" lon="6.704459"><ele>1787.0</ele></trkpt>
-      <trkpt lat="45.344973" lon="6.706991"><ele>1903.0</ele></trkpt>
-      <trkpt lat="45.345395" lon="6.712012"><ele>2030.0</ele></trkpt>
-      <trkpt lat="45.344973" lon="6.716862"><ele>2092.0</ele></trkpt>
-      <trkpt lat="45.343464" lon="6.720338"><ele>2197.0</ele></trkpt>
-      <trkpt lat="45.342891" lon="6.724630"><ele>2307.0</ele></trkpt>
+      <trkpt lat="45.360745" lon="6.704545"><ele>1663.0</ele></trkpt>
+      <trkpt lat="45.346993" lon="6.701198"><ele>1758.0</ele></trkpt>
+      <trkpt lat="45.346270" lon="6.702056"><ele>1853.0</ele></trkpt>
+      <trkpt lat="45.346692" lon="6.704459"><ele>1948.0</ele></trkpt>
+      <trkpt lat="45.344973" lon="6.706991"><ele>2043.0</ele></trkpt>
+      <trkpt lat="45.345395" lon="6.712012"><ele>2138.0</ele></trkpt>
+      <trkpt lat="45.344973" lon="6.716862"><ele>2233.0</ele></trkpt>
+      <trkpt lat="45.343464" lon="6.720338"><ele>2328.0</ele></trkpt>
+      <trkpt lat="45.342891" lon="6.724630"><ele>2423.0</ele></trkpt>
       <trkpt lat="45.348200" lon="6.722441"><ele>2518.0</ele></trkpt>
       <trkpt lat="45.351005" lon="6.721540"><ele>2550.0</ele></trkpt>
       <trkpt lat="45.352121" lon="6.723771"><ele>2601.0</ele></trkpt>
@@ -38,9 +38,9 @@
       <trkpt lat="45.377207" lon="6.755185"><ele>2074.0</ele></trkpt>
       <trkpt lat="45.380312" lon="6.753812"><ele>1880.0</ele></trkpt>
       <trkpt lat="45.380071" lon="6.751580"><ele>1814.0</ele></trkpt>
-      <trkpt lat="45.381548" lon="6.746516"><ele>1732.0</ele></trkpt>
-      <trkpt lat="45.382181" lon="6.747718"><ele>1741.0</ele></trkpt>
-      <trkpt lat="45.384351" lon="6.745830"><ele>1762.0</ele></trkpt>
+      <trkpt lat="45.381548" lon="6.746516"><ele>1844.0</ele></trkpt>
+      <trkpt lat="45.382181" lon="6.747718"><ele>1874.0</ele></trkpt>
+      <trkpt lat="45.384351" lon="6.745830"><ele>1904.0</ele></trkpt>
       <trkpt lat="45.387787" lon="6.748576"><ele>1934.0</ele></trkpt>
       <trkpt lat="45.389656" lon="6.752653"><ele>2009.0</ele></trkpt>
       <trkpt lat="45.389565" lon="6.752739"><ele>2005.0</ele></trkpt>
@@ -150,8 +150,8 @@
       <trkpt lat="45.502593" lon="6.837754"><ele>2095.0</ele></trkpt>
       <trkpt lat="45.512819" lon="6.831060"><ele>1932.0</ele></trkpt>
       <trkpt lat="45.514082" lon="6.827369"><ele>1904.0</ele></trkpt>
-      <trkpt lat="45.513661" lon="6.819043"><ele>1755.0</ele></trkpt>
-      <trkpt lat="45.516247" lon="6.812005"><ele>1629.0</ele></trkpt>
-      <trkpt lat="45.517931" lon="6.804624"><ele>1563.0</ele></trkpt>
+      <trkpt lat="45.513661" lon="6.819043"><ele>1904.0</ele></trkpt>
+      <trkpt lat="45.516247" lon="6.812005"><ele>1904.0</ele></trkpt>
+      <trkpt lat="45.517931" lon="6.804624"><ele>1904.0</ele></trkpt>
   </trkseg></trk>
 </gpx>

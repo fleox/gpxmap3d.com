@@ -31,23 +31,12 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Google tag (gtag.js) — static <script> so Google's automated
-         tag-installation checker picks it up via plain HTML scan
-         (dynamic injection via createElement is invisible to static
-         scanners). The init call below is gated on `!isTauri()`, so the
-         macOS native shell never calls `gtag('config')` and therefore
-         transmits zero measurement data. The .js library itself does
-         load on Tauri startup (~one HTTPS request, no cookies, no
-         user info) — the /app/ "no telemetry" promise refers to GPX /
-         route data, which never leaves the device. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NFXR22FP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      if (!window.__TAURI_INTERNALS__ && !window.__TAURI__) {
-        gtag('js', new Date());
-        gtag('config', 'G-ECJHFXK6DY');
-      }
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord, Slack…). The
@@ -182,7 +171,7 @@
   <dl class="seo-stats"><div><dt>Strecke</dt><dd>46 km</dd></div><div><dt>Aufstieg</dt><dd>3.103 m</dd></div><div><dt>Abstieg</dt><dd>3.088 m</dd></div><div><dt>Höchster Punkt</dt><dd>575 m</dd></div><div><dt>Dauer</dt><dd>2 Tage</dd></div><div><dt>Typ</dt><dd>Streckentour</dd></div></dl>
   <div class="seo-text"><p>Die Cinque Terre, fünf an der ligurischen Küste gelegene Dörfer und UNESCO-Welterbe, werden hier auf rund 46 km zu Fuß durchquert. Die Streckenroute folgt der Küste der Provinz La Spezia und führt durch die Gegend von Riomaggiore.</p><p>Obwohl der höchste Punkt nur bei 575 m liegt, sorgt die steile Küste für ständiges Auf und Ab ab Meereshöhe – insgesamt über 3.100 Höhenmeter im Anstieg. Auf die üblichen zwei Tage verteilt, ist das eine durchaus fordernde Wanderung.</p></div>
   
-  <h2>Weitere Touren: Italien</h2><ul class="seo-list"><li><a href="/de/gpx/transdinarica-from-montenegro-to-italy/">TransDinarica von Montenegro nach Italien</a> <small>2.130 km · +45.220 m</small></li><li><a href="/de/gpx/traverse-of-the-italian-alps-from-west-to-east/">Durchquerung der italienischen Alpen von West nach Ost</a> <small>1.224 km · +62.823 m</small></li><li><a href="/de/gpx/northern-italy-from-tyrol-to-friuli/">Norditalien, von Tirol bis Friaul</a> <small>420 km · +5.628 m</small></li><li><a href="/de/gpx/northern-italy-from-tyrol-to-friuli-bedollo/">Norditalien, von Tirol bis Friaul</a> <small>361 km · +23.349 m</small></li><li><a href="/de/gpx/tour-du-mont-rose/">Tour du Mont Rose</a> <small>163 km · +13.279 m</small></li><li><a href="/de/gpx/great-crossing-of-the-italian-dolomites/">Große Durchquerung der Italienischen Dolomiten</a> <small>137 km · +9.940 m</small></li><li><a href="/de/gpx/cortina-dolomiti-ultra-trekking/">Cortina Dolomiti Ultra Trekking</a> <small>129 km · +7.989 m</small></li><li><a href="/de/gpx/dolomites-traverse/">Dolomiten-Durchquerung</a> <small>107 km · +7.933 m</small></li></ul>
+  <h2>Weitere Touren: Italien</h2><ul class="seo-list"><li><a href="/de/gpx/transdinarica-from-montenegro-to-italy/">TransDinarica von Montenegro nach Italien</a> <small>2.130 km · +45.219 m</small></li><li><a href="/de/gpx/traverse-of-the-italian-alps-from-west-to-east/">Durchquerung der italienischen Alpen von West nach Ost</a> <small>1.224 km · +62.823 m</small></li><li><a href="/de/gpx/northern-italy-from-tyrol-to-friuli/">Norditalien, von Tirol bis Friaul</a> <small>420 km · +5.628 m</small></li><li><a href="/de/gpx/northern-italy-from-tyrol-to-friuli-bedollo/">Norditalien, von Tirol bis Friaul</a> <small>361 km · +23.349 m</small></li><li><a href="/de/gpx/tour-du-mont-rose/">Tour du Mont Rose</a> <small>163 km · +13.279 m</small></li><li><a href="/de/gpx/great-crossing-of-the-italian-dolomites/">Große Durchquerung der Italienischen Dolomiten</a> <small>137 km · +9.940 m</small></li><li><a href="/de/gpx/cortina-dolomiti-ultra-trekking/">Cortina Dolomiti Ultra Trekking</a> <small>129 km · +7.989 m</small></li><li><a href="/de/gpx/dolomites-traverse/">Dolomiten-Durchquerung</a> <small>107 km · +7.933 m</small></li></ul>
   <nav class="seo-langs" aria-label="Language"><a href="/gpx/cinque-terre-traverse/" hreflang="en" lang="en">EN</a><a href="/fr/gpx/cinque-terre-traverse/" hreflang="fr" lang="fr">FR</a><span>DE</span><a href="/es/gpx/cinque-terre-traverse/" hreflang="es" lang="es">ES</a><a href="/it/gpx/cinque-terre-traverse/" hreflang="it" lang="it">IT</a><a href="/pt/gpx/cinque-terre-traverse/" hreflang="pt" lang="pt">PT</a></nav>
 </aside>
     <div id="boot-splash" aria-hidden="true">

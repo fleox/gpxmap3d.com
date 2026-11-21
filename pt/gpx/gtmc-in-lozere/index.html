@@ -31,23 +31,12 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Google tag (gtag.js) — static <script> so Google's automated
-         tag-installation checker picks it up via plain HTML scan
-         (dynamic injection via createElement is invisible to static
-         scanners). The init call below is gated on `!isTauri()`, so the
-         macOS native shell never calls `gtag('config')` and therefore
-         transmits zero measurement data. The .js library itself does
-         load on Tauri startup (~one HTTPS request, no cookies, no
-         user info) — the /app/ "no telemetry" promise refers to GPX /
-         route data, which never leaves the device. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NFXR22FP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      if (!window.__TAURI_INTERNALS__ && !window.__TAURI__) {
-        gtag('js', new Date());
-        gtag('config', 'G-ECJHFXK6DY');
-      }
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord, Slack…). The
@@ -180,9 +169,9 @@
     <button type="button" class="seo-btn" data-seo-action="copy" data-copied="Link copiado">Copiar link</button>
   </div>
   <dl class="seo-stats"><div><dt>Distância</dt><dd>158 km</dd></div><div><dt>Subida</dt><dd>4.222 m</dd></div><div><dt>Descida</dt><dd>4.659 m</dd></div><div><dt>Ponto mais alto</dt><dd>1.561 m</dd></div><div><dt>Tipo</dt><dd>Linear</dd></div></dl>
-  <div class="seo-text"><p>A GTMC, Grande Traversée du Massif Central, é um dos grandes percursos de BTT de longa distância em França. Este traçado cobre o seu troço da Lozère, na Occitânia: cerca de 158 km só de ida, a partir da zona de Allenc e em direção a sudoeste, rumo às Cevenas.</p><p>Com cerca de 4.220 m de subida e 4.660 m de descida, entre 467 m e 1.560 m de altitude, o percurso encadeia planaltos e vales em dias longos em cima da bicicleta. Costuma ser distribuído por cerca de seis dias.</p></div>
+  <div class="seo-text"><p>A GTMC, Grande Traversée du Massif Central, é um dos grandes percursos de BTT de longa distância em França. Este traçado cobre o seu troço da Lozère, na Occitânia: cerca de 158 km só de ida, a partir da zona de Allenc e em direção a sudoeste, rumo às Cevenas.</p><p>Com cerca de 4.220 m de subida e 4.660 m de descida, entre 467 m e 1.560 m de altitude, o percurso encadeia planaltos e vales em dias longos em cima da bicicleta. Costuma ser distribuído por cerca de quatro dias.</p></div>
   
-  <h2>Mais percursos: França</h2><ul class="seo-list"><li><a href="/pt/gpx/from-the-pyrenees-to-the-alps/">Dos Pirenéus aos Alpes</a> <small>1.092 km · +39.452 m</small></li><li><a href="/pt/gpx/gr-7-crossing-of-the-massif-central-via-the-parks/">GR 7 Travessia do Maciço Central pelos Parques</a> <small>772 km · +29.360 m</small></li><li><a href="/pt/gpx/pyrenean-high-route/">Haute Route Pyrénéenne</a> <small>767 km · +43.767 m</small></li><li><a href="/pt/gpx/gr-10-from-cauterets-to-banyuls-sur-mer/">GR 10 de Cauterets a Banyuls-sur-Mer</a> <small>596 km · +43.221 m</small></li><li><a href="/pt/gpx/from-the-hills-and-slopes-of-arcachon-to-luchon/">Dos colos e colinas de Arcachon a Luchon</a> <small>524 km · +9.625 m</small></li><li><a href="/pt/gpx/le-tour-de-la-manche/">Le Tour de la Manche</a> <small>456 km</small></li><li><a href="/pt/gpx/gr-51-from-marseille-to-nice/">GR 51, de Marselha a Nice</a> <small>414 km · +17.500 m</small></li><li><a href="/pt/gpx/la-meuse-eurovelo-19/">La Meuse, EuroVelo 19</a> <small>387 km · +4.318 m</small></li></ul>
+  <h2>Mais percursos: França</h2><ul class="seo-list"><li><a href="/pt/gpx/from-the-pyrenees-to-the-alps/">Dos Pirenéus aos Alpes</a> <small>1.092 km · +39.452 m</small></li><li><a href="/pt/gpx/gr-7-crossing-of-the-massif-central-via-the-parks/">GR 7 Travessia do Maciço Central pelos Parques</a> <small>772 km · +29.360 m</small></li><li><a href="/pt/gpx/pyrenean-high-route/">Haute Route Pyrénéenne</a> <small>767 km · +43.767 m</small></li><li><a href="/pt/gpx/gr-10-from-cauterets-to-banyuls-sur-mer/">GR 10 de Cauterets a Banyuls-sur-Mer</a> <small>596 km · +43.221 m</small></li><li><a href="/pt/gpx/from-the-hills-and-slopes-of-arcachon-to-luchon/">Dos colos e colinas de Arcachon a Luchon</a> <small>524 km · +9.625 m</small></li><li><a href="/pt/gpx/le-tour-de-la-manche/">Le Tour de la Manche</a> <small>456 km · +5.135 m</small></li><li><a href="/pt/gpx/gr-51-from-marseille-to-nice/">GR 51, de Marselha a Nice</a> <small>414 km · +17.500 m</small></li><li><a href="/pt/gpx/la-meuse-eurovelo-19/">La Meuse, EuroVelo 19</a> <small>387 km · +4.318 m</small></li></ul>
   <nav class="seo-langs" aria-label="Language"><a href="/gpx/gtmc-in-lozere/" hreflang="en" lang="en">EN</a><a href="/fr/gpx/gtmc-in-lozere/" hreflang="fr" lang="fr">FR</a><a href="/de/gpx/gtmc-in-lozere/" hreflang="de" lang="de">DE</a><a href="/es/gpx/gtmc-in-lozere/" hreflang="es" lang="es">ES</a><a href="/it/gpx/gtmc-in-lozere/" hreflang="it" lang="it">IT</a><span>PT</span></nav>
 </aside>
     <div id="boot-splash" aria-hidden="true">

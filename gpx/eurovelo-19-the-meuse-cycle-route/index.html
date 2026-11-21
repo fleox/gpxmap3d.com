@@ -31,23 +31,12 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Google tag (gtag.js) — static <script> so Google's automated
-         tag-installation checker picks it up via plain HTML scan
-         (dynamic injection via createElement is invisible to static
-         scanners). The init call below is gated on `!isTauri()`, so the
-         macOS native shell never calls `gtag('config')` and therefore
-         transmits zero measurement data. The .js library itself does
-         load on Tauri startup (~one HTTPS request, no cookies, no
-         user info) — the /app/ "no telemetry" promise refers to GPX /
-         route data, which never leaves the device. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NFXR22FP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      if (!window.__TAURI_INTERNALS__ && !window.__TAURI__) {
-        gtag('js', new Date());
-        gtag('config', 'G-ECJHFXK6DY');
-      }
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord, Slack…). The
@@ -180,7 +169,7 @@
     <button type="button" class="seo-btn" data-seo-action="copy" data-copied="Link copied">Copy link</button>
   </div>
   <dl class="seo-stats"><div><dt>Distance</dt><dd>1,083 km</dd></div><div><dt>Ascent</dt><dd>9,609 m</dd></div><div><dt>Highest point</dt><dd>474 m</dd></div><div><dt>Route type</dt><dd>One-way</dd></div></dl>
-  <div class="seo-text"><p>EuroVelo 19, the Meuse Cycle Route, follows the river between its source in France and the North Sea. This track of about 1,083 km rides it upstream, from the Netherlands towards France via Belgium, passing through the province of Namur around Bièvre and the Dinant district.</p><p>Altitude stays modest, from sea level up to 474 m, with around 9,600 m of cumulative ascent. A typical schedule for this one-way journey is about 43 days.</p></div>
+  <div class="seo-text"><p>EuroVelo 19, the Meuse Cycle Route, follows the river between its source in France and the North Sea. This track of about 1,083 km rides it upstream, from the Netherlands towards France via Belgium, passing through the province of Namur around Bièvre and the Dinant district.</p><p>Altitude stays modest, from sea level up to 474 m, with around 9,600 m of cumulative ascent. A typical schedule for this one-way journey is about 18 days.</p></div>
   
   
   <nav class="seo-langs" aria-label="Language"><span>EN</span><a href="/fr/gpx/eurovelo-19-the-meuse-cycle-route/" hreflang="fr" lang="fr">FR</a><a href="/de/gpx/eurovelo-19-the-meuse-cycle-route/" hreflang="de" lang="de">DE</a><a href="/es/gpx/eurovelo-19-the-meuse-cycle-route/" hreflang="es" lang="es">ES</a><a href="/it/gpx/eurovelo-19-the-meuse-cycle-route/" hreflang="it" lang="it">IT</a><a href="/pt/gpx/eurovelo-19-the-meuse-cycle-route/" hreflang="pt" lang="pt">PT</a></nav>

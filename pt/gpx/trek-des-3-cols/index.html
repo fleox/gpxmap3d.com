@@ -31,23 +31,12 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Google tag (gtag.js) — static <script> so Google's automated
-         tag-installation checker picks it up via plain HTML scan
-         (dynamic injection via createElement is invisible to static
-         scanners). The init call below is gated on `!isTauri()`, so the
-         macOS native shell never calls `gtag('config')` and therefore
-         transmits zero measurement data. The .js library itself does
-         load on Tauri startup (~one HTTPS request, no cookies, no
-         user info) — the /app/ "no telemetry" promise refers to GPX /
-         route data, which never leaves the device. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NFXR22FP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      if (!window.__TAURI_INTERNALS__ && !window.__TAURI__) {
-        gtag('js', new Date());
-        gtag('config', 'G-ECJHFXK6DY');
-      }
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord, Slack…). The
@@ -179,7 +168,7 @@
     <a class="seo-btn" href="/library/i-trekkings/trek-des-3-cols.gpx" download>Descarregar GPX</a>
     <button type="button" class="seo-btn" data-seo-action="copy" data-copied="Link copiado">Copiar link</button>
   </div>
-  <dl class="seo-stats"><div><dt>Distância</dt><dd>130 km</dd></div><div><dt>Subida</dt><dd>10.790 m</dd></div><div><dt>Descida</dt><dd>10.810 m</dd></div><div><dt>Ponto mais alto</dt><dd>5.600 m</dd></div><div><dt>Duração</dt><dd>5 dias</dd></div><div><dt>Tipo</dt><dd>Circular</dd></div></dl>
+  <dl class="seo-stats"><div><dt>Distância</dt><dd>130 km</dd></div><div><dt>Subida</dt><dd>10.460 m</dd></div><div><dt>Descida</dt><dd>10.480 m</dd></div><div><dt>Ponto mais alto</dt><dd>5.600 m</dd></div><div><dt>Duração</dt><dd>5 dias</dd></div><div><dt>Tipo</dt><dd>Circular</dd></div></dl>
   <div class="seo-text"><p>O Trek des 3 Cols, ou trekking das Três Passagens, é um circuito de alta montanha na região do Everest, no Nepal, no distrito de Solukhumbu, junto a Phortse. Ao longo de cerca de 130 km regressa ao ponto de partida, atravessando três colos de altitude.</p><p>O traçado nunca desce abaixo dos 2540 m e chega aos 5600 m, com quase 10 800 m de desnível positivo. Nos cinco dias indicados pelos dados, são mais de 2000 m de subida por dia a grande altitude: a aclimatação prévia é indispensável.</p></div>
   
   <h2>Mais percursos: Nepal</h2><ul class="seo-list"><li><a href="/pt/gpx/langtang-valley-and-sacred-lakes-of-gosainkund/">Vale do Langtang e Lagos sagrados de Gosainkund</a> <small>173 km · +14.822 m</small></li><li><a href="/pt/gpx/tour-du-manaslu/">Tour du Manaslu</a> <small>167 km · +17.498 m</small></li><li><a href="/pt/gpx/annapurna-sanctuary/">Santuário dos Annapurnas</a> <small>85 km · +8.326 m</small></li><li><a href="/pt/gpx/khopra-ridge/">Khopra Ridge</a> <small>47 km · +4.093 m</small></li></ul>

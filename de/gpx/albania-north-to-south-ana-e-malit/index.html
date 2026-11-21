@@ -31,23 +31,12 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Google tag (gtag.js) — static <script> so Google's automated
-         tag-installation checker picks it up via plain HTML scan
-         (dynamic injection via createElement is invisible to static
-         scanners). The init call below is gated on `!isTauri()`, so the
-         macOS native shell never calls `gtag('config')` and therefore
-         transmits zero measurement data. The .js library itself does
-         load on Tauri startup (~one HTTPS request, no cookies, no
-         user info) — the /app/ "no telemetry" promise refers to GPX /
-         route data, which never leaves the device. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NFXR22FP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      if (!window.__TAURI_INTERNALS__ && !window.__TAURI__) {
-        gtag('js', new Date());
-        gtag('config', 'G-ECJHFXK6DY');
-      }
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord, Slack…). The
@@ -182,7 +171,7 @@
   <dl class="seo-stats"><div><dt>Strecke</dt><dd>20 km</dd></div><div><dt>Aufstieg</dt><dd>542 m</dd></div><div><dt>Abstieg</dt><dd>541 m</dd></div><div><dt>Höchster Punkt</dt><dd>438 m</dd></div><div><dt>Typ</dt><dd>Streckentour</dd></div></dl>
   <div class="seo-text"><p>Viel kürzer, als der Name vermuten lässt: Diese rund 20 km lange Etappe ist nur ein Teilstück einer Albanien-Durchquerung von Nord nach Süd. Sie liegt im Qark Shkodra, bei Ana e Malit, und wird an einem Tag von A nach B gegangen.</p><p>Das Profil ist gut machbar, mit etwa 540 Höhenmetern im Auf- und ebenso vielen im Abstieg. Höher als 438 m geht es nicht, an der tiefsten Stelle fast bis auf Meereshöhe. Ein guter Einstieg in die Hügel im Nordwesten Albaniens, nahe der Grenze zu Montenegro.</p></div>
   
-  <h2>Weitere Touren: Albanien</h2><ul class="seo-list"><li><a href="/de/gpx/albania-north-to-south/">Albanien von Nord nach Süd</a> <small>386 km · +9.035 m</small></li><li><a href="/de/gpx/albania-north-to-south-118-km/">Albanien von Nord nach Süd</a> <small>118 km · +4.254 m</small></li><li><a href="/de/gpx/albania-north-to-south-milot/">Albanien von Nord nach Süd</a> <small>77 km · +2.037 m</small></li></ul>
+  <h2>Weitere Touren: Albanien</h2><ul class="seo-list"><li><a href="/de/gpx/albania-north-to-south/">Albanien von Nord nach Süd</a> <small>386 km · +9.034 m</small></li><li><a href="/de/gpx/albania-north-to-south-118-km/">Albanien von Nord nach Süd</a> <small>118 km · +4.254 m</small></li><li><a href="/de/gpx/albania-north-to-south-milot/">Albanien von Nord nach Süd</a> <small>77 km · +2.037 m</small></li></ul>
   <nav class="seo-langs" aria-label="Language"><a href="/gpx/albania-north-to-south-ana-e-malit/" hreflang="en" lang="en">EN</a><a href="/fr/gpx/albania-north-to-south-ana-e-malit/" hreflang="fr" lang="fr">FR</a><span>DE</span><a href="/es/gpx/albania-north-to-south-ana-e-malit/" hreflang="es" lang="es">ES</a><a href="/it/gpx/albania-north-to-south-ana-e-malit/" hreflang="it" lang="it">IT</a><a href="/pt/gpx/albania-north-to-south-ana-e-malit/" hreflang="pt" lang="pt">PT</a></nav>
 </aside>
     <div id="boot-splash" aria-hidden="true">

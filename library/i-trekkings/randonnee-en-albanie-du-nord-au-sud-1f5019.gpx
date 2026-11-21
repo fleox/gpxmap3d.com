@@ -3372,11 +3372,11 @@
       <trkpt lat="39.743746" lon="20.012109"><ele>0.4</ele></trkpt>
       <trkpt lat="39.743140" lon="20.010253"><ele>0.2</ele></trkpt>
       <trkpt lat="39.743105" lon="20.009487"><ele>0.1</ele></trkpt>
-      <trkpt lat="39.743163" lon="20.010625"><ele>-0.0</ele></trkpt>
-      <trkpt lat="39.743221" lon="20.011764"><ele>-0.1</ele></trkpt>
-      <trkpt lat="39.743279" lon="20.012902"><ele>-0.1</ele></trkpt>
-      <trkpt lat="39.743336" lon="20.014040"><ele>-0.1</ele></trkpt>
-      <trkpt lat="39.743394" lon="20.015179"><ele>0.0</ele></trkpt>
+      <trkpt lat="39.743163" lon="20.010625"><ele>0.1</ele></trkpt>
+      <trkpt lat="39.743221" lon="20.011764"><ele>0.1</ele></trkpt>
+      <trkpt lat="39.743279" lon="20.012902"><ele>0.2</ele></trkpt>
+      <trkpt lat="39.743336" lon="20.014040"><ele>0.2</ele></trkpt>
+      <trkpt lat="39.743394" lon="20.015179"><ele>0.2</ele></trkpt>
       <trkpt lat="39.743452" lon="20.016317"><ele>0.2</ele></trkpt>
       <trkpt lat="39.743510" lon="20.017455"><ele>0.4</ele></trkpt>
       <trkpt lat="39.743567" lon="20.018594"><ele>0.6</ele></trkpt>

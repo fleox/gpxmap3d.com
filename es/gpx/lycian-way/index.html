@@ -31,23 +31,12 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Google tag (gtag.js) — static <script> so Google's automated
-         tag-installation checker picks it up via plain HTML scan
-         (dynamic injection via createElement is invisible to static
-         scanners). The init call below is gated on `!isTauri()`, so the
-         macOS native shell never calls `gtag('config')` and therefore
-         transmits zero measurement data. The .js library itself does
-         load on Tauri startup (~one HTTPS request, no cookies, no
-         user info) — the /app/ "no telemetry" promise refers to GPX /
-         route data, which never leaves the device. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NFXR22FP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      if (!window.__TAURI_INTERNALS__ && !window.__TAURI__) {
-        gtag('js', new Date());
-        gtag('config', 'G-ECJHFXK6DY');
-      }
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord, Slack…). The
@@ -179,8 +168,8 @@
     <a class="seo-btn" href="/library/i-trekkings/randonnee-sur-la-lycian-way.gpx" download>Descargar GPX</a>
     <button type="button" class="seo-btn" data-seo-action="copy" data-copied="Enlace copiado">Copiar enlace</button>
   </div>
-  <dl class="seo-stats"><div><dt>Distancia</dt><dd>115 km</dd></div><div><dt>Duración</dt><dd>5 días</dd></div><div><dt>Tipo</dt><dd>Lineal</dd></div></dl>
-  <div class="seo-text"><p>La Lycian Way, o Ruta Licia, es el gran sendero de la costa licia, en el suroeste de Turquía, entre la zona de Fethiye y la región de Antalya. Este trazado de unos 115 km solo cubre una parte, en la provincia de Muğla, en torno a Seydikemer, es decir, en el sector occidental del itinerario.</p><p>El tramo es lineal y suele hacerse en cinco días. La altitud máxima es de solo 773 m, pero el camino sube y baja sin tregua entre el litoral y las colinas, lo que hace las etapas mucho más exigentes de lo que sugiere esa cota modesta.</p></div>
+  <dl class="seo-stats"><div><dt>Distancia</dt><dd>115 km</dd></div><div><dt>Desnivel +</dt><dd>4577 m</dd></div><div><dt>Desnivel −</dt><dd>4821 m</dd></div><div><dt>Punto más alto</dt><dd>773 m</dd></div><div><dt>Duración</dt><dd>5 días</dd></div><div><dt>Tipo</dt><dd>Lineal</dd></div></dl>
+  <div class="seo-text"><p>La Lycian Way, o Ruta Licia, es el gran sendero de la costa licia, en el suroeste de Turquía, entre la zona de Fethiye y la región de Antalya. Este trazado de unos 115 km solo cubre una parte, en la provincia de Muğla, en torno a Seydikemer, es decir, en el sector occidental del itinerario.</p><p>El tramo es lineal y suele hacerse en cinco días. La altitud máxima es de solo 773 m, pero el camino sube y baja sin tregua entre el litoral y las colinas, con unos 4.580 m de desnivel positivo, lo que hace las etapas mucho más exigentes de lo que sugiere esa cota modesta.</p></div>
   
   <h2>Más rutas: Turquía</h2><ul class="seo-list"><li><a href="/es/gpx/from-edirne-to-istanbul/">De Edirne a Estambul</a> <small>340 km · +5618 m</small></li></ul>
   <nav class="seo-langs" aria-label="Language"><a href="/gpx/lycian-way/" hreflang="en" lang="en">EN</a><a href="/fr/gpx/lycian-way/" hreflang="fr" lang="fr">FR</a><a href="/de/gpx/lycian-way/" hreflang="de" lang="de">DE</a><span>ES</span><a href="/it/gpx/lycian-way/" hreflang="it" lang="it">IT</a><a href="/pt/gpx/lycian-way/" hreflang="pt" lang="pt">PT</a></nav>

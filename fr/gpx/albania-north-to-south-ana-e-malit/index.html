@@ -31,23 +31,12 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Google tag (gtag.js) — static <script> so Google's automated
-         tag-installation checker picks it up via plain HTML scan
-         (dynamic injection via createElement is invisible to static
-         scanners). The init call below is gated on `!isTauri()`, so the
-         macOS native shell never calls `gtag('config')` and therefore
-         transmits zero measurement data. The .js library itself does
-         load on Tauri startup (~one HTTPS request, no cookies, no
-         user info) — the /app/ "no telemetry" promise refers to GPX /
-         route data, which never leaves the device. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NFXR22FP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      if (!window.__TAURI_INTERNALS__ && !window.__TAURI__) {
-        gtag('js', new Date());
-        gtag('config', 'G-ECJHFXK6DY');
-      }
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord, Slack…). The
@@ -182,7 +171,7 @@
   <dl class="seo-stats"><div><dt>Distance</dt><dd>20 km</dd></div><div><dt>Dénivelé +</dt><dd>542 m</dd></div><div><dt>Dénivelé −</dt><dd>541 m</dd></div><div><dt>Point culminant</dt><dd>438 m</dd></div><div><dt>Type</dt><dd>Itinéraire</dd></div></dl>
   <div class="seo-text"><p>Bien plus courte que son nom ne le laisse penser, cette étape d&#39;environ 20 km n&#39;est qu&#39;un tronçon d&#39;une traversée de l&#39;Albanie du nord au sud. Elle se situe dans la préfecture de Shkodër, près d&#39;Ana e Malit, et se fait en une journée, d&#39;un point à un autre.</p><p>Le profil est accessible : environ 540 m de montée et autant de descente, pour une altitude qui ne dépasse pas 438 m et redescend presque au niveau de la mer. Une bonne mise en jambes dans les collines du nord-ouest albanais, une région proche de la frontière avec le Monténégro.</p></div>
   
-  <h2>Autres itinéraires : Albanie</h2><ul class="seo-list"><li><a href="/fr/gpx/albania-north-to-south/">Albanie du Nord au Sud</a> <small>386 km · +9 035 m</small></li><li><a href="/fr/gpx/albania-north-to-south-118-km/">Albanie du Nord au Sud</a> <small>118 km · +4 254 m</small></li><li><a href="/fr/gpx/albania-north-to-south-milot/">Albanie du Nord au Sud</a> <small>77 km · +2 037 m</small></li></ul>
+  <h2>Autres itinéraires : Albanie</h2><ul class="seo-list"><li><a href="/fr/gpx/albania-north-to-south/">Albanie du Nord au Sud</a> <small>386 km · +9 034 m</small></li><li><a href="/fr/gpx/albania-north-to-south-118-km/">Albanie du Nord au Sud</a> <small>118 km · +4 254 m</small></li><li><a href="/fr/gpx/albania-north-to-south-milot/">Albanie du Nord au Sud</a> <small>77 km · +2 037 m</small></li></ul>
   <nav class="seo-langs" aria-label="Language"><a href="/gpx/albania-north-to-south-ana-e-malit/" hreflang="en" lang="en">EN</a><span>FR</span><a href="/de/gpx/albania-north-to-south-ana-e-malit/" hreflang="de" lang="de">DE</a><a href="/es/gpx/albania-north-to-south-ana-e-malit/" hreflang="es" lang="es">ES</a><a href="/it/gpx/albania-north-to-south-ana-e-malit/" hreflang="it" lang="it">IT</a><a href="/pt/gpx/albania-north-to-south-ana-e-malit/" hreflang="pt" lang="pt">PT</a></nav>
 </aside>
     <div id="boot-splash" aria-hidden="true">

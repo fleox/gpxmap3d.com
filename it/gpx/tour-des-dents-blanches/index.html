@@ -31,23 +31,12 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Google tag (gtag.js) — static <script> so Google's automated
-         tag-installation checker picks it up via plain HTML scan
-         (dynamic injection via createElement is invisible to static
-         scanners). The init call below is gated on `!isTauri()`, so the
-         macOS native shell never calls `gtag('config')` and therefore
-         transmits zero measurement data. The .js library itself does
-         load on Tauri startup (~one HTTPS request, no cookies, no
-         user info) — the /app/ "no telemetry" promise refers to GPX /
-         route data, which never leaves the device. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NFXR22FP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      if (!window.__TAURI_INTERNALS__ && !window.__TAURI__) {
-        gtag('js', new Date());
-        gtag('config', 'G-ECJHFXK6DY');
-      }
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord, Slack…). The
@@ -182,7 +171,7 @@
   <dl class="seo-stats"><div><dt>Distanza</dt><dd>64 km</dd></div><div><dt>Dislivello +</dt><dd>5520 m</dd></div><div><dt>Dislivello −</dt><dd>5520 m</dd></div><div><dt>Punto più alto</dt><dd>2531 m</dd></div><div><dt>Durata</dt><dd>3 giorni</dd></div><div><dt>Tipo</dt><dd>Anello</dd></div></dl>
   <div class="seo-text"><p>Il Tour des Dents blanches è un anello di montagna di circa 64 km che passa dall&#39;Alta Savoia alla Svizzera attorno a questa cresta calcarea. Parte dalla zona di Sixt-Fer-à-Cheval, comune noto per il suo circo.</p><p>Di norma si prevedono tre giorni. Tra 814 e 2.531 m di quota, il percorso accumula circa 5.520 m di dislivello positivo, in media oltre 1.800 m di salita al giorno. Un&#39;escursione alpina impegnativa, che richiede solida esperienza di montagna e buona resistenza.</p></div>
   
-  <h2>Altri percorsi: Francia</h2><ul class="seo-list"><li><a href="/it/gpx/from-the-pyrenees-to-the-alps/">Dai Pirenei alle Alpi</a> <small>1092 km · +39.452 m</small></li><li><a href="/it/gpx/gr-7-crossing-of-the-massif-central-via-the-parks/">GR 7 Traversata del Massiccio Centrale attraverso i Parchi</a> <small>772 km · +29.360 m</small></li><li><a href="/it/gpx/pyrenean-high-route/">Haute Route Pyrénéenne</a> <small>767 km · +43.767 m</small></li><li><a href="/it/gpx/gr-10-from-cauterets-to-banyuls-sur-mer/">GR 10 da Cauterets a Banyuls-sur-Mer</a> <small>596 km · +43.221 m</small></li><li><a href="/it/gpx/from-the-hills-and-slopes-of-arcachon-to-luchon/">Dai colli e dalle colline di Arcachon a Luchon</a> <small>524 km · +9625 m</small></li><li><a href="/it/gpx/le-tour-de-la-manche/">Le Tour de la Manche</a> <small>456 km</small></li><li><a href="/it/gpx/gr-51-from-marseille-to-nice/">GR 51, da Marsiglia a Nizza</a> <small>414 km · +17.500 m</small></li><li><a href="/it/gpx/la-meuse-eurovelo-19/">La Meuse, EuroVelo 19</a> <small>387 km · +4318 m</small></li></ul>
+  <h2>Altri percorsi: Francia</h2><ul class="seo-list"><li><a href="/it/gpx/from-the-pyrenees-to-the-alps/">Dai Pirenei alle Alpi</a> <small>1092 km · +39.452 m</small></li><li><a href="/it/gpx/gr-7-crossing-of-the-massif-central-via-the-parks/">GR 7 Traversata del Massiccio Centrale attraverso i Parchi</a> <small>772 km · +29.360 m</small></li><li><a href="/it/gpx/pyrenean-high-route/">Haute Route Pyrénéenne</a> <small>767 km · +43.767 m</small></li><li><a href="/it/gpx/gr-10-from-cauterets-to-banyuls-sur-mer/">GR 10 da Cauterets a Banyuls-sur-Mer</a> <small>596 km · +43.221 m</small></li><li><a href="/it/gpx/from-the-hills-and-slopes-of-arcachon-to-luchon/">Dai colli e dalle colline di Arcachon a Luchon</a> <small>524 km · +9625 m</small></li><li><a href="/it/gpx/le-tour-de-la-manche/">Le Tour de la Manche</a> <small>456 km · +5135 m</small></li><li><a href="/it/gpx/gr-51-from-marseille-to-nice/">GR 51, da Marsiglia a Nizza</a> <small>414 km · +17.500 m</small></li><li><a href="/it/gpx/la-meuse-eurovelo-19/">La Meuse, EuroVelo 19</a> <small>387 km · +4318 m</small></li></ul>
   <nav class="seo-langs" aria-label="Language"><a href="/gpx/tour-des-dents-blanches/" hreflang="en" lang="en">EN</a><a href="/fr/gpx/tour-des-dents-blanches/" hreflang="fr" lang="fr">FR</a><a href="/de/gpx/tour-des-dents-blanches/" hreflang="de" lang="de">DE</a><a href="/es/gpx/tour-des-dents-blanches/" hreflang="es" lang="es">ES</a><span>IT</span><a href="/pt/gpx/tour-des-dents-blanches/" hreflang="pt" lang="pt">PT</a></nav>
 </aside>
     <div id="boot-splash" aria-hidden="true">

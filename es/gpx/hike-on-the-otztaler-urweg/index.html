@@ -31,23 +31,12 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0b1220" />
 
-    <!-- Google tag (gtag.js) — static <script> so Google's automated
-         tag-installation checker picks it up via plain HTML scan
-         (dynamic injection via createElement is invisible to static
-         scanners). The init call below is gated on `!isTauri()`, so the
-         macOS native shell never calls `gtag('config')` and therefore
-         transmits zero measurement data. The .js library itself does
-         load on Tauri startup (~one HTTPS request, no cookies, no
-         user info) — the /app/ "no telemetry" promise refers to GPX /
-         route data, which never leaves the device. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJHFXK6DY"></script>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NFXR22FP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      if (!window.__TAURI_INTERNALS__ && !window.__TAURI__) {
-        gtag('js', new Date());
-        gtag('config', 'G-ECJHFXK6DY');
-      }
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord, Slack…). The
@@ -179,8 +168,8 @@
     <a class="seo-btn" href="/library/i-trekkings/3-jours-de-randonnee-sur-lotztaler-urweg.gpx" download>Descargar GPX</a>
     <button type="button" class="seo-btn" data-seo-action="copy" data-copied="Enlace copiado">Copiar enlace</button>
   </div>
-  <dl class="seo-stats"><div><dt>Distancia</dt><dd>40 km</dd></div><div><dt>Desnivel +</dt><dd>3582 m</dd></div><div><dt>Desnivel −</dt><dd>3098 m</dd></div><div><dt>Punto más alto</dt><dd>1849 m</dd></div><div><dt>Duración</dt><dd>2 días</dd></div><div><dt>Tipo</dt><dd>Lineal</dd></div></dl>
-  <div class="seo-text"><p>El Ötztaler Urweg recorre el Ötztal, uno de los grandes valles del Tirol austriaco, en el distrito de Imst. Este trazado de unos 40 km pasa cerca de Umhausen y une dos puntos distintos del valle, sin volver al inicio.</p><p>Aunque la distancia es moderada, exige buenas piernas: unos 3580 m de subida y 3100 m de bajada, entre 679 y 1849 m de altitud. El camino sube y baja sin parar por las laderas en lugar de seguir el fondo del valle, y suele hacerse en al menos dos días.</p></div>
+  <dl class="seo-stats"><div><dt>Distancia</dt><dd>40 km</dd></div><div><dt>Desnivel +</dt><dd>3582 m</dd></div><div><dt>Desnivel −</dt><dd>3098 m</dd></div><div><dt>Punto más alto</dt><dd>1849 m</dd></div><div><dt>Duración</dt><dd>3 días</dd></div><div><dt>Tipo</dt><dd>Lineal</dd></div></dl>
+  <div class="seo-text"><p>El Ötztaler Urweg recorre el Ötztal, uno de los grandes valles del Tirol austriaco, en el distrito de Imst. Este trazado de unos 40 km pasa cerca de Umhausen y une dos puntos distintos del valle, sin volver al inicio.</p><p>Aunque la distancia es moderada, exige buenas piernas: unos 3580 m de subida y 3100 m de bajada, entre 679 y 1849 m de altitud. El camino sube y baja sin parar por las laderas en lugar de seguir el fondo del valle, y suele hacerse en unos tres días.</p></div>
   
   <h2>Más rutas: Austria</h2><ul class="seo-list"><li><a href="/es/gpx/eurovelo-13-iron-curtain-trail-in-the-czech-republic/">EuroVelo 13 del Telón de Acero en la República Checa</a> <small>865 km · +17.334 m</small></li><li><a href="/es/gpx/austrian-alps-gr-5/">Alpes Austríacos, GR 5</a> <small>263 km · +17.419 m</small></li><li><a href="/es/gpx/kaiserkrone-tour-du-massif-de-wilder-kaiser/">Kaiserkrone Tour du massif de Wilder Kaiser</a> <small>59 km · +4945 m</small></li></ul>
   <nav class="seo-langs" aria-label="Language"><a href="/gpx/hike-on-the-otztaler-urweg/" hreflang="en" lang="en">EN</a><a href="/fr/gpx/hike-on-the-otztaler-urweg/" hreflang="fr" lang="fr">FR</a><a href="/de/gpx/hike-on-the-otztaler-urweg/" hreflang="de" lang="de">DE</a><span>ES</span><a href="/it/gpx/hike-on-the-otztaler-urweg/" hreflang="it" lang="it">IT</a><a href="/pt/gpx/hike-on-the-otztaler-urweg/" hreflang="pt" lang="pt">PT</a></nav>
