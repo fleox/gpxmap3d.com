@@ -5,7 +5,14 @@
  * requires a service worker that intercepts fetch events. The manifest +
  * icons are necessary but not sufficient.
  *
- * Strategy: stale-while-revalidate, same-origin only.
+ * Strategy, same-origin only:
+ *   - Page navigations (HTML): network-first, revalidated against the
+ *     server (`cache: 'no-cache'`), cache only as the offline fallback.
+ *     The HTML references content-hashed /assets/*.js|css, so a fresh
+ *     page is all it takes for a returning visitor to get a new release
+ *     on their very first load — stale-while-revalidate on the HTML used
+ *     to show the previous version once.
+ *   - Everything else: stale-while-revalidate (below).
  *   - We never touch cross-origin requests (OpenFreeMap tiles, AWS
  *     terrain, Traileasy API): they're huge, frequently updated, and the
  *     browser's HTTP cache already does the right thing for them.
@@ -18,7 +25,7 @@
  * the previous cache entirely (used in the `activate` handler below).
  */
 
-const CACHE = 'gpx-map-v2';
+const CACHE = 'gpx-map-v3';
 
 self.addEventListener('install', (event) => {
   // Activate immediately — don't wait for all tabs to close.
@@ -48,6 +55,27 @@ self.addEventListener('fetch', (event) => {
   // Don't try to cache the SW itself or the manifest (they're served
   // fresh by the browser's update flow).
   if (url.pathname.endsWith('/sw.js')) return;
+
+  if (req.mode === 'navigate') {
+    event.respondWith(
+      (async () => {
+        const cache = await caches.open(CACHE);
+        try {
+          const response = await fetch(req, { cache: 'no-cache' });
+          if (response && response.ok && response.type === 'basic') {
+            cache.put(req, response.clone()).catch(() => {});
+          }
+          return response;
+        } catch {
+          return (
+            (await cache.match(req)) ??
+            new Response('Offline', { status: 503, statusText: 'Offline' })
+          );
+        }
+      })(),
+    );
+    return;
+  }
 
   event.respondWith(
     (async () => {
